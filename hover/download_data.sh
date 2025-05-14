@@ -3,13 +3,13 @@ set -eu -o pipefail
 
 cd data
 
-wget https://nlp.cs.unc.edu/data/hover/wiki_wo_links.db
+# wget https://nlp.cs.unc.edu/data/hover/wiki_wo_links.db
 
 cd hover
 
-mkdir -p doc_retrieval
-mkdir -p sent_retrieval
-mkdir -p claim_verification
+# mkdir -p doc_retrieval
+# mkdir -p sent_retrieval
+# mkdir -p claim_verification
 
 mkdir -p tfidf_retrieved
 cd tfidf_retrieved
