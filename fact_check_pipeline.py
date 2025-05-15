@@ -8,7 +8,7 @@ WARNING: Before running this script, ensure you have the Ollama server running l
     ollama run mistral:7b
 
 Finally, run this script with (e.g.):
-    python fact_check_pipeline.py --input test_claims.jsonl
+    python fact_check_pipeline.py --input test_claims.jsonl --output test_claims_out.jsonl --model mistral:7b
 """
 
 import sys, os, argparse
