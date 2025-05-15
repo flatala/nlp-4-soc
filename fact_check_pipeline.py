@@ -1,18 +1,19 @@
-"""
-WARNING: Before running this script, ensure you have the Ollama server running locally:
-
-- Open a terminal and run:
-    ollama serve
-
-- Open **another** terminal and run:
-    ollama run mistral:7b
-
-Finally, run this script with (e.g.):
-    python fact_check_pipeline.py --input test_claims.jsonl --output test_claims_out.jsonl --model mistral:7b
-"""
-
-import sys, os, argparse
+import sys, argparse
 import json, requests
+
+
+def load_records(path: str) -> list:
+    """
+    Load records from a JSONL or plain JSON file.
+    If the file starts with '[', it's treated as a JSON array; otherwise, JSONL.
+    """
+    with open(path, 'r') as f:
+        first = f.read(1)
+        f.seek(0)
+        if first == '[':
+            return json.load(f)
+        else:
+            return [json.loads(line) for line in f if line.strip()]
 
 
 class FactCheckPipeline:
@@ -44,7 +45,6 @@ class FactCheckPipeline:
             "evidence": evidence,
             **verdict
         }
-    
     __call__ = fact_check
 
     def get_evidence(self, claim: str) -> str:
@@ -74,15 +74,12 @@ class FactCheckPipeline:
             resp.raise_for_status()
             j = resp.json()
 
-
             # 1. If Ollama returns 'response', use that
             if "response" in j:
                 return j["response"].strip()
-
             # 2. Otherwise look for 'choices'[0]['text']
             if isinstance(j.get("choices"), list) and j["choices"]:
                 return j["choices"][0].get("text", "").strip()
-
             # 3. Finally fall back to top-level 'text'
             return j.get("text", "").strip()
         except requests.RequestException as e:
@@ -90,25 +87,33 @@ class FactCheckPipeline:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Fact-check claims in a JSONL dataset using Ollama")
-    parser.add_argument("--input", type=str, required=True, help="Path to input JSONL file")
-    parser.add_argument("--output", type=str, default=None, help="Path to write predictions (JSONL). Defaults to stdout.")
-    parser.add_argument("--model", type=str, default="mistral:7b", help="Ollama model name (default: mistral:7b)")
+    parser = argparse.ArgumentParser(
+        description="Fact-check claims in a JSON or JSONL dataset using Ollama"
+    )
+    parser.add_argument(
+        "--input", type=str, required=True,
+        help="Path to input JSONL or JSON file"
+    )
+    parser.add_argument(
+        "--output", type=str, default=None,
+        help="Path to write predictions (JSONL). Defaults to stdout."
+    )
+    parser.add_argument(
+        "--model", type=str, default="mistral:7b",
+        help="Ollama model name (default: mistral:7b)"
+    )
     args = parser.parse_args()
 
-    pipe = FactCheckPipeline(model = args.model)
+    # Load input records (JSON or JSONL)
+    records = load_records(args.input)
 
-    inp = open(args.input, 'r')
+    pipe = FactCheckPipeline(model=args.model)
     out = open(args.output, 'w') if args.output else sys.stdout
 
-    for line in inp:
-        record = json.loads(line)
+    for record in records:
         claim = record.get("claim", "")
-
         record["predicted"] = pipe(claim)
-
         out.write(json.dumps(record) + "\n")
 
     if args.output:
         out.close()
-        inp.close()
