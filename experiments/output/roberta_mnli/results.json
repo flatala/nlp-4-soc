@@ -1,0 +1,47 @@
+[
+  {
+    "statement": "Shakespeare wrote 'Romeo and Juliet'.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "William Shakespeare is credited as the author of the play 'Romeo and Juliet'.",
+      "'Romeo and Juliet' was first published in 1597 and is attributed to Shakespeare."
+    ],
+    "explanation": "Historical records and publication attributions confirm that Shakespeare wrote 'Romeo and Juliet'.",
+    "e2x_entail_prob": 0.3805854618549347,
+    "x2e_entail_prob": 0.6615099906921387
+  },
+  {
+    "statement": "Eating carrots improves eyesight.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Carrots contain beta-carotene, which the body converts to vitamin A, a nutrient important for vision.",
+      "No clinical evidence shows that eating carrots prevents or cures vision problems beyond normal health benefits."
+    ],
+    "explanation": "While carrots provide vitamin A, there is no evidence they improve eyesight beyond maintaining normal vision.",
+    "e2x_entail_prob": 0.9374353885650635,
+    "x2e_entail_prob": 0.3243507444858551
+  },
+  {
+    "statement": "Mount Everest is over 8,000 meters tall.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Mount Everest's height was first measured in 1856 as 8,840 meters.",
+      "Recent GPS surveys have confirmed Everest's elevation at approximately 8,848.86 meters above sea level.",
+      "Everest is the tallest mountain on Earth by elevation above sea level."
+    ],
+    "explanation": "Multiple measurements, historical and modern, consistently report Everest's height above 8,000 meters.",
+    "e2x_entail_prob": 0.6474490761756897,
+    "x2e_entail_prob": 0.01794726774096489
+  },
+  {
+    "statement": "Honey never spoils.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Archaeologists have found pots of honey in ancient Egyptian tombs over 3,000 years old that were still edible.",
+      "Honey's low moisture and high acidity inhibit bacterial growth, allowing it to remain unspoiled."
+    ],
+    "explanation": "Due to its chemical properties, honey resists spoilage and archaeological examples show it remains edible for millennia.",
+    "e2x_entail_prob": 0.9807917475700378,
+    "x2e_entail_prob": 0.0038264922332018614
+  }
+]
