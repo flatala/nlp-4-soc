@@ -3,6 +3,20 @@
 # A human preference validation set of annotated query, document, and answer triples for the evaluation criteria (e.g. context relevance, answer faithfulness, and/or answer relevance). There should be at least 50 examples but several hundred examples is ideal.
 # A set of few-shot examples for scoring context relevance, answer faithfulness, and/or answer relevance in your system
 # A much larger set of unlabeled query-document-answer triples outputted by your RAG system for scoring
+#
+# TERMINOLOGY:
+# IDP: In-Domain Prompts
+# UES: unlabeled Evaluation Set
+# ARES: automataed RAG Evaluation System
+#
+# NOTES:
+# KILT db is 37GB...
+# patched to work:
+# General_Binary_Classifier.py:
+#   replace `from datasets import load_metric` with `import evaluate`
+#   replace `load_metric` with `evaluate.laod`
+# Prepate_KILT_dataset.py:
+#     add argument to `load_dataset` trust_remote_code=True
 import os
 from dotenv import load_dotenv
 from ares import ARES
@@ -108,8 +122,19 @@ def evaluate_rag():
     return results
 
 
+def download_dataset():
+    """
+    Fetches NQ datasets with ratios including 0.5, 0.6, 0.7, etc.
+    For purposes of our quick start guide, we rename nq_ratio_0.5 to nq_unlabeled_output and nq_labeled_output.
+    """
+    ares = ARES()
+    ares.KILT_dataset("nq")
+
+
 if __name__ == "__main__":
     # Run each step of the ARES evaluation pipeline
+    download_dataset()
+
     run_ues_idp()
     generate_synthetic_data()
     train_classifier()
