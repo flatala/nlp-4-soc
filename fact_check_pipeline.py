@@ -44,7 +44,7 @@ class FactCheckPipeline:
 
     VERIFY_PROMPT = staticmethod(lambda c, e, e1, e2, e3, e4: f"""
     Evaluate if this claim is supported by the evidence. Reply with a JSON object with:
-    - verdict: \"SUPPORTED\", \"REFUTED\", or \"NOT_ENOUGH_INFO\"
+    - verdict: \"SUPPORTED\" or \"NOT_SUPPORTED\"
     - confidence: a number between 0 and 1
     - explanation: brief explanation of your verdict
 
