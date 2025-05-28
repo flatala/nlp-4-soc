@@ -5,7 +5,7 @@ import json
 from langchain_ollama import ChatOllama
 
 evaluator_llm = ChatOllama(
-    model="llama3",
+    model="llama3:8b",
     temperature=0,
 )
 
@@ -55,7 +55,7 @@ async def evaluate_geval(
         raw_response = await evaluator_llm.ainvoke(prompt)  # your LLM call
 
         # Parse answers using regex or simple line splits
-        lines = raw_response.strip().splitlines()
+        lines = raw_response.content.strip().splitlines()
 
         # Defaults
         q1 = q2 = justification = ""
@@ -84,7 +84,7 @@ async def evaluate_geval(
             "q2_reflects_key_points": q2,
             "faithfulness_score_0_5": score,
             "justification": justification,
-            "raw_response": raw_response
+            "raw_response": raw_response.content
         }
 
     detailed = await asyncio.gather(*(score_sample(item) for item in data))

@@ -1,7 +1,7 @@
 [
   {
     "statement": "The Eiffel Tower is located in Paris.",
-    "label": "SUPPORTS",
+    "label": "SUPPORTED",
     "evidences": [
       "The Eiffel Tower is a famous landmark in Paris, France."
     ],
@@ -9,7 +9,7 @@
   },
   {
     "statement": "The Moon is a star.",
-    "label": "REFUTES",
+    "label": "NOT_SUPPORTED",
     "evidences": [
       "The Moon orbits the Earth and does not produce its own light like stars."
     ],
@@ -17,7 +17,7 @@
   },
   {
     "statement": "Water boils at 100\u00b0C at sea level.",
-    "label": "SUPPORTS",
+    "label": "SUPPORTED",
     "evidences": [
       "At standard atmospheric pressure (sea level), water's boiling point is 100 degrees Celsius."
     ],
