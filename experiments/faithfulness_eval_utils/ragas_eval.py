@@ -60,7 +60,7 @@ async def evaluate_ragas(
         json.dump(results, f, indent=4)
 
     # Compute average faithfulness score
-    faithfulness_scores = [item["faithfulness_score"] for item in results]
+    faithfulness_scores = [item["faithfulness_score"] for item in results if item["faithfulness_score"] != -1.0]
     avg_faithfulness = sum(faithfulness_scores) / len(faithfulness_scores) if faithfulness_scores else 0.0
 
     stats = {

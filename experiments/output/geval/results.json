@@ -51,10 +51,10 @@
         ],
         "label": "SUPPORTED",
         "q1_factual_claims_not_in_evidence": "**No**, the explanation does not make any factual claims not found in the evidence.",
-        "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and scientific explanations (low moisture and high acidity).",
+        "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and its low moisture and high acidity.",
         "faithfulness_score_0_5": 5.0,
         "justification": "",
-        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and scientific explanations (low moisture and high acidity).\n\n3. Faithfulness Score: **5/5**\n\nJustification: The explanation only uses information present in the evidence, accurately summarizing the supporting points without adding any unsupported claims or hallucinations. It provides a clear and concise summary of the key findings, making it a faithful representation of the evidence and claim."
+        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and its low moisture and high acidity.\n\n3. Faithfulness Score: **5/5**\n\nJustification: The explanation only uses information present in the evidence, accurately summarizing the supporting points about honey's chemical properties and its ability to remain edible for millennia."
     },
     {
         "statement": "Honey never spoils.",
