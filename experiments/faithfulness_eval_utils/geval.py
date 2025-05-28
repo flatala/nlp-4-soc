@@ -4,10 +4,6 @@ import asyncio
 import json
 from langchain_ollama import ChatOllama
 
-evaluator_llm = ChatOllama(
-    model="llama3:8b",
-    temperature=0,
-)
 
 def build_prompt(claim, explanation, evidences, label):
     evidence_str = "\n".join([f"{i+1}. {e}" for i, e in enumerate(evidences)])
@@ -39,8 +35,14 @@ async def evaluate_geval(
     data,
     result_dir: str,
     results_filename: str = "results.json",
-    stats_filename: str = "stats.json"
+    stats_filename: str = "stats.json",
+    evaluator_model: str = "llama3:8b"
     ):
+
+    evaluator_llm = ChatOllama(
+        model=evaluator_model,
+        temperature=0,
+    )
 
     os.makedirs(result_dir, exist_ok=True)
 

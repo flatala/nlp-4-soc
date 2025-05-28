@@ -7,10 +7,6 @@ from ragas.metrics import Faithfulness
 from ragas.llms import LangchainLLMWrapper
 from langchain_ollama import ChatOllama
 
-evaluator_llm = LangchainLLMWrapper(ChatOllama(
-    model="llama3:8b",
-    temperature=0,
-))
 
 def clean_text(text):
     if isinstance(text, str):
@@ -25,11 +21,16 @@ async def evaluate_ragas(
     data,
     result_dir: str,
     results_filename: str = "results.json",
-    stats_filename: str = "stats.json"
+    stats_filename: str = "stats.json",
+    evaluator_model: str = "llama3:8b"
     ):
     
-    os.makedirs(result_dir, exist_ok=True)
+    evaluator_llm = LangchainLLMWrapper(ChatOllama(
+        model=evaluator_model,
+        temperature=0,
+    ))
 
+    os.makedirs(result_dir, exist_ok=True)
     scorer = Faithfulness(llm=evaluator_llm)
 
     async def score_sample(item):
