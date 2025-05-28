@@ -8,7 +8,7 @@ NOTE: Before running this script, ensure you have the Ollama server running loca
     ollama run mistral:7b
 
 Finally, run this script with (e.g.):
-    python fact_check_pipeline.py --input test_claims.jsonl --model mistral:7b 
+    python fact_check_pipeline.py --input test_claims.jsonl --model deepseek-r1:32b 
     NOTE: (the model must match the one you ran with ollama)
 """
 
@@ -49,14 +49,10 @@ class FactCheckPipeline:
     - explanation: brief explanation of your verdict
 
     Use the following examples as a guide:
-    Example 1:\n{e1}
-
-    Example 2:\n{e2}
-
-    Example 3:\n{e3}
-
-    Example 4:\n{e4}
-
+    Example 1:\n{e1}\n
+    Example 2:\n{e2}\n
+    Example 3:\n{e3}\n
+    Example 4:\n{e4}\n
     Now evaluate:
     Claim: {c}
     Evidence: {e}
@@ -101,9 +97,7 @@ class FactCheckPipeline:
                     texts.append(f.read().strip())
             except IOError:
                 texts.append('')
-        # Pad to exactly 4
-        while len(texts) < 4:
-            texts.append('')
+        assert len(texts) == 4, "Expected exactly 4 example files in 'examples/' directory"
         # Unpack four examples
         e1, e2, e3, e4 = texts
         return self.VERIFY_PROMPT(claim, evidence, e1, e2, e3, e4)
@@ -140,8 +134,8 @@ if __name__ == "__main__":
         help="Path to write predictions (JSONL). Defaults to stdout."
     )
     parser.add_argument(
-        "--model", type=str, default="mistral:7b",
-        help="Ollama model name (default: mistral:7b)"
+        "--model", type=str, default="deepseek-r1:32b",
+        help="Ollama model name (default: deepseek-r1:32b)"
     )
     args = parser.parse_args()
 
