@@ -27,7 +27,7 @@ async def evaluate_faithfulness(
     if 'geval' in eval_types:
         await evaluate_geval(
             data, 
-            result_dir=f"{result_dir}/ragas", 
+            result_dir=f"{result_dir}/geval", 
             evaluator_model=geval_model, 
             results_filename=results_filename,
             stats_filename=stats_filename
