@@ -2,6 +2,12 @@ import os
 import re
 import asyncio 
 import json
+from langchain_ollama import ChatOllama
+
+evaluator_llm = ChatOllama(
+    model="llama3",
+    temperature=0,
+)
 
 def build_prompt(claim, explanation, evidences, label):
     evidence_str = "\n".join([f"{i+1}. {e}" for i, e in enumerate(evidences)])
@@ -29,10 +35,6 @@ def build_prompt(claim, explanation, evidences, label):
     4. Justify your score in 1–2 sentences.
         """.strip()
 
-async def evaluator_llm(prompt):
-    # Call model
-    return 
-
 async def evaluate_geval(
     data,
     result_dir: str,
@@ -49,7 +51,8 @@ async def evaluate_geval(
             evidences=item["evidences"],
             label=item["label"]
         )
-        raw_response = await evaluator_llm(prompt)  # your async call
+
+        raw_response = await evaluator_llm.ainvoke(prompt)  # your LLM call
 
         # Parse answers using regex or simple line splits
         lines = raw_response.strip().splitlines()

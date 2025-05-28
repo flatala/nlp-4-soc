@@ -3,9 +3,13 @@ import asyncio
 import json
 from ragas.dataset_schema import SingleTurnSample 
 from ragas.metrics import Faithfulness
+from ragas.llms import LangchainLLMWrapper
+from langchain_ollama import ChatOllama
 
-# Initialize LLM as judge model here
-evaluator_llm = None
+evaluator_llm = LangchainLLMWrapper(ChatOllama(
+    model="llama3",
+    temperature=0,
+))
 
 async def evaluate_ragas(
     data,
