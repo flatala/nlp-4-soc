@@ -1,15 +1,25 @@
 import os
 import asyncio
 import json
+import re
 from ragas.dataset_schema import SingleTurnSample 
 from ragas.metrics import Faithfulness
 from ragas.llms import LangchainLLMWrapper
 from langchain_ollama import ChatOllama
 
 evaluator_llm = LangchainLLMWrapper(ChatOllama(
-    model="llama3",
+    model="llama3:8b",
     temperature=0,
 ))
+
+def clean_text(text):
+    if isinstance(text, str):
+        # Remove trailing commas and unnecessary whitespace
+        text = re.sub(r',\s*$', '', text.strip())
+        return text
+    elif isinstance(text, list):
+        return [clean_text(item) for item in text]
+    return text
 
 async def evaluate_ragas(
     data,
@@ -28,7 +38,13 @@ async def evaluate_ragas(
             response=item["explanation"],
             retrieved_contexts=item["evidences"]
         )
-        score = await scorer.single_turn_ascore(sample)
+
+        try:
+            score = await scorer.single_turn_ascore(sample)
+        except Exception as e:
+            print(f"⚠️ Scoring failed: {e}")
+            score = -1.0
+
         return {
             "statement": item["statement"],
             "explanation": item["explanation"],
