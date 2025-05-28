@@ -126,7 +126,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--model", type=str, default="mistral:7b",
-        help="Ollama model name (default: deepseek-r1:32b)"
+        help="Ollama model name"
     )
     parser.add_argument(
         "--examples", type=str, default="examples",
