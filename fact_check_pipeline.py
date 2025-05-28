@@ -1,5 +1,20 @@
-import sys, argparse
+"""
+NOTE: Before running this script, ensure you have the Ollama server running locally:
+
+- Open a terminal and run:
+    ollama serve
+
+- Open **another** terminal and run:
+    ollama run mistral:7b
+
+Finally, run this script with (e.g.):
+    python fact_check_pipeline.py --input test_claims.jsonl --model mistral:7b 
+    NOTE: (the model must match the one you ran with ollama)
+"""
+
+import sys, os, argparse
 import json, requests
+import glob
 
 
 def load_records(path: str) -> list:
@@ -17,42 +32,52 @@ def load_records(path: str) -> list:
 
 
 class FactCheckPipeline:
-    # Prompt to retrieve supporting evidence for a claim
+    """
+    Pipeline to retrieve evidence and verify claims, with optional few-shot prompting using external text files.
+    """
+    # Prompt templates
     EVIDENCE_PROMPT = staticmethod(lambda text: f"""
     You are acting as a knowledge retrieval system. Provide relevant factual information 
     about this claim: {text}
-    """)
+    """
+    )
 
-    # Prompt to verify a claim against provided evidence
-    VERIFY_PROMPT = staticmethod(lambda c, e: f"""
+    VERIFY_PROMPT = staticmethod(lambda c, e, e1, e2, e3, e4: f"""
     Evaluate if this claim is supported by the evidence. Reply with a JSON object with:
     - verdict: \"SUPPORTED\", \"REFUTED\", or \"NOT_ENOUGH_INFO\"
     - confidence: a number between 0 and 1
     - explanation: brief explanation of your verdict
-    
+
+    Use the following examples as a guide:
+    Example 1:\n{e1}
+
+    Example 2:\n{e2}
+
+    Example 3:\n{e3}
+
+    Example 4:\n{e4}
+
+    Now evaluate:
     Claim: {c}
     Evidence: {e}
-    """)
+    """
+    )
 
     def __init__(self, model: str):
         self.name = model
         self.ollama_url = "http://localhost:11434/api/generate"
 
-    def fact_check(self, text: str) -> dict:
-        evidence = self.get_evidence(text)
-        verdict = self.verify_claim(text, evidence)
-        return {
-            "evidence": evidence,
-            **verdict
-        }
-    __call__ = fact_check
+    def __call__(self, claim: str) -> dict:
+        evidence = self.get_evidence(claim)
+        verdict = self.verify_claim(claim, evidence)
+        return {"evidence": evidence, **verdict}
 
     def get_evidence(self, claim: str) -> str:
         prompt = self.EVIDENCE_PROMPT(claim)
         return self.query_ollama(prompt)
 
     def verify_claim(self, claim: str, evidence: str) -> dict:
-        prompt = self.VERIFY_PROMPT(claim, evidence)
+        prompt = self._build_verify_prompt(claim, evidence)
         response = self.query_ollama(prompt)
         try:
             return json.loads(response)
@@ -62,6 +87,26 @@ class FactCheckPipeline:
                 "confidence": 0.0,
                 "explanation": "Failed to parse model response"
             }
+
+    def _build_verify_prompt(self, claim: str, evidence: str) -> str:
+        """
+        Load four example texts from examples/*.txt and fill into the VERIFY_PROMPT.
+        """
+        # Find up to 4 example text files
+        paths = sorted(glob.glob(os.path.join('examples', '*.txt')))[:4]
+        texts = []
+        for p in paths:
+            try:
+                with open(p, 'r') as f:
+                    texts.append(f.read().strip())
+            except IOError:
+                texts.append('')
+        # Pad to exactly 4
+        while len(texts) < 4:
+            texts.append('')
+        # Unpack four examples
+        e1, e2, e3, e4 = texts
+        return self.VERIFY_PROMPT(claim, evidence, e1, e2, e3, e4)
 
     def query_ollama(self, prompt: str) -> str:
         data = {
@@ -73,14 +118,10 @@ class FactCheckPipeline:
             resp = requests.post(self.ollama_url, json=data, timeout=30)
             resp.raise_for_status()
             j = resp.json()
-
-            # 1. If Ollama returns 'response', use that
             if "response" in j:
                 return j["response"].strip()
-            # 2. Otherwise look for 'choices'[0]['text']
             if isinstance(j.get("choices"), list) and j["choices"]:
                 return j["choices"][0].get("text", "").strip()
-            # 3. Finally fall back to top-level 'text'
             return j.get("text", "").strip()
         except requests.RequestException as e:
             return f"Error: {e}"
@@ -88,7 +129,7 @@ class FactCheckPipeline:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Fact-check claims in a JSON or JSONL dataset using Ollama"
+        description="Fact-check claims in a JSON or JSONL dataset using Ollama with file-based few-shot examples"
     )
     parser.add_argument(
         "--input", type=str, required=True,
@@ -104,9 +145,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # Load input records (JSON or JSONL)
     records = load_records(args.input)
-
     pipe = FactCheckPipeline(model=args.model)
     out = open(args.output, 'w') if args.output else sys.stdout
 
