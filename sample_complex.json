@@ -1,6 +1,6 @@
 [
   {
-    "statement": "Shakespeare wrote 'Romeo and Juliet'.",
+    "claim": "Shakespeare wrote 'Romeo and Juliet'.",
     "label": "SUPPORTED",
     "evidences": [
       "William Shakespeare is credited as the author of the play 'Romeo and Juliet'.",
@@ -9,7 +9,7 @@
     "explanation": "Historical records and publication attributions confirm that Shakespeare wrote 'Romeo and Juliet'."
   },
   {
-    "statement": "Eating carrots improves eyesight.",
+    "claim": "Eating carrots improves eyesight.",
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Carrots contain beta-carotene, which the body converts to vitamin A, a nutrient important for vision.",
@@ -18,7 +18,7 @@
     "explanation": "While carrots provide vitamin A, there is no evidence they improve eyesight beyond maintaining normal vision."
   },
   {
-    "statement": "Mount Everest is over 8,000 meters tall.",
+    "claim": "Mount Everest is over 8,000 meters tall.",
     "label": "SUPPORTED",
     "evidences": [
       "Mount Everest's height was first measured in 1856 as 8,840 meters.",
@@ -28,7 +28,7 @@
     "explanation": "Multiple measurements, historical and modern, consistently report Everest's height above 8,000 meters."
   },
   {
-    "statement": "Honey never spoils.",
+    "claim": "Honey never spoils.",
     "label": "SUPPORTED",
     "evidences": [
       "Archaeologists have found pots of honey in ancient Egyptian tombs over 3,000 years old that were still edible.",
