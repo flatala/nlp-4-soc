@@ -69,7 +69,7 @@ async def evaluate_geval(
                 q2 = line[2:].strip()
             elif line.lower().startswith("3."):
                 # Extract number after colon
-                match = re.search(r"(\d+(\.\d+)?)", line)
+                match = re.search(r":\s*\*{0,2}(\d+(?:\.\d+)?)", line)
                 if match:
                     score = float(match.group(1))
             elif line.lower().startswith("4."):
