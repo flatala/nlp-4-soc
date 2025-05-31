@@ -85,6 +85,7 @@ Evidence: {e}
 
         prompt = self.VERIFY_PROMPT(claim, evidence, *e_txts)
         response = self.query_ollama(prompt)
+        print("RAW MODEL OUTPUT ➜", response[:400], "...\n") 
         try:
             return json.loads(response)
         except json.JSONDecodeError:
@@ -146,12 +147,12 @@ if __name__ == "__main__":
         examples_dir=args.examples
     )
 
-    out = open(args.output, 'w') if args.output else sys.stdout
+    out = open(args.output, 'w', buffering=1) if args.output else sys.stdout
     for record in records:
         claim = record["claim"]
-        # Only use the "evidences" field (ignore "label" or other keys)
         gold = record.get("evidences", [])
         record["predicted"] = pipe(claim, gold)
         out.write(json.dumps(record) + "\n")
+
     if args.output:
         out.close()
