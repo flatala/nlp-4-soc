@@ -35,5 +35,14 @@
       "Honey's low moisture and high acidity inhibit bacterial growth, allowing it to remain unspoiled."
     ],
     "explanation": "Due to its chemical properties, honey resists spoilage and archaeological examples show it remains edible for millennia."
+  },
+  {
+    "statement": "Honey never spoils.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Archaeologists have found pots of honey in ancient Egyptian tombs over 3,000 years old that were still edible.",
+      "Honey's low moisture and high acidity inhibit bacterial growth, allowing it to remain unspoiled."
+    ],
+    "explanation": "Honey spoils after a week."
   }
 ]

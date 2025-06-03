@@ -1,0 +1,4 @@
+Claim: The one thing that Josef Veltjens and Hermann Goering have in common is they were both a veteran World War II fighter pilot ace.
+Evidence: Josef "Seppl" Veltjens (2 June 1894 – 6 October 1943) was a German World War I fighter ace credited with 35 victories. In later years, he served as an international arms dealer, as well as a personal emissary from Hermann Göring to Benito Mussolini. He was awarded Pour le Mérite, the Royal House Order of Hohenzollern, and the Iron Cross.
+Reasoning: Evidence shows Veltjens was a World War I fighter ace, not World War II, and provides no information about Göring’s flying status; thus it does not confirm the shared WWII ace claim.
+Label: NOT_SUPPORTED

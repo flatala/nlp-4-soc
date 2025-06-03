@@ -1,0 +1,19 @@
+{
+    "status": "error",
+    "message": "The selected workflow is invalid. (and 2 more errors)",
+    "trace":
+    [
+        {
+            "file": "/home/middleware_acc/domains/ai-middleware-acc.evolve-audit.com/releases/release_20250527085135/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+            "line": 688,
+            "function": "{closure:{closure:/home/middleware_acc/domains/ai-middleware-acc.evolve-audit.com/releases/release_20250527085135/bootstrap/app.php:42}:43}"
+        },
+        {
+            "file": "/home/middleware_acc/domains/ai-middleware-acc.evolve-audit.com/releases/release_20250527085135/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+            "line": 589,
+            "function": "renderViaCallbacks",
+            "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+            "type": "->"
+        }
+    ]
+}
