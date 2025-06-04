@@ -33,9 +33,9 @@ def run_ues_idp():
     openai_model = os.getenv("OPENAI_MODEL")
 
     ues_idp_config = {
-        "in_domain_prompts_dataset": "nq_few_shot_prompt_for_judge_scoring.tsv",
-        "unlabeled_evaluation_set": "nq_unlabeled_output.tsv",
-        "model_choice": "gpt-3.5-turbo-0125",
+        "in_domain_prompts_dataset": "ares_data/nq_few_shot_prompt_for_judge_scoring.tsv",
+        "unlabeled_evaluation_set": "ares_data/nq_unlabeled_output.tsv",
+        "model_choice": "gpt-4o",
     }
 
     if openai_model is not None:
@@ -57,7 +57,9 @@ def generate_synthetic_data():
     """
     synth_config = {
         "document_filepaths": ["nq_labeled_output.tsv"],
-        "few_shot_prompt_filename": "nq_few_shot_prompt_for_synthetic_query_generation.tsv",
+        "few_shot_prompt_filenames": [
+            "nq_few_shot_prompt_for_synthetic_query_generation.tsv"
+        ],
         "synthetic_queries_filenames": ["synthetic_queries_1.tsv"],
         "documents_sampled": 6189,
     }
@@ -131,13 +133,30 @@ def download_dataset():
     ares.KILT_dataset("nq")
 
 
+def rag_evaluation_example():
+    # SOURCE:  https://ares-ai.vercel.app/rag_eval.html
+    ppi_config = {
+        "evaluation_datasets": "ares_data/nq_unlabeled_output.tsv",
+        "few_shot_examples_filepath": "ares_data/nq_few_shot_prompt_for_synthetic_query_generation.tsv",
+        "checkpoints": "ares_data/Context_Relevance_Label_nq_labeled_output_date_time.pt",  # CHECKl
+        "labels": ["Context_Relevance_Label"],
+        "model_choice": "gpt-4o",
+        "gold_label_path": "ares_data/nq_labeled_output.tsv",
+    }
+
+    ares_module = ARES(ppi=ppi_config)
+    results = ares_module.evaluate_RAG()
+    print(results)
+
+
 if __name__ == "__main__":
     # Run each step of the ARES evaluation pipeline
-    download_dataset()
+    # download_dataset()
 
-    run_ues_idp()
+    # run_ues_idp()
     generate_synthetic_data()
     train_classifier()
-    evaluate_rag()
+    rag_evaluation_example()
+    # evaluate_rag()
 
     print("ARES evaluation completed successfully.")
