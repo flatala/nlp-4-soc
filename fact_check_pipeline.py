@@ -38,24 +38,24 @@ class FactCheckPipeline:
     """
 
     VERIFY_PROMPT = staticmethod(lambda c, e, e1, e2, e3, e4: f"""
-Evaluate if this claim is supported by the evidence. Reply with a JSON object with:
-- verdict: "SUPPORTED", "NOT_SUPPORTED"
-- confidence: a number between 0 and 1
-- explanation: brief explanation of your verdict
+    Evaluate if this claim is supported by the evidence. Reply with a JSON object with:
+    - verdict: "SUPPORTED", "NOT_SUPPORTED"
+    - confidence: a number between 0 and 1
+    - explanation: brief explanation of your verdict
 
-Use the following examples as a guide to do chain of thought reasoning:
-Example 1: {e1}
+    Use the following examples as a guide to do chain of thought reasoning:
+    Example 1: {e1}
 
-Example 2: {e2}
+    Example 2: {e2}
 
-Example 3: {e3}
+    Example 3: {e3}
 
-Example 4: {e4}
+    Example 4: {e4}
 
-Now evaluate:
-Claim: {c}
-Evidence: {e}
-""")
+    Now evaluate:
+    Claim: {c}
+    Evidence: {e}
+    """)
 
     def __init__(self, model: str, shots: int = 0, examples_dir: str = None):
         self.name = model
@@ -85,7 +85,7 @@ Evidence: {e}
 
         prompt = self.VERIFY_PROMPT(claim, evidence, *e_txts)
         response = self.query_ollama(prompt)
-        print("RAW MODEL OUTPUT ➜", response[:400], "...\n") 
+        # print("RAW MODEL OUTPUT ➜", response[:400], "...\n") 
         try:
             return json.loads(response)
         except json.JSONDecodeError:
@@ -130,7 +130,7 @@ if __name__ == "__main__":
         help="Ollama model name"
     )
     parser.add_argument(
-        "--examples", type=str, default="examples",
+        "--examples", type=str, default="examples_no_cot",
         help="Directory of up to 4 .txt few-shot files"
     )
     parser.add_argument(
@@ -148,11 +148,15 @@ if __name__ == "__main__":
     )
 
     out = open(args.output, 'w', buffering=1) if args.output else sys.stdout
+    count = 0
     for record in records:
         claim = record["claim"]
         gold = record.get("evidences", [])
         record["predicted"] = pipe(claim, gold)
         out.write(json.dumps(record) + "\n")
+        count += 1
+        if count == 2020:
+            break
 
     if args.output:
         out.close()
