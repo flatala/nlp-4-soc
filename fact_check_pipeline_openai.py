@@ -9,6 +9,7 @@ import argparse
 import json
 import random
 import os
+import re
 from dotenv import load_dotenv
 from openai import OpenAI
 from glob import glob
@@ -21,7 +22,7 @@ def load_records(path: str) -> list:
     Load records from a JSONL or plain JSON file.
     If the file starts with '[', it's treated as a JSON array; otherwise, JSONL.
     """
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         first = f.read(1)
         f.seek(0)
         if first == '[':
@@ -84,15 +85,22 @@ Evidence: {e}
 
         prompt = self.VERIFY_PROMPT(claim, evidence, *e_txts)
         response = self.query_openai(prompt)
-        print("RAW MODEL OUTPUT ➜", response[:400], "...\n") 
-        try:
-            return json.loads(response)
-        except json.JSONDecodeError:
-            return {
-                "verdict": "ERROR",
-                "confidence": 0.0,
-                "explanation": "Failed to parse model response"
-            }
+        # print("RAW MODEL OUTPUT ➜", response[:400], "...\n") 
+        # Try to extract JSON object from the response string
+        match = re.search(r'\{.*\}', response, re.DOTALL)
+        if match:
+            json_str = match.group()
+            try:
+                return json.loads(json_str)
+            except json.JSONDecodeError:
+                pass  # will handle below
+
+        # If extraction or parsing fails, return error dict
+        return {
+            "verdict": "ERROR",
+            "confidence": 0.0,
+            "explanation": "Failed to parse model response"
+        }
 
     def query_openai(self, prompt: str) -> str:
         try:
@@ -103,7 +111,7 @@ Evidence: {e}
                     {"role": "user", "content": prompt}
                 ]
             )
-            return response.choices[0].message["content"].strip()
+            return response.choices[0].message.content
         except Exception as e:
             return f"Error: {e}"
 
@@ -145,11 +153,16 @@ if __name__ == "__main__":
 
     out = open(args.output, 'w', buffering=1) if args.output else sys.stdout
     # NOTE: for the sample_complex.json we use "statement" instead of claim. For the unified datasets we do use claim.
+    count = 0
     for record in records:
         claim = record["claim"]
         gold = record.get("evidences", [])
-        record["predicted"] = pipe(claim, gold)
+        result = pipe(claim, gold)
+        record["predicted"] = result
         out.write(json.dumps(record) + "\n")
+        count += 1
+        if count == 2050:
+            break
 
     if args.output:
         out.close()
