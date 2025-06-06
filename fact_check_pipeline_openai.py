@@ -71,7 +71,7 @@ Evidence: {e}
         if use_azure_openai:
             self.client = AzureOpenAI(
                 api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-                endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+                azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
                 api_version="2025-01-01-preview",
             )
         else:
@@ -159,8 +159,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--use-azure-openai",
-        type=bool,
-        default=False,
+        action="store_true",
         help="Use Azure OpenAI instead of OpenAI API",
     )
 
