@@ -45,7 +45,7 @@ Evaluate if this claim is supported by the evidence. Reply with a JSON object wi
 - confidence: a number between 0 and 1
 - explanation: brief explanation of your verdict
 
-Use the following examples as a guide to do chain of thought reasoning:
+Use the following examples as a guide:
 Example 1: {e1}
 
 Example 2: {e2}
@@ -151,7 +151,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--examples",
         type=str,
-        default="examples",
+        default="examples_no_cot",
         help="Directory of up to 4 .txt few-shot files",
     )
     parser.add_argument(
