@@ -1,12 +1,13 @@
 import os
 import re
-import asyncio 
+import asyncio
 import json
 from langchain_ollama import ChatOllama
+import ollama
 
 
 def build_prompt(claim, explanation, evidences, label):
-    evidence_str = "\n".join([f"{i+1}. {e}" for i, e in enumerate(evidences)])
+    evidence_str = "\n".join([f"{i + 1}. {e}" for i, e in enumerate(evidences)])
     return f"""
     You are an expert fact-checking evaluator. Your task is to assess the **faithfulness** of an explanation given a claim and supporting evidence.
 
@@ -31,13 +32,21 @@ def build_prompt(claim, explanation, evidences, label):
     4. Justify your score in 1–2 sentences.
         """.strip()
 
+
 async def evaluate_geval(
     data,
     result_dir: str,
     results_filename: str = "results.json",
     stats_filename: str = "stats.json",
-    evaluator_model: str = "llama3:8b"
-    ):
+    evaluator_model: str = "llama3:8b",
+):
+    try:
+        ollama.show(evaluator_model)
+    except Exception as _:
+        print(
+            f"Ollama model {evaluator_model} not found. Attempting to pull it from Ollama..."
+        )
+        ollama.pull(evaluator_model)
 
     evaluator_llm = ChatOllama(
         model=evaluator_model,
@@ -51,7 +60,7 @@ async def evaluate_geval(
             claim=item["statement"],
             explanation=item["explanation"],
             evidences=item["evidences"],
-            label=item["label"]
+            label=item["label"],
         )
 
         raw_response = await evaluator_llm.ainvoke(prompt)  # your LLM call
@@ -86,7 +95,7 @@ async def evaluate_geval(
             "q2_reflects_key_points": q2,
             "faithfulness_score_0_5": score,
             "justification": justification,
-            "raw_response": raw_response.content
+            "raw_response": raw_response.content,
         }
 
     detailed = await asyncio.gather(*(score_sample(item) for item in data))
@@ -97,9 +106,7 @@ async def evaluate_geval(
     scores = [item["faithfulness_score_0_5"] for item in detailed]
     avg_score = sum(scores) / len(scores) if scores else 0.0
 
-    stats = {
-        "avg_geval_score_0_5": avg_score
-    }
+    stats = {"avg_geval_score_0_5": avg_score}
 
     with open(os.path.join(result_dir, stats_filename), "w") as f:
         json.dump(stats, f, indent=4)
