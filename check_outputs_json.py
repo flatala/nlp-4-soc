@@ -1,10 +1,9 @@
 import os
 import json
-from pathlib import Path
 from collections import defaultdict
 
 
-def analyze_json_structures(directory="outputs"):
+def analyze_json_structures(directory="outputs/raw_outputs/"):
     """
     Analyze the structure of all JSON files in a directory and its subdirectories.
     Returns a dictionary with file paths as keys and their structures as values.
@@ -94,7 +93,9 @@ def print_structure_summary(structures):
                 )
 
 
-def convert_json_files(directory="outputs", output_dir="converted_outputs"):
+def convert_json_files(
+    directory="outputs/raw_outputs/", output_dir="outputs/converted_outputs"
+):
     """
     Convert JSON files from the found structure to the target structure.
     Source format: {'claim', 'evidences', 'id', 'label', 'predicted'}
@@ -152,7 +153,9 @@ def convert_json_files(directory="outputs", output_dir="converted_outputs"):
     print(f"Conversion completed. {converted_count} files converted.")
 
 
-def validate_conversions(original_dir="outputs", converted_dir="converted_outputs"):
+def validate_conversions(
+    original_dir="outputs/raw_outputs/", converted_dir="outputs/converted_outputs"
+):
     """
     Validate that all files were properly converted and have the correct structure.
     """
