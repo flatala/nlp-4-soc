@@ -11,7 +11,7 @@
         "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting the historical records and publication attributions that support Shakespeare's authorship of \"Romeo and Juliet\".",
         "faithfulness_score_0_5": 5.0,
         "justification": "",
-        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting the historical records and publication attributions that support Shakespeare's authorship of \"Romeo and Juliet\".\n\n3. Faithfulness Score: **5/5**\n\nJustification: The explanation only uses information present in the evidence (historical records and publication attributions) to support the claim that Shakespeare wrote \"Romeo and Juliet\", without adding any unsupported claims or hallucinations."
+        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting the historical records and publication attributions that support Shakespeare's authorship of \"Romeo and Juliet\".\n\n3. Faithfulness Score: **5/5**\n\nJustification: The explanation only uses information present in the evidence, accurately summarizing the supporting points (historical records and publication attributions) without adding any unsupported claims or hallucinations."
     },
     {
         "statement": "Eating carrots improves eyesight.",
@@ -21,11 +21,11 @@
             "No clinical evidence shows that eating carrots prevents or cures vision problems beyond normal health benefits."
         ],
         "label": "NOT_SUPPORTED",
-        "q1_factual_claims_not_in_evidence": "**No**: The explanation only summarizes the key points from the evidence, without making any additional claims not found in the evidence.",
-        "q2_reflects_key_points": "**Yes**: The explanation accurately reflects the main points from the evidence, including the role of beta-carotene and vitamin A in vision, as well as the lack of clinical evidence supporting improved eyesight beyond normal health benefits.",
+        "q1_factual_claims_not_in_evidence": "**No**: The explanation only summarizes the key points from the evidence, without making any additional claims that aren't supported by the provided data.",
+        "q2_reflects_key_points": "**Yes**: The explanation accurately reflects the main points from the evidence, including the role of beta-carotene in vitamin A production and the lack of clinical evidence supporting improved eyesight beyond normal vision maintenance.",
         "faithfulness_score_0_5": 5.0,
         "justification": "",
-        "raw_response": "Here are my evaluations:\n\n1. **No**: The explanation only summarizes the key points from the evidence, without making any additional claims not found in the evidence.\n\n2. **Yes**: The explanation accurately reflects the main points from the evidence, including the role of beta-carotene and vitamin A in vision, as well as the lack of clinical evidence supporting improved eyesight beyond normal health benefits.\n\n3. Faithfulness Score: **5/5**: The explanation is extremely faithful to the evidence and claim, as it only uses information present in the evidence and does not add any unsupported claims or hallucinations.\n\nJustification: The explanation is a straightforward summary of the key points from the evidence, without introducing any new or unsubstantiated claims. It accurately reflects the limitations of the evidence regarding the relationship between carrots and eyesight improvement."
+        "raw_response": "Here are my evaluations:\n\n1. **No**: The explanation only summarizes the key points from the evidence, without making any additional claims that aren't supported by the provided data.\n\n2. **Yes**: The explanation accurately reflects the main points from the evidence, including the role of beta-carotene in vitamin A production and the lack of clinical evidence supporting improved eyesight beyond normal vision maintenance.\n\n3. Faithfulness Score: **5/5**\nJustification: The explanation is entirely faithful to the evidence, without adding any unsupported claims or interpretations that aren't justified by the provided data. It accurately summarizes the key points from the evidence, making it a highly faithful representation of the original information."
     },
     {
         "statement": "Mount Everest is over 8,000 meters tall.",
@@ -37,10 +37,10 @@
         ],
         "label": "SUPPORTED",
         "q1_factual_claims_not_in_evidence": "**No**, the explanation does not make any factual claims not found in the evidence.",
-        "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence.",
+        "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence, specifically mentioning multiple measurements and reporting Everest's height above 8,000 meters, which is supported by the provided data.",
         "faithfulness_score_0_5": 5.0,
         "justification": "",
-        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\nThe explanation only summarizes the information provided in the evidence, stating that multiple measurements consistently report Everest's height above 8,000 meters. This is entirely supported by the evidence, which provides specific measurements and confirms the mountain's elevation above sea level.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence.\n\nThe explanation accurately conveys the main idea from the evidence: that multiple measurements have consistently reported Everest's height to be over 8,000 meters. The explanation does not add any unsupported claims or hallucinations, making it a faithful representation of the evidence.\n\n3. Faithfulness Score: **5**\n\nI give the explanation a score of 5 out of 5 because it accurately summarizes the key points in the evidence without adding any new or unsupported information. The explanation is entirely faithful to the original claim and supporting evidence."
+        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically mentioning multiple measurements and reporting Everest's height above 8,000 meters, which is supported by the provided data.\n\n3. Faithfulness Score: **5/5**\nJustification: The explanation only uses information present in the evidence, accurately summarizing the historical measurement and recent GPS surveys that confirm Everest's elevation above 8,000 meters."
     },
     {
         "statement": "Honey never spoils.",
@@ -51,10 +51,10 @@
         ],
         "label": "SUPPORTED",
         "q1_factual_claims_not_in_evidence": "**No**, the explanation does not make any factual claims not found in the evidence.",
-        "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and its low moisture and high acidity.",
+        "q2_reflects_key_points": "**Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and scientific explanations (low moisture and high acidity).",
         "faithfulness_score_0_5": 5.0,
         "justification": "",
-        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and its low moisture and high acidity.\n\n3. Faithfulness Score: **5/5**\n\nJustification: The explanation only uses information present in the evidence, accurately summarizing the supporting points about honey's chemical properties and its ability to remain edible for millennia."
+        "raw_response": "Here are my evaluations:\n\n1. **No**, the explanation does not make any factual claims not found in the evidence.\n\n2. **Yes**, the explanation faithfully reflects the key points in the evidence, specifically highlighting honey's chemical properties and its resistance to spoilage, which is supported by both archaeological examples and scientific explanations (low moisture and high acidity).\n\n3. Faithfulness Score: **5/5**\n\nJustification: The explanation only uses information present in the evidence, accurately summarizing the supporting points without adding any unsupported claims or hallucinations. It provides a clear and concise reflection of the key ideas presented in the evidence."
     },
     {
         "statement": "Honey never spoils.",
@@ -68,6 +68,6 @@
         "q2_reflects_key_points": "**No**, the explanation does not faithfully reflect the key points in the evidence, which suggest that honey can remain unspoiled for a long time due to its low moisture and high acidity.",
         "faithfulness_score_0_5": 0.0,
         "justification": "",
-        "raw_response": "Here are my evaluations:\n\n1. **Yes**, the explanation makes a factual claim (\"Honey spoils after a week.\") that is not found in the evidence.\n2. **No**, the explanation does not faithfully reflect the key points in the evidence, which suggest that honey can remain unspoiled for a long time due to its low moisture and high acidity.\n\n3. Faithfulness Score: **0/5**\n\nJustification: The explanation directly contradicts the evidence, which states that honey never spoils or remains edible for thousands of years. This indicates a lack of faithfulness in reflecting the key points in the evidence."
+        "raw_response": "Here are my evaluations:\n\n1. **Yes**, the explanation makes a factual claim (\"Honey spoils after a week.\") that is not found in the evidence.\n2. **No**, the explanation does not faithfully reflect the key points in the evidence, which suggest that honey can remain unspoiled for a long time due to its low moisture and high acidity.\n3. Faithfulness Score: **0/5**. The explanation directly contradicts the evidence and makes an unsupported claim about honey spoiling after a week.\n\nJustification: The explanation is not faithful because it introduces a new, unsubstantiated claim that is opposite of what the evidence suggests."
     }
 ]

@@ -7,8 +7,8 @@
       "'Romeo and Juliet' was first published in 1597 and is attributed to Shakespeare."
     ],
     "explanation": "Historical records and publication attributions confirm that Shakespeare wrote 'Romeo and Juliet'.",
-    "e2x_entail_prob": 0.3805854618549347,
-    "x2e_entail_prob": 0.6615099906921387
+    "e2x_entail_prob": 0.38058656454086304,
+    "x2e_entail_prob": 0.6615111231803894
   },
   {
     "statement": "Eating carrots improves eyesight.",
@@ -18,8 +18,8 @@
       "No clinical evidence shows that eating carrots prevents or cures vision problems beyond normal health benefits."
     ],
     "explanation": "While carrots provide vitamin A, there is no evidence they improve eyesight beyond maintaining normal vision.",
-    "e2x_entail_prob": 0.9374353885650635,
-    "x2e_entail_prob": 0.3243507444858551
+    "e2x_entail_prob": 0.9374357461929321,
+    "x2e_entail_prob": 0.3243498206138611
   },
   {
     "statement": "Mount Everest is over 8,000 meters tall.",
@@ -31,7 +31,7 @@
     ],
     "explanation": "Multiple measurements, historical and modern, consistently report Everest's height above 8,000 meters.",
     "e2x_entail_prob": 0.6474490761756897,
-    "x2e_entail_prob": 0.01794726774096489
+    "x2e_entail_prob": 0.017947306856513023
   },
   {
     "statement": "Honey never spoils.",
@@ -42,6 +42,17 @@
     ],
     "explanation": "Due to its chemical properties, honey resists spoilage and archaeological examples show it remains edible for millennia.",
     "e2x_entail_prob": 0.9807917475700378,
-    "x2e_entail_prob": 0.0038264922332018614
+    "x2e_entail_prob": 0.0038264794275164604
+  },
+  {
+    "statement": "Honey never spoils.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Archaeologists have found pots of honey in ancient Egyptian tombs over 3,000 years old that were still edible.",
+      "Honey's low moisture and high acidity inhibit bacterial growth, allowing it to remain unspoiled."
+    ],
+    "explanation": "Honey spoils after a week.",
+    "e2x_entail_prob": 0.0015755320200696588,
+    "x2e_entail_prob": 0.00018953019753098488
   }
 ]
