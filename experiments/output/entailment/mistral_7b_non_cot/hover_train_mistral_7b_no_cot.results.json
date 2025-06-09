@@ -24473,6 +24473,34 @@
     "x2e_entail_prob": 0.007664843462407589
   },
   {
+    "id": "hover_train_full_docs-001805",
+    "statement": "Anil V. Kumar, is a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie \"Zanjeer\" starring Priyanka Chopra and Ram Charan, an actor, and entrepreneur, who works in Telugu cinema.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Anil V Kumarr (born 4 June 1975) is a television and film director and producer in India. He started his production house \"Flying Turtle Films\" with his partners Shabbir Ahluwalia and Sakett Sawhnney in 2010. The shows he has directed include \"Kahaani Ghar Ghar Kii\" and \"Kahin To Hoga\", both on Star Plus. In 2013, Flying Turtle Films co-produced the movie \"Zanjeer\" starring Priyanka Chopra and Ram Charan.",
+      "Ram Charan is an Indian film actor, dancer, producer, businessman and entrepreneur, who works in Telugu cinema. He won two Nandi Awards, two South Filmfare awards, two CineMAA Awards, and two Santosham Best Actor Awards. Charan is one of the highest paid actors in Tollywood."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim states that Anil V. Kumar is a television and film director and producer in India, and his production house, Flying Turtle Films co-produced the movie 'Zanjeer' starring Priyanka Chopra and Ram Charan. The evidence provided shows that Anil V. Kumar is indeed a television and film director and producer in India, and his production house, Flying Turtle Films, co-produced the movie 'Zanjeer'. Additionally, it was confirmed that both Priyanka Chopra and Ram Charan starred in this movie.",
+    "confidence": 1,
+    "e2x_entail_prob": 0.8732612729072571,
+    "x2e_entail_prob": 0.04051174223423004
+  },
+  {
+    "id": "hover_train_full_docs-001806",
+    "statement": "The 133d Air Refueling Squadron unit of the Air National Guard is located at a base that was host to the 509th Bomb Wing flying the General Dynamics FB-111A.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The 133d Air Refueling Squadron (133 ARS) is a unit of the New Hampshire Air National Guard 157th Air Refueling Wing located at Pease Air National Guard Base, Portsmouth, New Hampshire, United States. The 133d is equipped with the KC-135R Stratotanker.",
+      "Pease Air National Guard Base is a New Hampshire Air National Guard base located at Portsmouth International Airport at Pease in New Hampshire. It occupies a portion of what was once Pease Air Force Base, a former Strategic Air Command facility with a base-related population of 10,000 and which was home to the 509th Bomb Wing (509 BW) flying the General Dynamics FB-111A. Pease AFB was closed pursuant to 1991 Base Realignment and Closure Commission action, with the 509 BW transferring to Whiteman AFB, Missouri. In 1983, investigations had shown soil and water contamination with degreasers and JP-4 jet fuel, and in 1990 the base was put on the National Priorities List of superfund sites. As of 2015, after 25 years of the Pease Development Authority's work, Pease International Tradeport has 275 businesses employing close to 10,000 civilian workers."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim suggests that the 133d Air Refueling Squadron is located at a base which was host to the 509th Bomb Wing flying the General Dynamics FB-111A. The evidence provides clear information about the location of the 133d Air Refueling Squadron (Pease Air National Guard Base) and its history, including that it used to be Pease Air Force Base which was home to the 509th Bomb Wing flying the General Dynamics FB-111A. Although the current squadron does not fly the FB-111A, the location meets the claim's condition of having previously hosted a unit that flew this aircraft.",
+    "confidence": 1,
+    "e2x_entail_prob": 0.008782444521784782,
+    "x2e_entail_prob": 0.11137083172798157
+  },
+  {
     "id": "hover_train_full_docs-001807",
     "statement": "The 133d Air Refueling Squadron unit of the Air National Guard is located at a base that was home to the 509th Bomb Wing flying the General Dynamics FB-111A.",
     "label": "SUPPORTED",
@@ -27119,228 +27147,5 @@
     "confidence": 1.0,
     "e2x_entail_prob": 0.005463761277496815,
     "x2e_entail_prob": 0.03768455609679222
-  },
-  {
-    "id": "hover_train_full_docs-002001",
-    "statement": "A singer and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a Latin pop influence, similar to La Isla Bonita by Jessie that was co-written and co-produced by her and Patrick Leonard. Destinee & Paris cited the singer as an influence.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\"."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence provided shows that Britney Spears wrote 'Whiplash' for Selena Gomez & the Scene and Nicole Morier co-wrote it with her. Additionally, 'Mmm Papi', another song co-written by Britney Spears and Nicole Morier, has a Latin pop influence similar to 'La Isla Bonita'. Since both songs share the same authors (Spears and Morier) and a similar music genre (Latin pop), it is reasonable to assume that the other song written together also shares this characteristic.",
-    "confidence": 0.95,
-    "e2x_entail_prob": 0.006512443069368601,
-    "x2e_entail_prob": 0.1069900169968605
-  },
-  {
-    "id": "hover_train_full_docs-002002",
-    "statement": "A singer and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a Latin pop influence, similar to La Isla Bonita by Madonna that was co-written and co-produced by her and Patrick Leonard. Destinee & Paris cited the singer as an influence.",
-    "label": "SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\"."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence states that Nicole Morier and Britney Spears collaborated to write 'Mmm Papi' for Spears' album 'Circus'. They also worked together on another song, 'Whiplash', which was originally intended for the same album but was later recorded by Selena Gomez & the Scene. The claim that they wrote 'Rock Me In' along with another song is not explicitly stated in the evidence, but since it is established that they collaborated on multiple songs, it is reasonable to infer that the additional song mentioned in the claim could be one of those collaborations.",
-    "confidence": 0.95,
-    "e2x_entail_prob": 0.006833650637418032,
-    "x2e_entail_prob": 0.21400423347949982
-  },
-  {
-    "id": "hover_train_full_docs-002003",
-    "statement": "Mmm Papi has a Latin pop side, similar to La Isla Bonita by Madonna that was co-written and co-directed by her and Patrick Leonard.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence provided mentions that 'Mmm Papi' by Britney Spears has a Latin pop influence similar to Madonna's 'La Isla Bonita'. The comparison is also made explicit in the text, stating that 'Mmm Papi' shares this characteristic with 'La Isla Bonita'. Furthermore, both songs are identified as having Latino influences.",
-    "confidence": 0.95,
-    "e2x_entail_prob": 0.28988808393478394,
-    "x2e_entail_prob": 0.017950067296624184
-  },
-  {
-    "id": "hover_train_full_docs-002004",
-    "statement": "Mmm Papi has a Latin pop side, similar to La Isla Bonita by Madonna that was co-written and co-produced by her and Patrick Leonard.",
-    "label": "SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence states that 'Mmm Papi' by Britney Spears is noted for having a Latin pop influence, similar to Madonna's 'La Isla Bonita'. Additionally, 'La Isla Bonita' by Madonna is characterized as a song with Latino influences. Hence, the claim is supported.",
-    "confidence": 1,
-    "e2x_entail_prob": 0.1682962328195572,
-    "x2e_entail_prob": 0.050357360392808914
-  },
-  {
-    "id": "hover_train_full_docs-002005",
-    "statement": "Britney Spears and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene lullaby, and one other song. That other song has a Latin pop influence, similar to song by Madonna that San Pedro Town was said to be the inspiration and was co-written and co-produced by her and Patrick Leonard.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\".",
-      "San Pedro is a town on the southern part of the island of Ambergris Caye in the Belize District of the nation of Belize, in Central America. According to 2015 mid-year estimates, the town has a population of about 16,444. It is the second-largest town in the Belize District and largest in the Belize Rural South constituency. The once sleepy fishing village was granted the status of a town in 1984 and was sometimes said to be the inspiration for the song \"La Isla Bonita\" (which begins with the line \"last night I dreamt of San Pedro\"), written by Madonna, Patrick Leonard and Bruce Gaitsch."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence states that Britney Spears and Nicole Morier wrote 'Mmm Papi', a song with Latin pop influence. They also wrote 'Whiplash' for Selena Gomez & the Scene. 'La Isla Bonita' by Madonna, which has similar Latin pop influences, is another song mentioned in the evidence. Additionally, the evidence mentions that Spears and Morier worked together on 'Rock Me In', but this song did not make it onto Spears' album. It is then stated that 'Whiplash' was later recorded by Selena Gomez & the Scene. The connection between San Pedro Town and 'La Isla Bonita' is also mentioned in the evidence.",
-    "confidence": 0.95,
-    "e2x_entail_prob": 0.010321473702788353,
-    "x2e_entail_prob": 0.22869542241096497
-  },
-  {
-    "id": "hover_train_full_docs-002006",
-    "statement": "A country singer and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a Latin pop influence, similar to La Isla Bonita by Madonna that was co-written and co-produced by her and Patrick Leonard. Destinee & Paris cited the singer as an influence.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\"."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence states that Britney Spears wrote 'Mmm Papi' with Nicole Morier, and it was noted for having a Latin pop influence. It is also mentioned that Nicole Morier co-wrote 'Whiplash' with Britney Spears, which was later recorded by Selena Gomez & the Scene. The song 'La Isla Bonita' by Madonna, which has a similar Latin pop influence as 'Mmm Papi', was also written and produced by Nicole Morier and Patrick Leonard. Therefore, it is supported that Britney Spears, Nicole Morier wrote 'Rock Me In', 'Whiplash' for Selena Gomez & the Scene song, and another song with a Latin pop influence similar to 'La Isla Bonita'.",
-    "confidence": 1,
-    "e2x_entail_prob": 0.00965504627674818,
-    "x2e_entail_prob": 0.01870809681713581
-  },
-  {
-    "id": "hover_train_full_docs-002007",
-    "statement": "Britney Spears and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a Latin pop influence, similar to song by Henry Walter that San Pedro Town was said to be the inspiration and was co-written and co-produced by her and Patrick Leonard.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\".",
-      "San Pedro is a town on the southern part of the island of Ambergris Caye in the Belize District of the nation of Belize, in Central America. According to 2015 mid-year estimates, the town has a population of about 16,444. It is the second-largest town in the Belize District and largest in the Belize Rural South constituency. The once sleepy fishing village was granted the status of a town in 1984 and was sometimes said to be the inspiration for the song \"La Isla Bonita\" (which begins with the line \"last night I dreamt of San Pedro\"), written by Madonna, Patrick Leonard and Bruce Gaitsch."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that Britney Spears and Nicole Morier co-wrote 'Rock Me In' (for Selena Gomez & the Scene) and 'Mmm Papi'. The former song, according to the evidence, was not included in Spears' album. 'Mmm Papi', as noted, has a Latin pop influence similar to a song by Henry Walter that San Pedro Town was said to be an inspiration for. This implies that the 'other song' mentioned in the claim could be 'Mmm Papi'.",
-    "confidence": 0.95,
-    "e2x_entail_prob": 0.1389474868774414,
-    "x2e_entail_prob": 0.012365709990262985
-  },
-  {
-    "id": "hover_train_full_docs-002008",
-    "statement": "Britney Spears and  Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song,  and one other song. That other song has a Latin pop influence, similar to La Isla Bonita by Madonna that was co-written and co-produced by her and Patrick Leonard.",
-    "label": "SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\"."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence indicates that Britney Spears and Nicole Morier wrote 'Rock Me In' and 'Mmm Papi'. The claim also states that they wrote one other song together, which is supported by the information about 'Whiplash'. Furthermore, it is stated in the evidence that 'La Isla Bonita' by Madonna has a Latin pop influence, similar to the Latin pop influence of 'Mmm Papi', and was co-written and co-produced by Madonna and Patrick Leonard, which aligns with the claim that another song they wrote together has a similar style.",
-    "confidence": 0.95,
-    "e2x_entail_prob": 0.005601514596492052,
-    "x2e_entail_prob": 0.4217727482318878
-  },
-  {
-    "id": "hover_train_full_docs-002009",
-    "statement": "Britney Spears and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a Latin pop influence, similar to lead single La Isla Bonita by Madonna that was co-written and co-produced by her and Patrick Leonard.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\"."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The claim is supported by the evidence. The provided evidence shows that Britney Spears and Nicole Morier wrote 'Mmm Papi' for one of Britney Spears' albums, and also wrote 'Rock Me In', a song later covered by Selena Gomez & the Scene. Additionally, the article states that 'La Isla Bonita' by Madonna is a Latin pop influenced song, which is similar to the Latin pop influence in 'Mmm Papi'. The evidence does not explicitly mention that they wrote another song with Latin pop influence, but since we know they wrote two songs together ('Mmm Papi' and 'Rock Me In'), it can be reasonably assumed that the other song they collaborated on may also have a similar style.",
-    "confidence": 1,
-    "e2x_entail_prob": 0.016738448292016983,
-    "x2e_entail_prob": 0.09881425648927689
-  },
-  {
-    "id": "hover_train_full_docs-002010",
-    "statement": "Britney Spears and Nicole Morier wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a American pop influence, similar to song by Madonna that San Pedro Town was said to be the inspiration and was co-written and co-produced by her and Patrick Leonard.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\".",
-      "San Pedro is a town on the southern part of the island of Ambergris Caye in the Belize District of the nation of Belize, in Central America. According to 2015 mid-year estimates, the town has a population of about 16,444. It is the second-largest town in the Belize District and largest in the Belize Rural South constituency. The once sleepy fishing village was granted the status of a town in 1984 and was sometimes said to be the inspiration for the song \"La Isla Bonita\" (which begins with the line \"last night I dreamt of San Pedro\"), written by Madonna, Patrick Leonard and Bruce Gaitsch."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The claim states that Britney Spears, Nicole Morier, Selena Gomez & the Scene wrote a song with American pop influence similar to Madonna's 'La Isla Bonita'. The evidence provides no information about another song written by this group, nor does it suggest any connection between that hypothetical song and 'La Isla Bonita'. While it is known that Spears and Morier wrote 'Rock Me In', 'Whiplash' (which was not included in Spears' album), and 'Mmm Papi' with different collaborators, the claim goes beyond what can be reasonably deduced from the provided evidence.",
-    "confidence": 0.2,
-    "e2x_entail_prob": 0.07890807837247849,
-    "x2e_entail_prob": 0.028957461938261986
-  },
-  {
-    "id": "hover_train_full_docs-002011",
-    "statement": "Britney Spears and Leonard wrote \"Rock Me In\", \"Whiplash\" for Selena Gomez & the Scene song, and one other song. That other song has a Latin pop influence, similar to song by Madonna that San Pedro Town was said to be the inspiration and was co-written and co-produced by her and Patrick Leonard.",
-    "label": "SUPPORTED",
-    "evidences": [
-      "\"Mmm Papi\" is a song by American singer-songwriter Britney Spears. The song was written by Spears and Nicole Morier, while additional writing and song production were done by Canadian band Let's Go to War, whose members are Henry Walter, Adrien Gough and Peter-John Kerr, for Spears' sixth studio album, \"Circus\" (2008). \"Mmm Papi\" is noted for having a Latin pop influence, similar to Madonna's \"La Isla Bonita\" (1987). The lyrics of the song tell about a woman who has an attraction to a man, longing for him to come and take her away.",
-      "\"La Isla Bonita\" (English: The Beautiful Island ) is a song by American singer Madonna from her third studio album \"True Blue\" (1986). She and Patrick Leonard co-wrote and co-produced the song, and Bruce Gaitsch provided additional songwriting. Sire Records released it as the album's final single on February 25, 1987. The instrumental version of the song was first offered to Michael Jackson before Madonna both accepted it and wrote the lyrics and melody. \"La Isla Bonita\" is noted for being the first Madonna song to contain Latino influences, with arrangements of Cuban drums and Spanish guitar, maracas, harmonicas and a mix of synthesized and real drumming. The lyrics of the song tell about a \"beautiful island\" and according to Madonna, was a tribute to the beauty of the Latin people.",
-      "\"Whiplash\" is a song by American band Selena Gomez & the Scene, from their third studio album \"When the Sun Goes Down\" (2011). The song was originally written by Britney Spears; after she started working on her sixth studio album \"Circus\" (2008), Spears contacted Nicole Morier to write songs with her. Together, they wrote \"Mmm Papi\", \"Rock Me In\" and \"Whiplash\". The latter, which was produced by co-writer Greg Kurstin, failed to make the album. In 2011, Selena Gomez recorded the song with her band for \"When the Sun Goes Down\".",
-      "San Pedro is a town on the southern part of the island of Ambergris Caye in the Belize District of the nation of Belize, in Central America. According to 2015 mid-year estimates, the town has a population of about 16,444. It is the second-largest town in the Belize District and largest in the Belize Rural South constituency. The once sleepy fishing village was granted the status of a town in 1984 and was sometimes said to be the inspiration for the song \"La Isla Bonita\" (which begins with the line \"last night I dreamt of San Pedro\"), written by Madonna, Patrick Leonard and Bruce Gaitsch."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The provided evidence mentions that Britney Spears, Nicole Morier, Henry Walter, Adrien Gough, Peter-John Kerr, Greg Kurstin and Selena Gomez wrote or produced songs for various artists including 'Mmm Papi' by Britney Spears, 'La Isla Bonita' by Madonna, 'Whiplash' by Selena Gomez & the Scene. However, there is no direct evidence provided that they collaborated on a third song with Latin pop influence similar to Madonna's 'La Isla Bonita'. The claim about San Pedro Town being an inspiration for that hypothetical song is based on speculation and not supported by the provided evidence.",
-    "confidence": 0.1,
-    "e2x_entail_prob": 0.0052388496696949005,
-    "x2e_entail_prob": 0.0790267214179039
-  },
-  {
-    "id": "hover_train_full_docs-002012",
-    "statement": "East Lancashire Railway is a part of Summerseat and also runs between Swanage and Rawtenstall.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "Summerseat railway station is a preserved railway station that serves the village of Summerseat in Greater Manchester, England. It is part of the Heritage East Lancashire Railway (which runs for 12 miles from Heywood-Rawtenstall).",
-      "The East Lancashire Railway is a 12+1/2 mi heritage railway line in north west England which runs between Heywood and Rawtenstall with intermediate stations at Bury Bolton Street, Burrs Country Park , Summerseat, Ramsbottom and Irwell Vale."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The claim states that East Lancashire Railway is a part of Summerseet and also runs between Swanage and Rawtenstall. However, the evidence only mentions that it runs for 12 miles from Heywood-Rawtenstall and has intermediate stations at Bury Bolton Street, Burrs Country Park, Summerseat, Ramsbottom, and Irwell Vale. The claim is still supported as 'part of' could refer to any part of the railway, which in this case includes the station at Summerseat.",
-    "confidence": 1.0,
-    "e2x_entail_prob": 0.027018235996365547,
-    "x2e_entail_prob": 0.3618139624595642
-  },
-  {
-    "id": "hover_train_full_docs-002013",
-    "statement": "The railway that reopened the line of Broadfield railway station, is a part of Summerseat and also runs between Heywood and Rawtenstall.",
-    "label": "SUPPORTED",
-    "evidences": [
-      "Summerseat railway station is a preserved railway station that serves the village of Summerseat in Greater Manchester, England. It is part of the Heritage East Lancashire Railway (which runs for 12 miles from Heywood-Rawtenstall).",
-      "The East Lancashire Railway is a 12+1/2 mi heritage railway line in north west England which runs between Heywood and Rawtenstall with intermediate stations at Bury Bolton Street, Burrs Country Park , Summerseat, Ramsbottom and Irwell Vale.",
-      "Broadfield railway station served the district of Broadfield in Heywood in Greater Manchester, England from 1869 until October 1970, when the station was closed and passenger services between Bolton & were withdrawn by British Rail. The line through the station has since been reopened by the heritage East Lancashire Railway, although the station itself remains disused."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The claim states that the railway reopened the line of Broadfield railway station runs between Heywood and Rawtenstall. The evidence shows that the East Lancashire Railway (ELR), which includes Summerseat station, runs between Heywood and Rawtenstall, and the line through Broadfield station has been reopened by the ELR.",
-    "confidence": 1,
-    "e2x_entail_prob": 0.8266848921775818,
-    "x2e_entail_prob": 0.20424094796180725
-  },
-  {
-    "id": "hover_train_full_docs-002014",
-    "statement": "East Lancashire Railway is a part of Summerseat and also runs between Heywood and Rawtenstall.",
-    "label": "SUPPORTED",
-    "evidences": [
-      "Summerseat railway station is a preserved railway station that serves the village of Summerseat in Greater Manchester, England. It is part of the Heritage East Lancashire Railway (which runs for 12 miles from Heywood-Rawtenstall).",
-      "The East Lancashire Railway is a 12+1/2 mi heritage railway line in north west England which runs between Heywood and Rawtenstall with intermediate stations at Bury Bolton Street, Burrs Country Park , Summerseat, Ramsbottom and Irwell Vale."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence provided mentions that the East Lancashire Railway runs for 12 miles from Heywood to Rawtenstall, and Summerseat is one of its intermediate stations. This means that Summerseat is indeed a part of the East Lancashire Railway.",
-    "confidence": 1,
-    "e2x_entail_prob": 0.7022650837898254,
-    "x2e_entail_prob": 0.4526519477367401
-  },
-  {
-    "id": "hover_train_full_docs-002015",
-    "statement": "The railway that reopened the Broadfield train station line is part of Summerseat and does not run between Heywood and Rawtenstall.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "Summerseat railway station is a preserved railway station that serves the village of Summerseat in Greater Manchester, England. It is part of the Heritage East Lancashire Railway (which runs for 12 miles from Heywood-Rawtenstall).",
-      "The East Lancashire Railway is a 12+1/2 mi heritage railway line in north west England which runs between Heywood and Rawtenstall with intermediate stations at Bury Bolton Street, Burrs Country Park , Summerseat, Ramsbottom and Irwell Vale.",
-      "Broadfield railway station served the district of Broadfield in Heywood in Greater Manchester, England from 1869 until October 1970, when the station was closed and passenger services between Bolton & were withdrawn by British Rail. The line through the station has since been reopened by the heritage East Lancashire Railway, although the station itself remains disused."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence does not directly address the claim that the railway reopened at Broadfield train station line is part of Summerseat and does not run between Heywood and Rawtenstall. The information provided suggests that the East Lancashire Railway (ELR) runs between Heywood and Rawtenstall, but it's unclear whether the reopened railway through Broadfield station is a part of this line or another one. Also, there's no mention in the evidence about any other stations along the Broadfield line.",
-    "confidence": 0.8,
-    "e2x_entail_prob": 0.23481450974941254,
-    "x2e_entail_prob": 0.15430401265621185
   }
 ]
