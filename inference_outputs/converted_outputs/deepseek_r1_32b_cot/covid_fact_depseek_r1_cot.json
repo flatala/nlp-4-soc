@@ -229,7 +229,7 @@
   },
   {
     "id": "covid_fact-000020",
-    "statement": "Air quality influences the pandemic - communiqués de presse",
+    "statement": "Air quality influences the pandemic - communiqu\u00e9s de presse",
     "label": "SUPPORTED",
     "evidences": [
       "The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.",
@@ -243,7 +243,7 @@
   },
   {
     "id": "covid_fact-000021",
-    "statement": "Virus quality influences the pandemic - communiqués de presse",
+    "statement": "Virus quality influences the pandemic - communiqu\u00e9s de presse",
     "label": "NOT_SUPPORTED",
     "evidences": [
       "The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.",
@@ -257,7 +257,7 @@
   },
   {
     "id": "covid_fact-000022",
-    "statement": "Health quality influences the pandemic - communiqués de presse",
+    "statement": "Health quality influences the pandemic - communiqu\u00e9s de presse",
     "label": "NOT_SUPPORTED",
     "evidences": [
       "The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.",
@@ -271,7 +271,7 @@
   },
   {
     "id": "covid_fact-000023",
-    "statement": "Global quality influences the pandemic - communiqués de presse",
+    "statement": "Global quality influences the pandemic - communiqu\u00e9s de presse",
     "label": "NOT_SUPPORTED",
     "evidences": [
       "The study provides preventive measures related to air pollution to limit future outbreaks of morbidity and mortality due to the coronavirus.",
@@ -803,11 +803,11 @@
     "statement": "Lipoic acid helps response in g6pd population",
     "label": "SUPPORTED",
     "evidences": [
-      "Α-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency.",
+      "\u0391-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency.",
       "A-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that α-lipoic acid supplementation increases antioxidant capacity in individuals with G6PD deficiency, supporting the claim that lipoic acid helps responses related to oxidative stress in this population.",
+    "explanation": "The evidence shows that \u03b1-lipoic acid supplementation increases antioxidant capacity in individuals with G6PD deficiency, supporting the claim that lipoic acid helps responses related to oxidative stress in this population.",
     "confidence": 0.95
   },
   {
@@ -815,11 +815,11 @@
     "statement": "Lipoic acid helps degradation in g6pd population",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Α-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency.",
+      "\u0391-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency.",
       "A-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence indicates that α-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency, which supports the claim that lipoic acid helps with aspects of this population.",
+    "explanation": "The evidence indicates that \u03b1-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency, which supports the claim that lipoic acid helps with aspects of this population.",
     "confidence": 0.9
   },
   {
@@ -827,11 +827,11 @@
     "statement": "Lipoic acid stress response in g6pd population",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Α-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency.",
+      "\u0391-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency.",
       "A-lipoic acid supplementation up-regulates antioxidant capacity in adults with G6PD deficiency."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that α-lipoic acid supplementation increases antioxidant capacity in adults with G6PD deficiency. Since antioxidant capacity is part of managing oxidative stress, this supports the claim that lipoic acid aids the stress response in this population.",
+    "explanation": "The evidence shows that \u03b1-lipoic acid supplementation increases antioxidant capacity in adults with G6PD deficiency. Since antioxidant capacity is part of managing oxidative stress, this supports the claim that lipoic acid aids the stress response in this population.",
     "confidence": 0.95
   },
   {
@@ -1031,28 +1031,28 @@
   },
   {
     "id": "covid_fact-000083",
-    "statement": "Mathematical analysis of córdoba calcifediol trial suggests strong role for vitamin d in reducing icu admissions of hospitalized covid-19 patients",
+    "statement": "Mathematical analysis of c\u00f3rdoba calcifediol trial suggests strong role for vitamin d in reducing icu admissions of hospitalized covid-19 patients",
     "label": "SUPPORTED",
     "evidences": [
       "]: dot [@]: at [MHRA]: Medicines and Healthcare products Regulatory Agency [JCVI]: Joint Committee for Vaccination and Immunisation [PMC]: Penske Media Corporation [ COVID-19]: coronavirus disease 2019 [COVID-19]: coronavirus disease 2019 [v]: View this template [t]: telephone [e]: email []: You need to accept this checkbox.",
       "I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).",
-      "Finally, comparison with two additional randomized clinical trials of vitamin D supplementation for COVID-19 in India and Brazil indicates that early intervention and rapid absorption may be crucial for the observed benefits of vitamin D. We conclude that the Córdoba study provides sufficient evidence to warrant immediate, well-designed pivotal clinical trials of early calcifediol administration in a broader cohort of inpatients and outpatients with COVID-19."
+      "Finally, comparison with two additional randomized clinical trials of vitamin D supplementation for COVID-19 in India and Brazil indicates that early intervention and rapid absorption may be crucial for the observed benefits of vitamin D. We conclude that the C\u00f3rdoba study provides sufficient evidence to warrant immediate, well-designed pivotal clinical trials of early calcifediol administration in a broader cohort of inpatients and outpatients with COVID-19."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The provided evidence does not mention the Córdoba calcifediol trial or its findings regarding vitamin D's impact on ICU admissions for COVID-19 patients. Instead, it discusses other studies and the need for further trials.",
+    "explanation": "The provided evidence does not mention the C\u00f3rdoba calcifediol trial or its findings regarding vitamin D's impact on ICU admissions for COVID-19 patients. Instead, it discusses other studies and the need for further trials.",
     "confidence": 0.7
   },
   {
     "id": "covid_fact-000084",
-    "statement": "Mathematical analysis of córdoba calcifediol trial suggests strong role against vitamin d in reducing icu admissions of hospitalized covid-19 patients",
+    "statement": "Mathematical analysis of c\u00f3rdoba calcifediol trial suggests strong role against vitamin d in reducing icu admissions of hospitalized covid-19 patients",
     "label": "NOT_SUPPORTED",
     "evidences": [
       "]: dot [@]: at [MHRA]: Medicines and Healthcare products Regulatory Agency [JCVI]: Joint Committee for Vaccination and Immunisation [PMC]: Penske Media Corporation [ COVID-19]: coronavirus disease 2019 [COVID-19]: coronavirus disease 2019 [v]: View this template [t]: telephone [e]: email []: You need to accept this checkbox.",
       "I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).",
-      "Finally, comparison with two additional randomized clinical trials of vitamin D supplementation for COVID-19 in India and Brazil indicates that early intervention and rapid absorption may be crucial for the observed benefits of vitamin D. We conclude that the Córdoba study provides sufficient evidence to warrant immediate, well-designed pivotal clinical trials of early calcifediol administration in a broader cohort of inpatients and outpatients with COVID-19."
+      "Finally, comparison with two additional randomized clinical trials of vitamin D supplementation for COVID-19 in India and Brazil indicates that early intervention and rapid absorption may be crucial for the observed benefits of vitamin D. We conclude that the C\u00f3rdoba study provides sufficient evidence to warrant immediate, well-designed pivotal clinical trials of early calcifediol administration in a broader cohort of inpatients and outpatients with COVID-19."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence discusses support for further clinical trials based on the Córdoba study and mentions early intervention benefits, but it does not provide mathematical analysis or results specifically showing a strong role of vitamin D in reducing ICU admissions.",
+    "explanation": "The evidence discusses support for further clinical trials based on the C\u00f3rdoba study and mentions early intervention benefits, but it does not provide mathematical analysis or results specifically showing a strong role of vitamin D in reducing ICU admissions.",
     "confidence": 0.7
   },
   {
@@ -1378,7 +1378,7 @@
       "Although SARS-CoV-2 is a novel coronavirus, most humans had been previously exposed to other antigenically distinct common seasonal human coronaviruses (hCoVs) before the COVID-19 pandemic."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The claim states that seasonal human coronavirus antibodies are boosted upon SARS-CoV-2 infection and are associated with protection. The evidence confirms the first part—antibodies are indeed boosted—but explicitly denies the second part, stating they are not associated with protection against SARS-CoV-2 infections or hospitalizations.",
+    "explanation": "The claim states that seasonal human coronavirus antibodies are boosted upon SARS-CoV-2 infection and are associated with protection. The evidence confirms the first part\u2014antibodies are indeed boosted\u2014but explicitly denies the second part, stating they are not associated with protection against SARS-CoV-2 infections or hospitalizations.",
     "confidence": 0.85
   },
   {
@@ -1391,7 +1391,7 @@
       "Although SARS-CoV-2 is a novel coronavirus, most humans had been previously exposed to other antigenically distinct common seasonal human coronaviruses (hCoVs) before the COVID-19 pandemic."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The claim states that seasonal human coronavirus antibodies are boosted upon SARS-CoV-2 infection and are strongly associated with protection. The evidence confirms the first part—that these antibodies are boosted—but explicitly states they are not associated with protection against SARS-CoV-2 infections or hospitalizations, contradicting the second part of the claim.",
+    "explanation": "The claim states that seasonal human coronavirus antibodies are boosted upon SARS-CoV-2 infection and are strongly associated with protection. The evidence confirms the first part\u2014that these antibodies are boosted\u2014but explicitly states they are not associated with protection against SARS-CoV-2 infections or hospitalizations, contradicting the second part of the claim.",
     "confidence": 0.95
   },
   {
@@ -1794,7 +1794,7 @@
     "label": "SUPPORTED",
     "evidences": [
       "Despite a high similarity with the genome sequence of SARS-CoV and SARS-like CoVs, we identified a peculiar furin-like cleavage site in the Spike protein of the 2019-nCoV, lacking in the other SARS-like CoVs.",
-      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B βCoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
+      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B \u03b2CoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence directly supports the claim by stating that 2019-nCoV has a furin-like cleavage site absent in other SARS-like CoVs and lineage B betaCoVs.",
@@ -1806,7 +1806,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Despite a high similarity with the genome sequence of SARS-CoV and SARS-like CoVs, we identified a peculiar furin-like cleavage site in the Spike protein of the 2019-nCoV, lacking in the other SARS-like CoVs.",
-      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B βCoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
+      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B \u03b2CoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence confirms that the spike glycoprotein of 2019-nCoV contains a furin-like cleavage site absent in other coronaviruses of the same clade, such as SARS-CoV.",
@@ -1818,7 +1818,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Despite a high similarity with the genome sequence of SARS-CoV and SARS-like CoVs, we identified a peculiar furin-like cleavage site in the Spike protein of the 2019-nCoV, lacking in the other SARS-like CoVs.",
-      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B βCoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
+      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B \u03b2CoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence confirms that SARS-CoV-2 has a furin-like cleavage site in its spike protein, which is absent in other coronaviruses of the same clade. This matches the claim exactly.",
@@ -1830,7 +1830,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Despite a high similarity with the genome sequence of SARS-CoV and SARS-like CoVs, we identified a peculiar furin-like cleavage site in the Spike protein of the 2019-nCoV, lacking in the other SARS-like CoVs.",
-      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B βCoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
+      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B \u03b2CoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence confirms that the spike glycoprotein of 2019-nCoV (likely referring to e-ncov) contains a furin-like cleavage site, RRAR, which is absent in other coronaviruses within the same clade, such as SARS-CoV.",
@@ -1864,7 +1864,7 @@
     "label": "SUPPORTED",
     "evidences": [
       "Pharmacological PLP supplementation may therefore mitigate COVID-19 symptoms by alleviating both the immune suppression underlying viral spread and the pathological hypersecretion of inflammatory cytokines, as well as directly bolstering endothelial integrity and preventing hypercoagulability.",
-      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNFα, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
+      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNF\u03b1, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence indicates that pharmacological doses of pyridoxal 5'-phosphate (PLP) can alleviate both immune dysregulation by reducing inflammatory cytokines and coagulopathy through improved endothelial integrity and reduced clotting markers like D-dimer. These effects directly address the issues mentioned in the claim related to COVID-19.",
@@ -1876,7 +1876,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Pharmacological PLP supplementation may therefore mitigate COVID-19 symptoms by alleviating both the immune suppression underlying viral spread and the pathological hypersecretion of inflammatory cytokines, as well as directly bolstering endothelial integrity and preventing hypercoagulability.",
-      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNFα, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
+      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNF\u03b1, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The claim suggests that pyridoxal 5'-phosphate (PLP) cannot mitigate immune dysregulation and coagulopathy in COVID-19, but the evidence provided contradicts this by showing that PLP supplementation can alleviate these conditions.",
@@ -1888,7 +1888,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Pharmacological PLP supplementation may therefore mitigate COVID-19 symptoms by alleviating both the immune suppression underlying viral spread and the pathological hypersecretion of inflammatory cytokines, as well as directly bolstering endothelial integrity and preventing hypercoagulability.",
-      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNFα, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
+      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNF\u03b1, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence shows that PLP supplementation can mitigate coagulopathy in COVID-19 by reducing inflammatory cytokines and improving endothelial integrity. While there's strong support for the coagulopathy aspect, the link to cardiac dysregulation is plausible but not explicitly demonstrated.",
@@ -1900,7 +1900,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "Pharmacological PLP supplementation may therefore mitigate COVID-19 symptoms by alleviating both the immune suppression underlying viral spread and the pathological hypersecretion of inflammatory cytokines, as well as directly bolstering endothelial integrity and preventing hypercoagulability.",
-      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNFα, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
+      "In inflammatory disease, pharmacological doses of PLP decrease circulating TNF\u03b1, IL-6 and D-dimer, and animal studies demonstrate that supplemental PLP shortens the duration and severity of viral pneumonia."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence supports the claim by showing that PLP supplementation decreases inflammatory cytokines and improves endothelial integrity, addressing both immune dysregulation and coagulopathy in COVID-19.",
@@ -1988,11 +1988,11 @@
     "statement": "Preliminary evidence that higher temperatures are associated with lower incidence of covid-19 , for cases reported globally up to 29th february 2020",
     "label": "SUPPORTED",
     "evidences": [
-      "Using global line-list data on COVID-19 cases reported until 29th February 2020 and global gridded temperature data, and after adjusting for surveillance capacity and time since first imported case, higher average temperature was strongly associated with lower COVID-19 incidence for temperatures of 1°C and higher.",
+      "Using global line-list data on COVID-19 cases reported until 29th February 2020 and global gridded temperature data, and after adjusting for surveillance capacity and time since first imported case, higher average temperature was strongly associated with lower COVID-19 incidence for temperatures of 1\u00b0C and higher.",
       "However, temperature explained a relatively modest amount of the total variation in COVID-19 incidence."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows a strong association between higher temperatures and lower COVID-19 incidence for temperatures above 1°C, which supports the claim that higher temperatures are associated with lower incidence of COVID-19. However, temperature explains only a modest amount of the variation, indicating that other factors also play significant roles.",
+    "explanation": "The evidence shows a strong association between higher temperatures and lower COVID-19 incidence for temperatures above 1\u00b0C, which supports the claim that higher temperatures are associated with lower incidence of COVID-19. However, temperature explains only a modest amount of the variation, indicating that other factors also play significant roles.",
     "confidence": 0.85
   },
   {
@@ -2000,7 +2000,7 @@
     "statement": "Preliminary evidence that lower temperatures are associated with lower incidence of covid-19, for cases reported globally up to 29th february 2020",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Using global line-list data on COVID-19 cases reported until 29th February 2020 and global gridded temperature data, and after adjusting for surveillance capacity and time since first imported case, higher average temperature was strongly associated with lower COVID-19 incidence for temperatures of 1°C and higher.",
+      "Using global line-list data on COVID-19 cases reported until 29th February 2020 and global gridded temperature data, and after adjusting for surveillance capacity and time since first imported case, higher average temperature was strongly associated with lower COVID-19 incidence for temperatures of 1\u00b0C and higher.",
       "However, temperature explained a relatively modest amount of the total variation in COVID-19 incidence."
     ],
     "model_verdict": "NOT_SUPPORTED",
@@ -2012,7 +2012,7 @@
     "statement": "Preliminary evidence that low temperatures are associated with lower incidence of covid-19, for cases reported globally up to 29th february 2020",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Using global line-list data on COVID-19 cases reported until 29th February 2020 and global gridded temperature data, and after adjusting for surveillance capacity and time since first imported case, higher average temperature was strongly associated with lower COVID-19 incidence for temperatures of 1°C and higher.",
+      "Using global line-list data on COVID-19 cases reported until 29th February 2020 and global gridded temperature data, and after adjusting for surveillance capacity and time since first imported case, higher average temperature was strongly associated with lower COVID-19 incidence for temperatures of 1\u00b0C and higher.",
       "However, temperature explained a relatively modest amount of the total variation in COVID-19 incidence."
     ],
     "model_verdict": "NOT_SUPPORTED",
@@ -3742,7 +3742,7 @@
     "label": "SUPPORTED",
     "evidences": [
       "A, B (A) Remdesivir and (B) hrsACE2 inhibition of SARSCoV2 infections of Vero E6 cells.",
-      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 µg/ml) and remdesivir (Remd."
+      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 \u00b5g/ml) and remdesivir (Remd."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence describes treating cells with both remdesivir and hrsACE2, but it does not provide data showing that this combination improves the effect of remdesivir compared to using remdesivir alone.",
@@ -3754,7 +3754,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "A, B (A) Remdesivir and (B) hrsACE2 inhibition of SARSCoV2 infections of Vero E6 cells.",
-      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 µg/ml) and remdesivir (Remd."
+      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 \u00b5g/ml) and remdesivir (Remd."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence describes an experiment where both remdesivir and hrsACE2 are used together but does not provide results indicating that one inhibits the other. Without outcome data, we cannot confirm the claim.",
@@ -3766,7 +3766,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "A, B (A) Remdesivir and (B) hrsACE2 inhibition of SARSCoV2 infections of Vero E6 cells.",
-      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 µg/ml) and remdesivir (Remd."
+      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 \u00b5g/ml) and remdesivir (Remd."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence describes an experiment treating SARS-CoV-2 infected cells with hrsACE2 and remdesivir but does not provide results showing whether hrsACE2 blocked remdesivir's effect.",
@@ -3778,7 +3778,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "A, B (A) Remdesivir and (B) hrsACE2 inhibition of SARSCoV2 infections of Vero E6 cells.",
-      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 µg/ml) and remdesivir (Remd."
+      "A Treatment of SARSCoV2 (106 PFU) infected VeroE6 cells with human recombinant soluble ACE 2 (hrsACE2) (200 \u00b5g/ml) and remdesivir (Remd."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence provided shows that hrsACE2 inhibits SARS-CoV-2 infection in Vero E6 cells and was used alongside remdesivir, but it does not provide specific data indicating that ACE2 reduces remdesivir's effectiveness. Without explicit results on their interaction, the claim cannot be fully supported.",
@@ -4512,10 +4512,10 @@
     "statement": "Systematic analysis of innate immune antagonism reveals vulnerabilities of sars-cov-2",
     "label": "SUPPORTED",
     "evidences": [
-      "Overall our analyses revealed that IFN-γ and IFN-λ1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
+      "Overall our analyses revealed that IFN-\u03b3 and IFN-\u03bb1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that IFN-γ and IFN-λ1 signaling are not effectively antagonized by SARS-CoV-2, indicating the virus's susceptibility to these cytokines and thus supporting the claim of identified vulnerabilities.",
+    "explanation": "The evidence shows that IFN-\u03b3 and IFN-\u03bb1 signaling are not effectively antagonized by SARS-CoV-2, indicating the virus's susceptibility to these cytokines and thus supporting the claim of identified vulnerabilities.",
     "confidence": 0.9
   },
   {
@@ -4523,10 +4523,10 @@
     "statement": "Systematic analysis of cellular immune antagonism reveals vulnerabilities of sars-cov-2",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Overall our analyses revealed that IFN-γ and IFN-λ1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
+      "Overall our analyses revealed that IFN-\u03b3 and IFN-\u03bb1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that IFN-γ and IFN-λ1 signaling are not effectively antagonized by SARS-CoV-2, making the virus susceptible to these cytokines. This aligns with the claim that systematic analysis of cellular immune antagonism reveals vulnerabilities in the virus.",
+    "explanation": "The evidence shows that IFN-\u03b3 and IFN-\u03bb1 signaling are not effectively antagonized by SARS-CoV-2, making the virus susceptible to these cytokines. This aligns with the claim that systematic analysis of cellular immune antagonism reveals vulnerabilities in the virus.",
     "confidence": 0.85
   },
   {
@@ -4534,10 +4534,10 @@
     "statement": "Systematic analysis of adaptive immune antagonism reveals vulnerabilities of sars-cov-2",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Overall our analyses revealed that IFN-γ and IFN-λ1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
+      "Overall our analyses revealed that IFN-\u03b3 and IFN-\u03bb1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence demonstrates that SARS-CoV-2's limited antagonism of IFN-γ and IFN-λ1 signaling makes it vulnerable to these cytokines, aligning with the claim about adaptive immune analysis revealing vulnerabilities.",
+    "explanation": "The evidence demonstrates that SARS-CoV-2's limited antagonism of IFN-\u03b3 and IFN-\u03bb1 signaling makes it vulnerable to these cytokines, aligning with the claim about adaptive immune analysis revealing vulnerabilities.",
     "confidence": 0.9
   },
   {
@@ -4545,10 +4545,10 @@
     "statement": "Systematic analysis of antiviral immune antagonism reveals vulnerabilities of sars-cov-2",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Overall our analyses revealed that IFN-γ and IFN-λ1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
+      "Overall our analyses revealed that IFN-\u03b3 and IFN-\u03bb1 signalling are antagonised the least, leaving SARS-CoV-2 highly susceptible to these two cytokines."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence indicates that SARS-CoV-2's susceptibility to IFN-γ and IFN-λ1 highlights vulnerabilities revealed through immune antagonism analysis, supporting the claim.",
+    "explanation": "The evidence indicates that SARS-CoV-2's susceptibility to IFN-\u03b3 and IFN-\u03bb1 highlights vulnerabilities revealed through immune antagonism analysis, supporting the claim.",
     "confidence": 0.9
   },
   {
@@ -5191,7 +5191,7 @@
       "But for small businesses, there could be long-term effects on daily life and work in local communities."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence explicitly states that small businesses could face catastrophic impacts, cites specific economic challenges affecting them, mentions public alarm causing issues even without outbreaks, includes an expert's perspective on their vulnerability, and discusses long-term effects—all supporting the claim.",
+    "explanation": "The evidence explicitly states that small businesses could face catastrophic impacts, cites specific economic challenges affecting them, mentions public alarm causing issues even without outbreaks, includes an expert's perspective on their vulnerability, and discusses long-term effects\u2014all supporting the claim.",
     "confidence": 0.95
   },
   {
@@ -6476,7 +6476,7 @@
     "evidences": [
       "Demographic and clinical characteristics of children aged <18 years hospitalized with COVID-19 -- COVID-NET, 14 States, March 1-July 25, 2020 Characteristic ",
       "Ongoing monitoring of hospitalization rates, clinical characteristics, ICU admission, and outcomes in the pediatric population is important to further characterize the morbidity and mortality of COVID-19 in children.",
-      "Cumulative COVID-19 -associated hospitalization rates among children aged <18 years, by age group and race/ethnicity -- COVID-NET, 14 states, March 1-July 25, 2020§,¶ Abbreviation: COVID-NET = Coronavirus Disease 2019-Associated Hospitalization Surveillance Network."
+      "Cumulative COVID-19 -associated hospitalization rates among children aged <18 years, by age group and race/ethnicity -- COVID-NET, 14 states, March 1-July 25, 2020\u00a7,\u00b6 Abbreviation: COVID-NET = Coronavirus Disease 2019-Associated Hospitalization Surveillance Network."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence directly addresses hospitalization rates and characteristics of children aged <18 years with COVID-19, providing data from a specific study period across multiple states.",
@@ -6489,7 +6489,7 @@
     "evidences": [
       "Demographic and clinical characteristics of children aged <18 years hospitalized with COVID-19 -- COVID-NET, 14 States, March 1-July 25, 2020 Characteristic ",
       "Ongoing monitoring of hospitalization rates, clinical characteristics, ICU admission, and outcomes in the pediatric population is important to further characterize the morbidity and mortality of COVID-19 in children.",
-      "Cumulative COVID-19 -associated hospitalization rates among children aged <18 years, by age group and race/ethnicity -- COVID-NET, 14 states, March 1-July 25, 2020§,¶ Abbreviation: COVID-NET = Coronavirus Disease 2019-Associated Hospitalization Surveillance Network."
+      "Cumulative COVID-19 -associated hospitalization rates among children aged <18 years, by age group and race/ethnicity -- COVID-NET, 14 states, March 1-July 25, 2020\u00a7,\u00b6 Abbreviation: COVID-NET = Coronavirus Disease 2019-Associated Hospitalization Surveillance Network."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence discusses hospitalization rates and characteristics for children aged <18 years, which includes those under 18 months.",
@@ -6502,7 +6502,7 @@
     "evidences": [
       "Demographic and clinical characteristics of children aged <18 years hospitalized with COVID-19 -- COVID-NET, 14 States, March 1-July 25, 2020 Characteristic ",
       "Ongoing monitoring of hospitalization rates, clinical characteristics, ICU admission, and outcomes in the pediatric population is important to further characterize the morbidity and mortality of COVID-19 in children.",
-      "Cumulative COVID-19 -associated hospitalization rates among children aged <18 years, by age group and race/ethnicity -- COVID-NET, 14 states, March 1-July 25, 2020§,¶ Abbreviation: COVID-NET = Coronavirus Disease 2019-Associated Hospitalization Surveillance Network."
+      "Cumulative COVID-19 -associated hospitalization rates among children aged <18 years, by age group and race/ethnicity -- COVID-NET, 14 states, March 1-July 25, 2020\u00a7,\u00b6 Abbreviation: COVID-NET = Coronavirus Disease 2019-Associated Hospitalization Surveillance Network."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence focuses on children <18 years old, not specifically <18 days, so it doesn't support the claim about newborns.",
@@ -6569,8 +6569,8 @@
     "statement": "Moderna 's covid-19 vaccine candidate meets its primary efficacy endpoint in the first interim analysis of the phase 3 cove study",
     "label": "SUPPORTED",
     "evidences": [
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said Stéphane Bancel, Chief Executive Officer of Moderna.",
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said Stéphane Bancel, Chief Executive Officer of Moderna."
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said St\u00e9phane Bancel, Chief Executive Officer of Moderna.",
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said St\u00e9phane Bancel, Chief Executive Officer of Moderna."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence confirms that Moderna's vaccine met its primary efficacy endpoint in the first interim analysis of the Phase 3 study, as it prevented COVID-19 disease including severe cases.",
@@ -6581,8 +6581,8 @@
     "statement": "Moderna's covid-19 vaccine candidate meets its primary efficacy endpoint in the final interim analysis of the phase 3 cove study",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said Stéphane Bancel, Chief Executive Officer of Moderna.",
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said Stéphane Bancel, Chief Executive Officer of Moderna."
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said St\u00e9phane Bancel, Chief Executive Officer of Moderna.",
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said St\u00e9phane Bancel, Chief Executive Officer of Moderna."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence indicates that Moderna's vaccine met its primary goal of preventing COVID-19 disease, including severe cases, based on the CEO's statement about a positive interim analysis from the Phase 3 study. However, the confidence is slightly reduced because the evidence does not explicitly mention 'primary efficacy endpoint' or provide detailed statistical results.",
@@ -6593,8 +6593,8 @@
     "statement": "Moderna's covid-19 vaccine candidate meets its primary efficacy endpoint in the second interim analysis of the phase 3 cove study",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said Stéphane Bancel, Chief Executive Officer of Moderna.",
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said Stéphane Bancel, Chief Executive Officer of Moderna."
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said St\u00e9phane Bancel, Chief Executive Officer of Moderna.",
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said St\u00e9phane Bancel, Chief Executive Officer of Moderna."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence confirms that Moderna's vaccine met its primary efficacy endpoint in a phase 3 interim analysis, though it doesn't specify if it was the second one.",
@@ -6605,8 +6605,8 @@
     "statement": "Moderna's covid-19 vaccine candidate meets its primary efficacy endpoint in the subsequent interim analysis of the phase 3 cove study",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said Stéphane Bancel, Chief Executive Officer of Moderna.",
-      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said Stéphane Bancel, Chief Executive Officer of Moderna."
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease, said St\u00e9phane Bancel, Chief Executive Officer of Moderna.",
+      "This positive interim analysis from our Phase 3 study has given us the first clinical validation that our vaccine can prevent COVID-19 disease, including severe disease,\" said St\u00e9phane Bancel, Chief Executive Officer of Moderna."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence directly supports that Moderna's vaccine met its primary efficacy endpoint by preventing COVID-19 disease, as stated in their interim analysis.",
@@ -6737,7 +6737,7 @@
     "statement": "Functional sars-cov-2-specific immune memory persists after mild covid-19",
     "label": "SUPPORTED",
     "evidences": [
-      "Furthermore, the SARS-CoV-2-specific memory lymphocytes exhibited characteristics associated with potent antiviral immunity: memory T cells secreted IFN-γ and expanded upon antigen re-encounter, while memory B cells expressed receptors capable of neutralizing virus when expressed as antibodies.",
+      "Furthermore, the SARS-CoV-2-specific memory lymphocytes exhibited characteristics associated with potent antiviral immunity: memory T cells secreted IFN-\u03b3 and expanded upon antigen re-encounter, while memory B cells expressed receptors capable of neutralizing virus when expressed as antibodies.",
       "These findings demonstrate that mild COVID-19 elicits memory lymphocytes that persist and display functional hallmarks associated with antiviral protective immunity.",
       "We found that recovered individuals developed SARS-CoV-2-specific IgG antibody and neutralizing plasma, as well as virus-specific memory B and T cells that not only persisted, but in some cases increased numerically over three months following symptom onset."
     ],
@@ -6750,7 +6750,7 @@
     "statement": "Functional sars-cov-2-independent immune memory persists after mild covid-19",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Furthermore, the SARS-CoV-2-specific memory lymphocytes exhibited characteristics associated with potent antiviral immunity: memory T cells secreted IFN-γ and expanded upon antigen re-encounter, while memory B cells expressed receptors capable of neutralizing virus when expressed as antibodies.",
+      "Furthermore, the SARS-CoV-2-specific memory lymphocytes exhibited characteristics associated with potent antiviral immunity: memory T cells secreted IFN-\u03b3 and expanded upon antigen re-encounter, while memory B cells expressed receptors capable of neutralizing virus when expressed as antibodies.",
       "These findings demonstrate that mild COVID-19 elicits memory lymphocytes that persist and display functional hallmarks associated with antiviral protective immunity.",
       "We found that recovered individuals developed SARS-CoV-2-specific IgG antibody and neutralizing plasma, as well as virus-specific memory B and T cells that not only persisted, but in some cases increased numerically over three months following symptom onset."
     ],
@@ -6846,7 +6846,7 @@
       "Remdesivir has been recently recognized as a promising antiviral drug against a wide array of RNA viruses (including SARS/MERS-CoV5) infection in cultured cells, mice and nonhuman primate (NHP) models.",
       "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro.",
       "S2) showed that remdesivir also inhibited virus infection efficiently in a human cell line (human liver cancer Huh-7 cells), which is sensitive to 2019-nCoV.2 Chloroquine, a widely-used anti-malarial and autoimmune disease drug, has recently been reported as a potential broad-spectrum antiviral drug.8,9 Chloroquine is known to block virus infection by increasing endosomal pH required for virus/cell fusion, as well as interfering with the glycosylation of cellular receptors of SARS-CoV.10 Our time-of-addition assay demonstrated that chloroquine functioned at both entry, and at post-entry stages of the 2019-nCoV infection in Vero E6 cells (Fig.",
-      "Notably, two compounds remdesivir (EC50 = 0.77 μM; CC50 > 100 μM; SI > 129.87) and chloroquine (EC50 = 1.13 μM; CC50 > 100 μM, SI > 88.50) potently blocked virus infection at low-micromolar concentration and showed high SI (Fig."
+      "Notably, two compounds remdesivir (EC50 = 0.77 \u03bcM; CC50 > 100 \u03bcM; SI > 129.87) and chloroquine (EC50 = 1.13 \u03bcM; CC50 > 100 \u03bcM, SI > 88.50) potently blocked virus infection at low-micromolar concentration and showed high SI (Fig."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence directly states that both remdesivir and chloroquine effectively inhibit the novel coronavirus (2019-nCoV) in vitro. Additionally, experimental data supports this claim with details on EC50 values and mechanisms of action.",
@@ -6860,7 +6860,7 @@
       "Remdesivir has been recently recognized as a promising antiviral drug against a wide array of RNA viruses (including SARS/MERS-CoV5) infection in cultured cells, mice and nonhuman primate (NHP) models.",
       "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro.",
       "S2) showed that remdesivir also inhibited virus infection efficiently in a human cell line (human liver cancer Huh-7 cells), which is sensitive to 2019-nCoV.2 Chloroquine, a widely-used anti-malarial and autoimmune disease drug, has recently been reported as a potential broad-spectrum antiviral drug.8,9 Chloroquine is known to block virus infection by increasing endosomal pH required for virus/cell fusion, as well as interfering with the glycosylation of cellular receptors of SARS-CoV.10 Our time-of-addition assay demonstrated that chloroquine functioned at both entry, and at post-entry stages of the 2019-nCoV infection in Vero E6 cells (Fig.",
-      "Notably, two compounds remdesivir (EC50 = 0.77 μM; CC50 > 100 μM; SI > 129.87) and chloroquine (EC50 = 1.13 μM; CC50 > 100 μM, SI > 88.50) potently blocked virus infection at low-micromolar concentration and showed high SI (Fig."
+      "Notably, two compounds remdesivir (EC50 = 0.77 \u03bcM; CC50 > 100 \u03bcM; SI > 129.87) and chloroquine (EC50 = 1.13 \u03bcM; CC50 > 100 \u03bcM, SI > 88.50) potently blocked virus infection at low-micromolar concentration and showed high SI (Fig."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence clearly indicates that remdesivir and chloroquine inhibit the novel coronavirus in vitro, as demonstrated by their EC50 values and mechanisms of action. Despite the claim using the term 'developed,' which is misleading, the substances effectively inhibit the virus.",
@@ -6874,7 +6874,7 @@
       "Remdesivir has been recently recognized as a promising antiviral drug against a wide array of RNA viruses (including SARS/MERS-CoV5) infection in cultured cells, mice and nonhuman primate (NHP) models.",
       "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro.",
       "S2) showed that remdesivir also inhibited virus infection efficiently in a human cell line (human liver cancer Huh-7 cells), which is sensitive to 2019-nCoV.2 Chloroquine, a widely-used anti-malarial and autoimmune disease drug, has recently been reported as a potential broad-spectrum antiviral drug.8,9 Chloroquine is known to block virus infection by increasing endosomal pH required for virus/cell fusion, as well as interfering with the glycosylation of cellular receptors of SARS-CoV.10 Our time-of-addition assay demonstrated that chloroquine functioned at both entry, and at post-entry stages of the 2019-nCoV infection in Vero E6 cells (Fig.",
-      "Notably, two compounds remdesivir (EC50 = 0.77 μM; CC50 > 100 μM; SI > 129.87) and chloroquine (EC50 = 1.13 μM; CC50 > 100 μM, SI > 88.50) potently blocked virus infection at low-micromolar concentration and showed high SI (Fig."
+      "Notably, two compounds remdesivir (EC50 = 0.77 \u03bcM; CC50 > 100 \u03bcM; SI > 129.87) and chloroquine (EC50 = 1.13 \u03bcM; CC50 > 100 \u03bcM, SI > 88.50) potently blocked virus infection at low-micromolar concentration and showed high SI (Fig."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "While remdesivir and chloroquine demonstrate effectiveness against the novel coronavirus in vitro and preclinical models, there is no evidence provided regarding their efficacy in human trials. The claim requires support from human studies to be fully validated.",
@@ -7274,27 +7274,27 @@
   },
   {
     "id": "covid_fact-000581",
-    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 °c damages its genome integrity seriously",
+    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 \u00b0c damages its genome integrity seriously",
     "label": "SUPPORTED",
     "evidences": [
-      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 °C for 30 minutes and only 3.36% left after the inactivation of 92 °C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
-      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56°C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
+      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 \u00b0C for 30 minutes and only 3.36% left after the inactivation of 92 \u00b0C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
+      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56\u00b0C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
       "We therefore highly recommend to carry out systematic investigation on the impact of high temperature inactivation on the integrity of 2019-nCoV genome and develop a sample preservation solution to protect the detectable templates of 2019-nCoV nucleic acids from high temperature inactivation damage.",
-      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 °C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
+      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 \u00b0C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that inactivating samples at temperatures higher than 56°C (e.g., 56°C for 30 minutes) using Hanks solution resulted in significant loss of viral templates, indicating damage to genome integrity. While optimized preservation solutions can mitigate this issue, the claim is supported under standard conditions.",
+    "explanation": "The evidence shows that inactivating samples at temperatures higher than 56\u00b0C (e.g., 56\u00b0C for 30 minutes) using Hanks solution resulted in significant loss of viral templates, indicating damage to genome integrity. While optimized preservation solutions can mitigate this issue, the claim is supported under standard conditions.",
     "confidence": 0.9
   },
   {
     "id": "covid_fact-000582",
-    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 °c increased its genome integrity seriously",
+    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 \u00b0c increased its genome integrity seriously",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 °C for 30 minutes and only 3.36% left after the inactivation of 92 °C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
-      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56°C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
+      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 \u00b0C for 30 minutes and only 3.36% left after the inactivation of 92 \u00b0C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
+      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56\u00b0C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
       "We therefore highly recommend to carry out systematic investigation on the impact of high temperature inactivation on the integrity of 2019-nCoV genome and develop a sample preservation solution to protect the detectable templates of 2019-nCoV nucleic acids from high temperature inactivation damage.",
-      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 °C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
+      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 \u00b0C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence shows that inactivating at higher temperatures without an optimized preservation solution reduces detectable viral templates, indicating lower genome integrity. Thus, the claim that genome integrity increases is not supported.",
@@ -7302,30 +7302,30 @@
   },
   {
     "id": "covid_fact-000583",
-    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 °c increases its genome integrity seriously",
+    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 \u00b0c increases its genome integrity seriously",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 °C for 30 minutes and only 3.36% left after the inactivation of 92 °C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
-      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56°C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
+      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 \u00b0C for 30 minutes and only 3.36% left after the inactivation of 92 \u00b0C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
+      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56\u00b0C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
       "We therefore highly recommend to carry out systematic investigation on the impact of high temperature inactivation on the integrity of 2019-nCoV genome and develop a sample preservation solution to protect the detectable templates of 2019-nCoV nucleic acids from high temperature inactivation damage.",
-      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 °C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
+      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 \u00b0C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that higher temperatures (e.g., 56°C and above) significantly reduce detectable viral templates, indicating serious genome integrity issues.",
+    "explanation": "The evidence shows that higher temperatures (e.g., 56\u00b0C and above) significantly reduce detectable viral templates, indicating serious genome integrity issues.",
     "confidence": 0.9
   },
   {
     "id": "covid_fact-000584",
-    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 °c shows its genome integrity seriously",
+    "statement": "Inactivating porcine coronavirus before nuclei acid isolation with the temperature higher than 56 \u00b0c shows its genome integrity seriously",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 °C for 30 minutes and only 3.36% left after the inactivation of 92 °C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
-      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56°C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
+      "Our results showed that only 50.11% of the detectable viral templates left after the inactivation of 56 \u00b0C for 30 minutes and only 3.36% left after the inactivation of 92 \u00b0C for 5 minutes when the samples were preserved by Hanks solution, one of an isotonic salt solutions currently suggested.",
+      "According to The Laboratory Technical Guidelines for Detection 2019-nCoV (Fourth Edition) issued by National Health and Commission of China and The Experts Consensus on Nucleic Acid Detection of 2019-nCoV released by Chinese Society of Laboratory Medicine, the human samples must be placed under 56\u00b0C or higher to inactivate the viruses in order to keep the inspectors from virus infection before the nucleic acids were isolated as the template of qRT-PCR.",
       "We therefore highly recommend to carry out systematic investigation on the impact of high temperature inactivation on the integrity of 2019-nCoV genome and develop a sample preservation solution to protect the detectable templates of 2019-nCoV nucleic acids from high temperature inactivation damage.",
-      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 °C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
+      "However, the detectable templates of viral nucleic acids can be unchanged after the samples were incubated at 56 \u00b0C or higher if the samples were preserved with an optimized solution to protect the RNA from being disrupted."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence shows that inactivating porcine coronavirus at temperatures above 56°C significantly reduces the detectable viral templates, indicating harm to genome integrity. While this is a necessary safety step, optimized preservation solutions can mitigate this effect.",
+    "explanation": "The evidence shows that inactivating porcine coronavirus at temperatures above 56\u00b0C significantly reduces the detectable viral templates, indicating harm to genome integrity. While this is a necessary safety step, optimized preservation solutions can mitigate this effect.",
     "confidence": 0.9
   },
   {
@@ -8513,7 +8513,7 @@
     "label": "SUPPORTED",
     "evidences": [
       "By Dorah Feliciano \\- November 24, 2020 Facebook Twitter Linkedin WhatsApp Email [uamad id=\"317182\"] RIO DE JANEIRO, BRAZIL - The clinical trial of CoronaVac, the vaccine developed by the Butantan Institute in partnership with biopharmaceutical company Sinovac Life Science, has reached its final stage.",
-      "According to information from the São Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
+      "According to information from the S\u00e3o Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence explicitly states that the CoronaVac vaccine, developed by Butantan Institute and Sinovac, has reached its final clinical trial stage, directly supporting the claim.",
@@ -8525,7 +8525,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "By Dorah Feliciano \\- November 24, 2020 Facebook Twitter Linkedin WhatsApp Email [uamad id=\"317182\"] RIO DE JANEIRO, BRAZIL - The clinical trial of CoronaVac, the vaccine developed by the Butantan Institute in partnership with biopharmaceutical company Sinovac Life Science, has reached its final stage.",
-      "According to information from the São Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
+      "According to information from the S\u00e3o Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence indicates that the Butantan vaccine's clinical trial has reached its final stage, not the first stage as claimed.",
@@ -8537,7 +8537,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "By Dorah Feliciano \\- November 24, 2020 Facebook Twitter Linkedin WhatsApp Email [uamad id=\"317182\"] RIO DE JANEIRO, BRAZIL - The clinical trial of CoronaVac, the vaccine developed by the Butantan Institute in partnership with biopharmaceutical company Sinovac Life Science, has reached its final stage.",
-      "According to information from the São Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
+      "According to information from the S\u00e3o Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence indicates that the CoronaVac vaccine has reached its final clinical trial stage (Phase 3), supporting the claim that it has reached an advanced or challenge stage.",
@@ -8549,7 +8549,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "By Dorah Feliciano \\- November 24, 2020 Facebook Twitter Linkedin WhatsApp Email [uamad id=\"317182\"] RIO DE JANEIRO, BRAZIL - The clinical trial of CoronaVac, the vaccine developed by the Butantan Institute in partnership with biopharmaceutical company Sinovac Life Science, has reached its final stage.",
-      "According to information from the São Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
+      "According to information from the S\u00e3o Paulo government and Butantan Institute, results should come out in the first week of December, with 46 million doses likely to be available by January 2021."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence states that the Butantan vaccine has reached its final stage of clinical trials (Phase III), contradicting the claim about reaching the second stage.",
@@ -9107,7 +9107,7 @@
     "statement": "An alphavirus-derived replicon rna vaccine induces sars-cov-2 neutralizing antibody and t cell responses in mice and nonhuman primates",
     "label": "SUPPORTED",
     "evidences": [
-      "These data suggest that a 250-μg prime-only dose or a 50-μg prime/boost immunization with the LION/repRNA-CoV2S vaccine induced concentrations of neutralizing antibodies that would be sufficient to protect nonhuman primates from infection and disease."
+      "These data suggest that a 250-\u03bcg prime-only dose or a 50-\u03bcg prime/boost immunization with the LION/repRNA-CoV2S vaccine induced concentrations of neutralizing antibodies that would be sufficient to protect nonhuman primates from infection and disease."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence shows that an alphavirus-derived replicon RNA vaccine induces neutralizing antibodies in nonhuman primates but does not mention T cell responses or mice.",
@@ -9118,7 +9118,7 @@
     "statement": "An alphavirus-derived replicon rna vaccine induces sars-cov-2 neutralizing antibody and t cell responses in humans and nonhuman primates",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "These data suggest that a 250-μg prime-only dose or a 50-μg prime/boost immunization with the LION/repRNA-CoV2S vaccine induced concentrations of neutralizing antibodies that would be sufficient to protect nonhuman primates from infection and disease."
+      "These data suggest that a 250-\u03bcg prime-only dose or a 50-\u03bcg prime/boost immunization with the LION/repRNA-CoV2S vaccine induced concentrations of neutralizing antibodies that would be sufficient to protect nonhuman primates from infection and disease."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence supports that the vaccine induces neutralizing antibodies in nonhuman primates but does not mention T cell responses or human studies.",
@@ -9129,7 +9129,7 @@
     "statement": "An alphavirus-derived replicon rna vaccine induces sars-cov-2 neutralizing antibody and t cell responses in human and nonhuman primates",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "These data suggest that a 250-μg prime-only dose or a 50-μg prime/boost immunization with the LION/repRNA-CoV2S vaccine induced concentrations of neutralizing antibodies that would be sufficient to protect nonhuman primates from infection and disease."
+      "These data suggest that a 250-\u03bcg prime-only dose or a 50-\u03bcg prime/boost immunization with the LION/repRNA-CoV2S vaccine induced concentrations of neutralizing antibodies that would be sufficient to protect nonhuman primates from infection and disease."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence supports that the vaccine induces neutralizing antibodies in nonhuman primates but does not mention human trials or T cell responses.",
@@ -9185,7 +9185,7 @@
     "label": "SUPPORTED",
     "evidences": [
       "His Chaplinesque performance infuses high art and physical comedy into the subject of hygiene.",
-      "Some are extremely winning, like the hand-washing dance created by Vietnamese choreographer Quang Đăng.",
+      "Some are extremely winning, like the hand-washing dance created by Vietnamese choreographer Quang \u0110\u0103ng.",
       "Because the coronavirus is a global concern, video PSAs are emerging from all corners of the globe, all at once."
     ],
     "model_verdict": "SUPPORTED",
@@ -9198,7 +9198,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "His Chaplinesque performance infuses high art and physical comedy into the subject of hygiene.",
-      "Some are extremely winning, like the hand-washing dance created by Vietnamese choreographer Quang Đăng.",
+      "Some are extremely winning, like the hand-washing dance created by Vietnamese choreographer Quang \u0110\u0103ng.",
       "Because the coronavirus is a global concern, video PSAs are emerging from all corners of the globe, all at once."
     ],
     "model_verdict": "SUPPORTED",
@@ -9966,9 +9966,9 @@
     "statement": "Adjuvant-free nanofiber vaccine induces in situ lung dendritic cell activation and th17 responses",
     "label": "SUPPORTED",
     "evidences": [
-      "These observations are congruent with the conclusion of independent priming by intranasal EαQ11 nanofibers of CD4+ T cells in the lung.",
+      "These observations are congruent with the conclusion of independent priming by intranasal E\u03b1Q11 nanofibers of CD4+ T cells in the lung.",
       "Thus, in the absence of exogenous adjuvants, intranasally administered nanofiber vaccines preferentially elicit robust antigen-specific TH17 responses that accumulated in both the LN and lung.",
-      "During primary immune responses elicited by pathogens such as Gram-negative bacteria, IL-17 at the lung mucosal surface is produced by natural killer (NK) cells, γδ T cells, and group 3 innate lymphoid cells (ILCs) [reviewed in ( 35)]."
+      "During primary immune responses elicited by pathogens such as Gram-negative bacteria, IL-17 at the lung mucosal surface is produced by natural killer (NK) cells, \u03b3\u03b4 T cells, and group 3 innate lymphoid cells (ILCs) [reviewed in ( 35)]."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence supports that an adjuvant-free nanofiber vaccine induces TH17 responses in the lung but does not explicitly mention dendritic cell activation. Without confirmation of both aspects, the claim cannot be fully supported.",
@@ -9979,9 +9979,9 @@
     "statement": "Adjuvant-free nanofiber vaccine knocks in situ lung dendritic cell activation and th17 responses",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "These observations are congruent with the conclusion of independent priming by intranasal EαQ11 nanofibers of CD4+ T cells in the lung.",
+      "These observations are congruent with the conclusion of independent priming by intranasal E\u03b1Q11 nanofibers of CD4+ T cells in the lung.",
       "Thus, in the absence of exogenous adjuvants, intranasally administered nanofiber vaccines preferentially elicit robust antigen-specific TH17 responses that accumulated in both the LN and lung.",
-      "During primary immune responses elicited by pathogens such as Gram-negative bacteria, IL-17 at the lung mucosal surface is produced by natural killer (NK) cells, γδ T cells, and group 3 innate lymphoid cells (ILCs) [reviewed in ( 35)]."
+      "During primary immune responses elicited by pathogens such as Gram-negative bacteria, IL-17 at the lung mucosal surface is produced by natural killer (NK) cells, \u03b3\u03b4 T cells, and group 3 innate lymphoid cells (ILCs) [reviewed in ( 35)]."
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence shows that intranasal nanofiber vaccines without adjuvants elicit TH17 responses, supporting the claim.",
@@ -9992,9 +9992,9 @@
     "statement": "Adjuvant-free nanofiber vaccine induces in situ memory dendritic cell activation and th17 responses",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "These observations are congruent with the conclusion of independent priming by intranasal EαQ11 nanofibers of CD4+ T cells in the lung.",
+      "These observations are congruent with the conclusion of independent priming by intranasal E\u03b1Q11 nanofibers of CD4+ T cells in the lung.",
       "Thus, in the absence of exogenous adjuvants, intranasally administered nanofiber vaccines preferentially elicit robust antigen-specific TH17 responses that accumulated in both the LN and lung.",
-      "During primary immune responses elicited by pathogens such as Gram-negative bacteria, IL-17 at the lung mucosal surface is produced by natural killer (NK) cells, γδ T cells, and group 3 innate lymphoid cells (ILCs) [reviewed in ( 35)]."
+      "During primary immune responses elicited by pathogens such as Gram-negative bacteria, IL-17 at the lung mucosal surface is produced by natural killer (NK) cells, \u03b3\u03b4 T cells, and group 3 innate lymphoid cells (ILCs) [reviewed in ( 35)]."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence discusses adjuvant-free nanofiber vaccines inducing TH17 responses and CD4+ T cell priming but does not mention memory dendritic cell activation.",
@@ -10434,7 +10434,7 @@
       "Home testing kits are widely used in health care, for example in the management of diabetes and the diagnosis of HIV."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence supports laboratory testing for新冠病毒 using PCR and acknowledges alternative testing methods like home kits, which contribute to tracking infection levels in the community.",
+    "explanation": "The evidence supports laboratory testing for\u65b0\u51a0\u75c5\u6bd2 using PCR and acknowledges alternative testing methods like home kits, which contribute to tracking infection levels in the community.",
     "confidence": 0.9
   },
   {
@@ -10635,10 +10635,10 @@
     "label": "SUPPORTED",
     "evidences": [
       "We developed an antagonistic peptide that inhibits S1-ACE2 interaction and CoV2-S1-induced productions of pro-inflammatory cytokines.",
-      "Here we demonstrate that 2019 SARS-CoV-2 spike protein subunit 1 (CoV2-S1) induces high levels of NF-κB activations, production of pro- inflammatory cytokines and mild epithelial damage, in human bronchial epithelial cells."
+      "Here we demonstrate that 2019 SARS-CoV-2 spike protein subunit 1 (CoV2-S1) induces high levels of NF-\u03baB activations, production of pro- inflammatory cytokines and mild epithelial damage, in human bronchial epithelial cells."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The claim that the SARS-CoV-2 spike protein promotes a hyper-inflammatory response is supported by the evidence showing induction of pro-inflammatory cytokines and NF-κB activation. However, the evidence does not mention FDA-approved ER stress or MAP kinase inhibitors, only an antagonistic peptide.",
+    "explanation": "The claim that the SARS-CoV-2 spike protein promotes a hyper-inflammatory response is supported by the evidence showing induction of pro-inflammatory cytokines and NF-\u03baB activation. However, the evidence does not mention FDA-approved ER stress or MAP kinase inhibitors, only an antagonistic peptide.",
     "confidence": 0.6
   },
   {
@@ -10647,7 +10647,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "We developed an antagonistic peptide that inhibits S1-ACE2 interaction and CoV2-S1-induced productions of pro-inflammatory cytokines.",
-      "Here we demonstrate that 2019 SARS-CoV-2 spike protein subunit 1 (CoV2-S1) induces high levels of NF-κB activations, production of pro- inflammatory cytokines and mild epithelial damage, in human bronchial epithelial cells."
+      "Here we demonstrate that 2019 SARS-CoV-2 spike protein subunit 1 (CoV2-S1) induces high levels of NF-\u03baB activations, production of pro- inflammatory cytokines and mild epithelial damage, in human bronchial epithelial cells."
     ],
     "model_verdict": "NOT_SUPPORTED",
     "explanation": "The evidence supports that the spike protein induces a hyper-inflammatory response and that an antagonistic peptide reduces cytokine production. However, it does not provide information on ER stress or MAP kinase inhibitors, leaving their effectiveness unaddressed.",
@@ -11525,13 +11525,13 @@
     "label": "SUPPORTED",
     "evidences": [
       "4 SARS-CoV-2 infection triggers apoptosis through caspase-8 activation.",
-      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1β processing.",
+      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1\u03b2 processing.",
       "2 SARS-CoV-2 infection induces caspase-8 activation Fig.",
       "SARS-CoV-2 infection induces the cell death through the activation of caspase-8.",
       "Here we report that SARS-CoV-2 infection activates caspase-8 to trigger cell apoptosis and inflammatory cytokine processing in the lung epithelial cells."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence directly supports that SARS-CoV-2 infection triggers caspase-8 activation, leading to cell death (apoptosis) and inflammatory cytokine processing, such as pro-IL-1β.",
+    "explanation": "The evidence directly supports that SARS-CoV-2 infection triggers caspase-8 activation, leading to cell death (apoptosis) and inflammatory cytokine processing, such as pro-IL-1\u03b2.",
     "confidence": 0.95
   },
   {
@@ -11540,7 +11540,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "4 SARS-CoV-2 infection triggers apoptosis through caspase-8 activation.",
-      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1β processing.",
+      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1\u03b2 processing.",
       "2 SARS-CoV-2 infection induces caspase-8 activation Fig.",
       "SARS-CoV-2 infection induces the cell death through the activation of caspase-8.",
       "Here we report that SARS-CoV-2 infection activates caspase-8 to trigger cell apoptosis and inflammatory cytokine processing in the lung epithelial cells."
@@ -11555,7 +11555,7 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "4 SARS-CoV-2 infection triggers apoptosis through caspase-8 activation.",
-      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1β processing.",
+      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1\u03b2 processing.",
       "2 SARS-CoV-2 infection induces caspase-8 activation Fig.",
       "SARS-CoV-2 infection induces the cell death through the activation of caspase-8.",
       "Here we report that SARS-CoV-2 infection activates caspase-8 to trigger cell apoptosis and inflammatory cytokine processing in the lung epithelial cells."
@@ -11570,13 +11570,13 @@
     "label": "NOT_SUPPORTED",
     "evidences": [
       "4 SARS-CoV-2 infection triggers apoptosis through caspase-8 activation.",
-      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1β processing.",
+      "2 SARS-CoV-2 infection induces caspase-8 activation to mediate pro-IL-1\u03b2 processing.",
       "2 SARS-CoV-2 infection induces caspase-8 activation Fig.",
       "SARS-CoV-2 infection induces the cell death through the activation of caspase-8.",
       "Here we report that SARS-CoV-2 infection activates caspase-8 to trigger cell apoptosis and inflammatory cytokine processing in the lung epithelial cells."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence indicates that SARS-CoV-2 infection activates caspase-8, which triggers apoptosis (cell death) and processes pro-inflammatory cytokines like IL-1β, thereby promoting inflammation rather than inhibiting it.",
+    "explanation": "The evidence indicates that SARS-CoV-2 infection activates caspase-8, which triggers apoptosis (cell death) and processes pro-inflammatory cytokines like IL-1\u03b2, thereby promoting inflammation rather than inhibiting it.",
     "confidence": 0.9
   },
   {
@@ -11744,12 +11744,12 @@
     "statement": "Alpha-1 antitrypsin inhibits sars-cov-2 infection",
     "label": "SUPPORTED",
     "evidences": [
-      "Our findings show that endogenous α1-AT restricts SARS-CoV-2 and repurposes α1-AT-based drugs for COVID-19 therapy.",
-      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified α1-antitrypsin (α1-AT) as specific inhibitor of SARS-CoV-2.",
-      "α1-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
+      "Our findings show that endogenous \u03b11-AT restricts SARS-CoV-2 and repurposes \u03b11-AT-based drugs for COVID-19 therapy.",
+      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified \u03b11-antitrypsin (\u03b11-AT) as specific inhibitor of SARS-CoV-2.",
+      "\u03b11-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence clearly shows that alpha-1 antitrypsin (α1-AT) inhibits SARS-CoV-2 infection by targeting the viral spike protein, which supports the claim.",
+    "explanation": "The evidence clearly shows that alpha-1 antitrypsin (\u03b11-AT) inhibits SARS-CoV-2 infection by targeting the viral spike protein, which supports the claim.",
     "confidence": 0.95
   },
   {
@@ -11757,12 +11757,12 @@
     "statement": "Cox-1 antitrypsin inhibits sars-cov-2 infection",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Our findings show that endogenous α1-AT restricts SARS-CoV-2 and repurposes α1-AT-based drugs for COVID-19 therapy.",
-      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified α1-antitrypsin (α1-AT) as specific inhibitor of SARS-CoV-2.",
-      "α1-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
+      "Our findings show that endogenous \u03b11-AT restricts SARS-CoV-2 and repurposes \u03b11-AT-based drugs for COVID-19 therapy.",
+      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified \u03b11-antitrypsin (\u03b11-AT) as specific inhibitor of SARS-CoV-2.",
+      "\u03b11-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The claim incorrectly references 'Cox-1 antitrypsin,' which is not mentioned in the evidence. The evidence supports α1-antitrypsin (α1-AT) inhibiting SARS-CoV-2, but not Cox-1.",
+    "explanation": "The claim incorrectly references 'Cox-1 antitrypsin,' which is not mentioned in the evidence. The evidence supports \u03b11-antitrypsin (\u03b11-AT) inhibiting SARS-CoV-2, but not Cox-1.",
     "confidence": 0.8
   },
   {
@@ -11770,12 +11770,12 @@
     "statement": "Mcp-1 antitrypsin inhibits sars-cov-2 infection",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Our findings show that endogenous α1-AT restricts SARS-CoV-2 and repurposes α1-AT-based drugs for COVID-19 therapy.",
-      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified α1-antitrypsin (α1-AT) as specific inhibitor of SARS-CoV-2.",
-      "α1-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
+      "Our findings show that endogenous \u03b11-AT restricts SARS-CoV-2 and repurposes \u03b11-AT-based drugs for COVID-19 therapy.",
+      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified \u03b11-antitrypsin (\u03b11-AT) as specific inhibitor of SARS-CoV-2.",
+      "\u03b11-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
     ],
     "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The claim refers to 'Mcp-1 antitrypsin,' but the evidence provided discusses 'α1-antitrypsin (α1-AT),' which is a different protein. There is no mention of MCP-1 in the evidence, so the claim about Mcp-1 is unsupported.",
+    "explanation": "The claim refers to 'Mcp-1 antitrypsin,' but the evidence provided discusses '\u03b11-antitrypsin (\u03b11-AT),' which is a different protein. There is no mention of MCP-1 in the evidence, so the claim about Mcp-1 is unsupported.",
     "confidence": 0.85
   },
   {
@@ -11783,12 +11783,12 @@
     "statement": "Il-1 antitrypsin inhibits sars-cov-2 infection",
     "label": "NOT_SUPPORTED",
     "evidences": [
-      "Our findings show that endogenous α1-AT restricts SARS-CoV-2 and repurposes α1-AT-based drugs for COVID-19 therapy.",
-      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified α1-antitrypsin (α1-AT) as specific inhibitor of SARS-CoV-2.",
-      "α1-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
+      "Our findings show that endogenous \u03b11-AT restricts SARS-CoV-2 and repurposes \u03b11-AT-based drugs for COVID-19 therapy.",
+      "To identify factors of the respiratory tract that suppress SARS-CoV-2, we screened a peptide/protein library derived from bronchoalveolar lavage, and identified \u03b11-antitrypsin (\u03b11-AT) as specific inhibitor of SARS-CoV-2.",
+      "\u03b11-AT targets the viral spike protein and blocks SARS-CoV-2 infection of human airway epithelium at physiological concentrations."
     ],
     "model_verdict": "SUPPORTED",
-    "explanation": "The evidence clearly shows that alpha-1 antitrypsin (α1-AT) inhibits SARS-CoV-2 by targeting the viral spike protein and blocking infection in human airway epithelium at physiological concentrations.",
+    "explanation": "The evidence clearly shows that alpha-1 antitrypsin (\u03b11-AT) inhibits SARS-CoV-2 by targeting the viral spike protein and blocking infection in human airway epithelium at physiological concentrations.",
     "confidence": 0.95
   },
   {
@@ -12548,210 +12548,6 @@
     ],
     "model_verdict": "SUPPORTED",
     "explanation": "The evidence discusses how blocking IL-6 pathways could be a new treatment for severe COVID-19 and mentions Tocilizumab, an IL-6 blocker that is effective against the disease, supporting the claim.",
-    "confidence": 0.95
-  },
-  {
-    "id": "covid_fact-001001",
-    "statement": "Il-6 inhibition could be resistant to covid-19",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "If it is possible to block the signal transduction pathway of IL-6, it is expected to become a new method for the treatment of severe COVID-19 patients.",
-      "Tocilizumab is an IL-6 receptor (IL-6R) blocker that can effectively block the IL-6 signal transduction pathway and thus is likely to become an effective drug for patients with severe COVID-19."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence supports that IL-6 inhibition can be an effective treatment for severe COVID-19 but does not indicate that it confers resistance to the virus, which would imply prevention or reduced susceptibility.",
-    "confidence": 0.7
-  },
-  {
-    "id": "covid_fact-001002",
-    "statement": "Il-6 overexpression could be key to covid-19",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "If it is possible to block the signal transduction pathway of IL-6, it is expected to become a new method for the treatment of severe COVID-19 patients.",
-      "Tocilizumab is an IL-6 receptor (IL-6R) blocker that can effectively block the IL-6 signal transduction pathway and thus is likely to become an effective drug for patients with severe COVID-19."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence supports the claim by showing that blocking IL-6 pathways improves severe COVID-19 outcomes, suggesting IL-6 overexpression plays a key role.",
-    "confidence": 0.9
-  },
-  {
-    "id": "covid_fact-001003",
-    "statement": "Il-6 expression could be key to covid-19",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "If it is possible to block the signal transduction pathway of IL-6, it is expected to become a new method for the treatment of severe COVID-19 patients.",
-      "Tocilizumab is an IL-6 receptor (IL-6R) blocker that can effectively block the IL-6 signal transduction pathway and thus is likely to become an effective drug for patients with severe COVID-19."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence indicates that targeting IL-6, through the use of Tocilizumab, is a potential treatment for severe COVID-19, supporting the claim that IL-6 expression plays a key role.",
-    "confidence": 0.85
-  },
-  {
-    "id": "covid_fact-001004",
-    "statement": "Pompeo saying that chinese labs created covid-19 .",
-    "label": "SUPPORTED",
-    "evidences": [
-      "ANDREW HARNIK/POOL/AFP via Getty Images Secretary of State Mike Pompeo on Sunday said there was \"enormous evidence\" that COVID-19 originated in a Chinese lab.",
-      "Secretary of State Mike Pompeo on Sunday claimed there was \"enormous evidence\" that COVID-19, the disease caused by the novel coronavirus, originated in a laboratory in Wuhan, China, though there has been so far no public evidence to support such a theory."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "While the evidence shows that Secretary of State Mike Pompeo claimed there was 'enormous evidence' supporting the theory that COVID-19 originated in a Chinese lab, it also explicitly states that no public evidence has been provided to support this claim. Therefore, the assertion is not supported by available evidence.",
-    "confidence": 0.9
-  },
-  {
-    "id": "covid_fact-001005",
-    "statement": "Pompeo saying that our labs created covid-19.",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "ANDREW HARNIK/POOL/AFP via Getty Images Secretary of State Mike Pompeo on Sunday said there was \"enormous evidence\" that COVID-19 originated in a Chinese lab.",
-      "Secretary of State Mike Pompeo on Sunday claimed there was \"enormous evidence\" that COVID-19, the disease caused by the novel coronavirus, originated in a laboratory in Wuhan, China, though there has been so far no public evidence to support such a theory."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence indicates Secretary Pompeo suggested COVID-19 may have originated in a Chinese lab, but without public evidence to support this claim. The use of 'our labs' is unclear and not directly addressed in the evidence provided.",
-    "confidence": 0.9
-  },
-  {
-    "id": "covid_fact-001006",
-    "statement": "Interferons and viruses induce a novel truncated ace2 isoform and not the full-length sars-cov-2 receptor",
-    "label": "SUPPORTED",
-    "evidences": [
-      "We then showed that dACE2 , but not ACE2 , is induced in various human cell types by IFNs and viruses; this information is important to consider for future therapeutic strategies and understanding COVID-19 susceptibility and outcomes.",
-      "Our discovery of dACE2 , a truncated version of ACE2 , demonstrates that it is dACE2 and not ACE2 that is induced by IFNs and viruses, including SARS-CoV-2."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence confirms that dACE2, a truncated version of ACE2, is induced by interferons and viruses, including SARS-CoV-2, while the full-length ACE2 receptor is not.",
-    "confidence": 1
-  },
-  {
-    "id": "covid_fact-001007",
-    "statement": "Interferons and viruses induce a novel truncated ace2 isoform and produce the full-length sars-cov-2 receptor",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "We then showed that dACE2 , but not ACE2 , is induced in various human cell types by IFNs and viruses; this information is important to consider for future therapeutic strategies and understanding COVID-19 susceptibility and outcomes.",
-      "Our discovery of dACE2 , a truncated version of ACE2 , demonstrates that it is dACE2 and not ACE2 that is induced by IFNs and viruses, including SARS-CoV-2."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence shows that interferons and viruses induce dACE2, a truncated ACE2 isoform, but it does not confirm that they produce the full-length SARS-CoV-2 receptor.",
-    "confidence": 0.7
-  },
-  {
-    "id": "covid_fact-001008",
-    "statement": "Interferons and viruses induce a novel truncated ace2 isoform and induce the full-length sars-cov-2 receptor",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "We then showed that dACE2 , but not ACE2 , is induced in various human cell types by IFNs and viruses; this information is important to consider for future therapeutic strategies and understanding COVID-19 susceptibility and outcomes.",
-      "Our discovery of dACE2 , a truncated version of ACE2 , demonstrates that it is dACE2 and not ACE2 that is induced by IFNs and viruses, including SARS-CoV-2."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "While interferons and viruses induce a novel truncated ACE2 isoform (dACE2), they do not induce the full-length SARS-CoV-2 receptor, making the claim partially incorrect.",
-    "confidence": 0.75
-  },
-  {
-    "id": "covid_fact-001009",
-    "statement": "Interferons and viruses induce a novel truncated ace2 isoform and form the full-length sars-cov-2 receptor",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "We then showed that dACE2 , but not ACE2 , is induced in various human cell types by IFNs and viruses; this information is important to consider for future therapeutic strategies and understanding COVID-19 susceptibility and outcomes.",
-      "Our discovery of dACE2 , a truncated version of ACE2 , demonstrates that it is dACE2 and not ACE2 that is induced by IFNs and viruses, including SARS-CoV-2."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence shows that interferons and viruses induce a truncated ACE2 isoform (dACE2), but it does not support the claim that this isoform forms the full-length SARS-CoV-2 receptor. Instead, the full-length ACE2 is the actual receptor.",
-    "confidence": 0.9
-  },
-  {
-    "id": "covid_fact-001010",
-    "statement": "Neutralizing antibodies correlate with protection from sars-cov-2 in humans during a fishery vessel outbreak with high attack rate",
-    "label": "SUPPORTED",
-    "evidences": [
-      "This article has been published \"Neutralizing Antibodies Correlate with Protection from SARS-CoV-2 in Humans during a Fishery Vessel Outbreak with a High Attack Rate\" in J Clin Microbiol."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence directly confirms the claim by referencing a study published in J Clin Microbiol with the exact same title, indicating that neutralizing antibodies correlate with protection against SARS-CoV-2 during the specified outbreak.",
-    "confidence": 1
-  },
-  {
-    "id": "covid_fact-001011",
-    "statement": "Neutralizing antibodies correlate with protection from sars-cov-2 in pigs during a fishery vessel outbreak with high attack rate",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "This article has been published \"Neutralizing Antibodies Correlate with Protection from SARS-CoV-2 in Humans during a Fishery Vessel Outbreak with a High Attack Rate\" in J Clin Microbiol."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence discusses neutralizing antibodies in humans during a fishery vessel outbreak, but the claim pertains to pigs. Without specific data on pigs, the correlation cannot be confirmed.",
-    "confidence": 0.95
-  },
-  {
-    "id": "covid_fact-001012",
-    "statement": "Neutralizing antibodies correlate with protection from sars-cov-2 in mice during a fishery vessel outbreak with high attack rate",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "This article has been published \"Neutralizing Antibodies Correlate with Protection from SARS-CoV-2 in Humans during a Fishery Vessel Outbreak with a High Attack Rate\" in J Clin Microbiol."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence provided supports a correlation between neutralizing antibodies and protection from SARS-CoV-2 in humans during an outbreak, but it does not mention mice. The claim specifically refers to mice, which is not addressed in the evidence.",
-    "confidence": 0.95
-  },
-  {
-    "id": "covid_fact-001013",
-    "statement": "Neutralizing antibodies correlate with protection from sars-cov-2 in animals during a fishery vessel outbreak with high attack rate",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "This article has been published \"Neutralizing Antibodies Correlate with Protection from SARS-CoV-2 in Humans during a Fishery Vessel Outbreak with a High Attack Rate\" in J Clin Microbiol."
-    ],
-    "model_verdict": "NOT_SUPPORTED",
-    "explanation": "The evidence discusses humans rather than animals, so it doesn't support the claim about animals.",
-    "confidence": 0.7
-  },
-  {
-    "id": "covid_fact-001014",
-    "statement": "Covid-19 infections leave an impact on the heart",
-    "label": "SUPPORTED",
-    "evidences": [
-      "If this high rate of risk is confirmed,  then the crisis of COVID-19 will not abate but will instead shift to a new de novo incidence of heart failure and other chronic cardiovascular complications, they wrote.",
-      "These are two studies that both suggest that being infected with Covid-19 carries a high likelihood of having some involvement of the heart.",
-      "The connection between Covid-19 and blood clots emerged later, after doctors began connecting the pulmonary aneurysms, strokes, and heart attacks they were seeing to the virus."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence clearly states that Covid-19 infections are linked to heart-related issues such as heart failure, blood clots leading to strokes and heart attacks, which supports the claim.",
-    "confidence": 0.95
-  },
-  {
-    "id": "covid_fact-001015",
-    "statement": "Covid-19 infections leave an impact on the pandemic",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "If this high rate of risk is confirmed,  then the crisis of COVID-19 will not abate but will instead shift to a new de novo incidence of heart failure and other chronic cardiovascular complications, they wrote.",
-      "These are two studies that both suggest that being infected with Covid-19 carries a high likelihood of having some involvement of the heart.",
-      "The connection between Covid-19 and blood clots emerged later, after doctors began connecting the pulmonary aneurysms, strokes, and heart attacks they were seeing to the virus."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence provided demonstrates that Covid-19 infections lead to serious long-term health impacts such as heart failure, cardiovascular complications, and blood clot-related issues like strokes and heart attacks. These findings support the claim that Covid-19 infections leave a significant impact on the pandemic by contributing to ongoing health crises beyond the initial infection.",
-    "confidence": 0.95
-  },
-  {
-    "id": "covid_fact-001016",
-    "statement": "Covid-19 infections leave an impact on the epidemic",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "If this high rate of risk is confirmed,  then the crisis of COVID-19 will not abate but will instead shift to a new de novo incidence of heart failure and other chronic cardiovascular complications, they wrote.",
-      "These are two studies that both suggest that being infected with Covid-19 carries a high likelihood of having some involvement of the heart.",
-      "The connection between Covid-19 and blood clots emerged later, after doctors began connecting the pulmonary aneurysms, strokes, and heart attacks they were seeing to the virus."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The evidence provided indicates that Covid-19 infections lead to various long-term health complications such as heart failure, chronic cardiovascular issues, and blood clots, which contribute to the epidemic's impact.",
-    "confidence": 0.95
-  },
-  {
-    "id": "covid_fact-001017",
-    "statement": "Covid-19 infections leave an impact on the future",
-    "label": "NOT_SUPPORTED",
-    "evidences": [
-      "If this high rate of risk is confirmed,  then the crisis of COVID-19 will not abate but will instead shift to a new de novo incidence of heart failure and other chronic cardiovascular complications, they wrote.",
-      "These are two studies that both suggest that being infected with Covid-19 carries a high likelihood of having some involvement of the heart.",
-      "The connection between Covid-19 and blood clots emerged later, after doctors began connecting the pulmonary aneurysms, strokes, and heart attacks they were seeing to the virus."
-    ],
-    "model_verdict": "SUPPORTED",
-    "explanation": "The claim is supported because the evidence clearly states that Covid-19 infections can lead to long-term health issues such as heart failure, chronic cardiovascular complications, blood clots, pulmonary aneurysms, strokes, and heart attacks, all of which have future impacts on individuals.",
     "confidence": 0.95
   }
 ]
