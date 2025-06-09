@@ -173,3 +173,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 hover/data/wiki_wo_links.db
+archive/hover/data/wiki_wo_links.db
