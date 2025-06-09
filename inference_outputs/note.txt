@@ -1,0 +1,1 @@
+this folder contains the outputs as per experiment. The raw outputs, found in `source/`, are converted to match the format of sample_complex.json, and are found in `converted_outputs/` dir.
