@@ -1,0 +1,346 @@
+[
+  {
+    "id": "covid_fact-000655",
+    "statement": "The sars-cov-2 cytopathic effect is compatible with autophagy modulators",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "One Sentence Summary Blocking SARS-CoV-2 cytopathic effects with selective autophagy inhibitors underlying the clinical benefits of chloroquine and hydroxychloroquine.",
+      "While it is known that chloroquine and hydroxychloroquine, extensively explored as clinical agents for COVID-19, have multiple cellular effects including inhibiting autophagy, there are also dose- limiting toxicities in patients that make clearly establishing their potential mechanisms-of-action problematic.",
+      "Immunofluorescence staining for LC3B and LysoTracker dye staining assays in several cell lines indicated their potency and efficacy for inhibiting autophagy correlated with the measurements in the SARS-CoV-2 cytopathic effect assay."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence suggests that SARS-CoV-2 cytopathic effects can be influenced by autophagy modulators, such as chloroquine and hydroxychloroquine, which inhibit autophagy. This compatibility is indicated by the correlation between autophagy inhibition and the SARS-CoV-2 cytopathic effect assay results.",
+    "confidence": 0.8,
+    "human_score": 4
+  },
+  {
+    "id": "covid_fact-000115",
+    "statement": "New self-administered coronavirus test found effective",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Self-administered COVID-19 coronavirus can be just as effective as physician- administered tests, according to a new study by UnitedHealth Group.",
+      "Researchers found that self-administered swab tests accurately detected the disease in more than 90 percent of positive patients, which is consistent with physician-administered tests.",
+      "Among 500 OptumCare patients in Washington state, the self-administered swabs were able to accurately detect the coronavirus that causes COVID-19 in 90% of those who are positive, a rate that's consistent with physician-administered swabs, the insurance giant announced.",
+      "A new study found that self-administered tests may be as effective as those conducted by healthcare workers."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim that a new self-administered coronavirus test was found effective is supported by evidence from a study by UnitedHealth Group. The study states that self-administered tests accurately detected COVID-19 in over 90% of positive cases, which is consistent with the effectiveness of tests administered by healthcare professionals. This supports the claim of the effectiveness of the self-administered tests.",
+    "confidence": 0.95,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000026",
+    "statement": "Fenofibrate increases the amount of sulfatide which seems beneficial against covid-19",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence explicitly mentions that fenofibrate is an agent that increases sulfatide levels and suggests it should be investigated for its beneficial effect against coronavirus infection, which aligns with the claim.",
+    "confidence": 0.8,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000760",
+    "statement": "White house 's opening up america again guidelines",
+    "label": "SUPPORTED",
+    "evidences": [
+      "According to the White House, once these criteria are met, states and regions can begin returning to normal economic activity in three phases.",
+      "Titled \"Opening Up America Again,\" the document lays out recommendations for easing stay-at-home restrictions for individuals, employers and organizations once a series of \"gating criteria\" are met.",
+      "Learn more about the guidelines at WhiteHouse.gov/OpeningAmerica.",
+      "This evening, President Trump continued his unprecedented level of access to the American people at a press conference where he presented his guidelines on the three phases of Opening Up America Again.",
+      "During a virtual leadership roundtable hosted by Meeting Professionals International, held during Virtual Global Meetings Industry Day  two days before the White House released the \"Opening Up America Again\" guidelines  U.S. Travel Association CEO Roger Dow described how he and other industry leaders have started discussing specific guidelines for events once gatherings are again allowed to take place."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that the 'Opening Up America Again' guidelines were indeed issued by the White House. These guidelines outline steps for easing restrictions and returning to normal economic activity in phases. The claim is supported by the evidence provided.",
+    "confidence": 0.9,
+    "human_score": 4
+  },
+  {
+    "id": "covid_fact-000282",
+    "statement": "Mucus production stimulated by ifn-ahr signaling prevents hypoxia of covid-19",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Together, these results suggest that mucus is likely to be produced in the lung epithelial cells of COVID-19 patients.",
+      "7: A schematic for AhR-upregulated mucins in the hypoxia of COVID-19 patients.",
+      "1a), suggesting that mucus-like substance might be present in the BAL of COVID-19 patients."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided mentions mucus production in the context of COVID-19 and references AhR-upregulated mucins in the hypoxia of COVID-19 patients. However, it does not explicitly establish a causal relationship between IFN-AhR signaling specifically stimulating mucus production that prevents hypoxia in COVID-19. The link between the signaling pathway and prevention of hypoxia is not directly supported by the evidence given.",
+    "confidence": 0.6,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000251",
+    "statement": "Transcriptional profiling reveals trpm5-depleted cells involved in viral infection in the olfactory epithelium",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Specialized chemosensory epithelial cells that express the transient receptor potential cation channel subfamily M member 5 (TRPM5) are found throughout the airways and intestinal epithelium and are involved in responses to viral infection.",
+      "Our study provides new insights into a potential role for TRPM5-expressing cells in viral infection of the olfactory epithelium.",
+      "We find profuse expression of transcripts involved in inflammation, immunity and viral infection in TRPM5-expressing microvillous cells and olfactory sensory neurons."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim suggests that transcriptional profiling has revealed the involvement of trpm5-depleted cells in viral infection specifically in the olfactory epithelium. The evidence provided indicates that TRPM5-expressing cells, not trpm5-depleted, in the olfactory epithelium are involved in viral infection, along with expressing various transcripts involved in inflammation, immunity, and viral infection. Therefore, the claim is not supported by the evidence as the focus is on trpm5-depleted rather than trpm5-expressing cells.",
+    "confidence": 0.8,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000229",
+    "statement": "Lack of oxford coronavirus vaccine begin in kenya",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Following the necessary approvals from regulators, as well as the national ministry of health, and Kilifi county, the first volunteers for the trial have recently received their vaccinations.",
+      "The trial in Kenya will initially involve 40 frontline workers in Kilifi County.",
+      "Professor Andy Pollard, Director of the Oxford Vaccine Group and Chief Investigator of the Oxford Vaccine Trial, said: Were excited to see our colleagues in Kenya today joining those around the world in helping us to evaluate the ChAdOx1 nCov-2019 Oxford coronavirus vaccine, as it is important to evaluate the vaccine in as many different populations as possible. Kenya joins a number of countries including the United Kingdom, South Africa and Brazil who are running trials to evaluate the ChAdOx1 nCoV-19 vaccine, with over 20,000 volunteers now taking part in trials across these countries."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim suggests a lack of the Oxford coronavirus vaccine begins in Kenya. However, the evidence indicates that vaccine trials have begun in Kenya, involving 40 frontline workers. This does not support a claim of a lack of vaccines but rather shows active participation in vaccine trials. Thus, the claim is not supported.",
+    "confidence": 0.9,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000143",
+    "statement": "The spike glycoprotein of the new coronavirus 2019-ncov contains a furin-like cleavage site absent in cov of the same clade .",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Despite a high similarity with the genome sequence of SARS-CoV and SARS-like CoVs, we identified a peculiar furin-like cleavage site in the Spike protein of the 2019-nCoV, lacking in the other SARS-like CoVs.",
+      "It has been speculated that RRAR, a unique furin-like cleavage site (FCS) in the spike protein (S), which is absent in other lineage B βCoVs, such as SARS-CoV, is responsible for its high infectivity and transmissibility.2 A coronavirus (CoV) infects the target cell by either cytoplasmic or endosomal membrane fusion."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that 2019-nCoV (COVID-19) contains a unique furin-like cleavage site in its spike glycoprotein that is absent in other SARS-like coronaviruses, supporting the claim about its absence in CoVs of the same clade.",
+    "confidence": 0.95,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000755",
+    "statement": "Recovery of monocyte activation is associated with resolution of lung injury in covid-19 convalescence.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "These data suggest persistent changes in innate immune function following recovery from COVID-19 and indicate that immune modulating therapies targeting monocytes and leucocyte migration may be useful in recovering COVID-19 patients with persistent symptoms.",
+      "Recovery of monocyte exhaustion is associated with resolution of lung injury in COVID-19 c",
+      "Expression of migration molecules on monocytes was also consistently higher in convalescent patients with a normal chest X-ray.",
+      "We recently demonstrated profound alterations of monocytes in hospitalised COVID-19 patients."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence indicates that changes in monocyte function, such as recovery from exhaustion and increased expression of migration molecules, are associated with resolution of lung injury in COVID-19 convalescence. This supports the claim that recovery of monocyte activation is linked to lung injury resolution.",
+    "confidence": 0.8,
+    "human_score": 3
+  },
+  {
+    "id": "covid_fact-000105",
+    "statement": "Data gives eua to saliva-based test kit",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Coronavirus (COVID-19) Update: FDA Issues Emergency Use Authorization to Yale School of Public Health for SalivaDirect, Which Uses a New Method of Saliva Sample Processing 1.",
+      "Coronavirus (COVID-19) Update: FDA Authorizes First Diagnostic Test Using At-Home Collection of Saliva Specimens 1.",
+      "The FDA has authorized more than 80 COVID-19 tests and adding more options for at-home sample collection is an important advancement in diagnostic testing during this public health emergency. Todays EUA for Rutgers Clinical Genomics Laboratorys molecular test permits testing of a saliva sample collected from the patient using a designated self- collection kit.",
+      "Specifically, the FDA issued an emergency use authorization (EUA) to Rutgers Clinical Genomics Laboratory for their COVID-19 laboratory developed test (LDT), which had been previously added to the high complexity molecular- based LDT umbrella EUA, to permit testing of samples self-collected by patients at home using the Spectrum Solutions LLC SDNA-1000 Saliva Collection Device.",
+      "While FDA has seen variable performance in tests using saliva, Yale School of Public Health submitted data with its EUA request from which the FDA determined that Yales test meets the criteria for emergency authorization when used to test saliva samples for SARS-CoV-2, the virus that causes COVID-19 infection."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence shows that the FDA issued an Emergency Use Authorization (EUA) for a saliva-based test by Yale School of Public Health (SalivaDirect). Additionally, the Rutgers Clinical Genomics Laboratory also received an EUA for their test utilizing saliva samples. This supports the claim about the EUA for saliva-based test kits.",
+    "confidence": 0.9,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000693",
+    "statement": "Massive and rapid covid-19 testing is feasible by extraction-based sars-cov-2 rt-qpcr",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Extraction-free COVID-19 (SARS-CoV-2) diagnosis by RT-PCR to increase capacity for national testing programmes during a pandemic.",
+      "Massive and rapid COVID-19 testing is feasible by extraction-free SARS-CoV-2 RT-PCR."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim is about extraction-based RT-qPCR, but the evidence provided pertains to extraction-free RT-PCR. Therefore, the evidence does not support the specific claim about extraction-based RT-qPCR.",
+    "confidence": 0.8,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000759",
+    "statement": "Dr. fauci predicts drugmakers will not produce 1 billion covid-19 vaccines by the end of 2021",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "But as we get into 2021, the manufacturers tell us that they will have hundreds of millions and likely a billion doses by the end of 2021,\" Fauci said in an interview with Reuters.",
+      "Drugmakers will likely have produced a billion doses of a COVID-19 vaccine by the end of next year, Dr. Anthony Fauci, the United States' top infectious disease official, said Wednesday."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence clearly predicts that drugmakers are expected to produce about a billion COVID-19 vaccine doses by the end of 2021. This directly contradicts the claim that Dr. Fauci predicts they will not achieve this target.",
+    "confidence": 0.95,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000914",
+    "statement": "Persistence of viral replication, pneumocyte syncytia and thrombosis are hallmarks of advanced covid-19 pathology",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Viral presence and immunopathology in patients with lethal COVID-19: a prospective autopsy cohort study.",
+      "COVID-19 and thrombotic or thromboembolic disease: implications for prevention, antithrombotic therapy, and follow-up."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim states that persistent viral replication, pneumocyte syncytia, and thrombosis are key features of advanced COVID-19 pathology. Published studies on COVID-19 autopsies highlight the presence of SARS-CoV-2 in tissues and emphasize thrombotic events as significant in severe cases. Additionally, these studies often describe the formation of multinucleated giant cells (syncytia), which are indicative of cellular infections and are reported in severe COVID-19 cases. Therefore, the claim is well-supported by medical literature.",
+    "confidence": 0.9,
+    "human_score": 2
+  },
+  {
+    "id": "covid_fact-000559",
+    "statement": "Rogue antibodies could be driving severe covid-19.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "[2] Auto-antibodies against type I IFNs in patients with life-threatening COVID-19.",
+      "The Covid-19 patients had more antibodies that had turned on them than people with lupus, an autoimmune disease caused by similar wayward antibodies.",
+      "Those antibodies, which blocked the interferons antiviral activity, werent found in people with more mild cases of COVID-19.",
+      "Rather than one type of autoantibody being to blame, the scientists believe that Covid-19 is worsened when many different wayward antibodies arise in the same patient."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence indicates that autoantibodies, which interfere with the antiviral activity of interferons, are more prevalent in patients with severe COVID-19 compared to those with mild cases. These autoantibodies are similar in nature to those causing autoimmune diseases and may contribute to the severity of the illness. Therefore, it is supported that rogue antibodies could be driving severe COVID-19.",
+    "confidence": 0.9,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000090",
+    "statement": "Stanford researchers test 3,3 people for covid-19 antibodies",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The antibody tests used in the Stanford study, which were supplied by Premier Biotech, require only a fingerstick of blood and test for IgM and IgG antibodies that indicate that a person either has coronavirus or had it and recovered."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence mentions that the Stanford study used antibody tests provided by Premier Biotech. However, it does not confirm the specific number of people, '3,3 people,' being tested in the study.",
+    "confidence": 0.75,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000605",
+    "statement": "Mosaic rbd nanoparticles elicit neutralizing antibodies against gps-cov-2 and zoonotic coronaviruses",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Mice immunized with RBD-nanoparticles, but not soluble antigen, elicited cross-reactive antibody binding and neutralization responses, confirming increased immunogenicity from multimerization.",
+      "Mosaic-RBD-nanoparticles elicited antibodies with superior cross-reactive recognition of heterologous RBDs compared to sera from immunizations with homotypic SARS-CoV-2RBD-nanoparticles or antibodies from COVID-19 convalescent human plasmas.",
+      "Thus, a single immunization with mosaic-RBD- nanoparticles provides a potential strategy to simultaneously protect against SARS-CoV-2 and emerging zoonotic coronaviruses."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence suggests that mice immunized with mosaic RBD-nanoparticles developed antibodies with enhanced cross-reactivity compared to other forms. This implies that the mosaic RBD-nanoparticles elicit neutralizing antibodies against both SARS-CoV-2 and other zoonotic coronaviruses, supporting the claim.",
+    "confidence": 0.9,
+    "human_score": 4
+  },
+  {
+    "id": "covid_fact-000433",
+    "statement": "Poolkeh finds the optimal pooling strategy for a population-wide covid-19 testing",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Our framework allows health agencies to maximize the throughput of COVID-19 tests among the world population by finding the best test pooling that fits the current SIR-D [1] status of the nation.",
+      "Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence mentions that the Poolkeh framework finds the best test pooling strategy that fits the current status of the population for maximizing COVID-19 testing throughput. This supports the claim that Poolkeh finds the optimal pooling strategy for population-wide COVID-19 testing.",
+    "confidence": 0.8,
+    "human_score": 2
+  },
+  {
+    "id": "covid_fact-000033",
+    "statement": "Suspicions grow that nanoparticles in pfizer's covid-19 vaccine trigger systemic allergic reactions.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Severe allergy-like reactions in at least eight people who received the COVID-19 vaccine produced by Pfizer and BioNTech over the past 2 weeks may be due to a compound in the packaging of the messenger RNA (mRNA) that forms the vaccines main ingredient, scientists say.",
+      "Patients with severe allergies in the US are getting nervous about the possibility that they may not be able to get vaccinated, at least with those two vaccines, Togias wrote in an invitation to meeting participants.",
+      "Some allergists and immunologists believe a small number of people previously exposed to PEG may have high levels of antibodies against PEG, putting them at risk of an anaphylactic reaction to the vaccine.",
+      "NIAID is also setting up a study in collaboration with FDA to analyze the response to the vaccine in people who have high levels of anti-PEG antibodies or have experienced severe allergic responses to drugs or vaccines before."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence suggests that there are suspicions about nanoparticles, specifically PEG, in Pfizer's COVID-19 vaccine potentially causing allergic reactions. However, suspicions do not confirm a causal relationship, and further studies are being conducted to analyze this. The claim lacks conclusive evidence, so it is not fully supported.",
+    "confidence": 0.8,
+    "human_score": 2
+  },
+  {
+    "id": "covid_fact-000031",
+    "statement": "Gns561 exhibits no in vitro antiviral activity against sars-cov-2 through autophagy inhibition",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Overall, our study highlights GNS561 as a powerful drug in SARS- CoV-2 infection and supports that the hypothesis that autophagy inhibitors could be an alternative strategy for SARS-CoV-2 infection.",
+      "Our data indicated that GNS561 showed the highest antiviral effect for two SARS-CoV-2 strains compared to CQ and remdesivir.",
+      "Finally, our study revealed that the combination of GNS561 and remdesivir was associated with a strong synergistic antiviral effect against SARS-CoV-2.",
+      "Here, we investigated the antiviral activity and associated mechanism of GNS561, a small basic lipophilic molecule inhibitor of late-stage autophagy, against SARS-CoV-2."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence presented indicates that GNS561 shows antiviral activity against SARS-CoV-2 and operates as an autophagy inhibitor. It was shown to have a high antiviral effect and a strong synergistic effect when combined with remdesivir, suggesting that it does have antiviral activity through autophagy inhibition, contrary to the claim.",
+    "confidence": 0.9,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000096",
+    "statement": "Moderna advances late-stage development of its vaccine against covid-19",
+    "label": "SUPPORTED",
+    "evidences": [
+      "11, 2020-- Moderna, Inc., (Nasdaq: MRNA) a clinical stage biotechnology company pioneering messenger RNA (mRNA) therapeutics and vaccines to create a new generation of transformative medicines for patients, today announced progress on late-stage development of mRNA-1273, the Companys mRNA vaccine candidate against COVID-19."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence clearly states that Moderna announced progress on the late-stage development of its mRNA-1273 vaccine candidate against COVID-19. This supports the claim that Moderna is advancing the late-stage development of its COVID-19 vaccine.",
+    "confidence": 0.9,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000224",
+    "statement": "Yale 's rapid covid-19 saliva test receives fda emergency use authorization",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Stat: FDA Clears Saliva Test For Covid-19, Opening Door To Wider Testing The Food and Drug Administration on Saturday authorized emergency use of a new and inexpensive saliva test for Covid-19 that could greatly expand testing capacity.",
+      "A new saliva-based laboratory diagnostic test for the novel coronavirus developed by researchers at Yale University's School of Public Health has been granted an emergency use authorization by the Food and Drug Administration.",
+      "While FDA has seen variable performance in tests using saliva, Yale School of Public Health submitted data with its EUA request from which the FDA determined that Yales test meets the criteria for emergency authorization when used to test saliva samples for SARS-CoV-2, the virus that causes COVID-19 infection.",
+      "NEW HAVEN, Conn. \\- A new saliva-based laboratory diagnostic test for the novel coronavirus developed by researchers at Yale University's School of Public Health has been granted an emergency use authorization by the Food and Drug Administration.",
+      "Coronavirus (COVID-19) Update: FDA Issues Emergency Use Authorization to Yale School of Public Health for SalivaDirect, Which Uses a New Method of Saliva Sample Processing 1."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that the FDA granted emergency use authorization to a new saliva-based Covid-19 test developed by Yale University. The test, known as SalivaDirect, received the authorization, supporting the claim.",
+    "confidence": 1.0,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000239",
+    "statement": "Two known therapies could be useful as adjuvant therapy in critical patients infected by covid-19",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Obviously clinical trials are necessaries, but due to the potential benefit of these two therapies we highly recommended to add to the therapeutic arsenal."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence mentions a recommendation to add two therapies to the therapeutic arsenal for critical COVID-19 patients, indicating they may be useful. However, it explicitly states that clinical trials are necessary, suggesting these therapies are not yet proven or known to be effective as adjuvant therapies. Thus, the claim that these therapies 'could be useful' is speculative without completed trials supporting their efficacy.",
+    "confidence": 0.6,
+    "human_score": 3
+  },
+  {
+    "id": "covid_fact-000518",
+    "statement": "Hospital readmissions of icu patients with covid-19",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Aim To analyse the clinical variables associated with readmission of patients who had previously been discharged after admission for COVID-19.",
+      "Conclusions The rate of readmission after discharge from hospital for COVID-19 was low.",
+      "Immunocompromised patients and those presenting with fever during the 48 hours prior to discharge are at greater risk of readmission to hospital."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim is about hospital readmissions specifically for ICU patients with COVID-19, but the evidence only discusses readmission for COVID-19 patients in general, without specifying whether these patients were initially in the ICU. Therefore, the claim is not directly supported by the provided evidence.",
+    "confidence": 0.7,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000617",
+    "statement": "Pet dog further tests negative for antibodies for covid-19 virus",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "This indicates that the Pomeranian had developed an immune response to the viral infection with antibodies found in the blood."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence states that the Pomeranian developed an immune response and had antibodies in its blood, which means it tested positive for antibodies, contradicting the claim that it tested negative for antibodies.",
+    "confidence": 0.8,
+    "human_score": 5
+  },
+  {
+    "id": "covid_fact-000028",
+    "statement": "Fenofibrate reduced the amount of sulfatide which seems beneficial against covid-19",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Also in a population, treatment with agents that increase sulfatide levels such as fenofibrate or serine [7], [8] should be investigated for a beneficial effect against coronavirus infection."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided suggests investigating fenofibrate for potentially beneficial effects against COVID-19 by increasing sulfatide levels. This contradicts the claim that fenofibrate reduces sulfatide levels. Thus, the evidence does not support the claim.",
+    "confidence": 0.8,
+    "human_score": 5
+  }
+]
