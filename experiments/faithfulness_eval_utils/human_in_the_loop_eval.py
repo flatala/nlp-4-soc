@@ -3,7 +3,7 @@ import os
 import random
 import tkinter as tk
 from tkinter import ttk, messagebox
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 
 class FaithfulnessEvaluator:
@@ -75,15 +75,17 @@ class FaithfulnessEvaluator:
         scale_frame.grid(row=3, column=0, sticky="ew")
         self.score_var = tk.IntVar(value=0)
         for s in range(1, 6):
-            ttk.Radiobutton(scale_frame, text=str(s), variable=self.score_var, value=s).pack(
-                side="left", padx=5
-            )
+            ttk.Radiobutton(
+                scale_frame, text=str(s), variable=self.score_var, value=s
+            ).pack(side="left", padx=5)
 
         btn_frame = ttk.Frame(self.root, padding=10)
         btn_frame.grid(row=4, column=0, sticky="ew")
         ttk.Button(btn_frame, text="◀ Prev", command=self._prev).pack(side="left")
         ttk.Button(btn_frame, text="Next ▶", command=self._next).pack(side="left")
-        ttk.Button(btn_frame, text="Save & Quit", command=self._finish).pack(side="right")
+        ttk.Button(btn_frame, text="Save & Quit", command=self._finish).pack(
+            side="right"
+        )
 
         self.root.bind("<Left>", lambda _e: self._prev())
         self.root.bind("<Right>", lambda _e: self._next())
@@ -132,7 +134,9 @@ class FaithfulnessEvaluator:
             sample["human_score"] = score
 
         # write detailed results
-        with open(os.path.join(self.result_dir, self.results_filename), "w", encoding="utf‑8") as f:
+        with open(
+            os.path.join(self.result_dir, self.results_filename), "w", encoding="utf‑8"
+        ) as f:
             json.dump(self.samples, f, indent=2, ensure_ascii=False)
 
         # write summary stats
@@ -142,7 +146,9 @@ class FaithfulnessEvaluator:
             "avg_score": sum(valid_scores) / len(valid_scores) if valid_scores else 0.0,
             "distribution": {str(i): valid_scores.count(i) for i in range(1, 6)},
         }
-        with open(os.path.join(self.result_dir, self.stats_filename), "w", encoding="utf‑8") as f:
+        with open(
+            os.path.join(self.result_dir, self.stats_filename), "w", encoding="utf‑8"
+        ) as f:
             json.dump(stats, f, indent=2, ensure_ascii=False)
 
         messagebox.showinfo("Saved", f"Results saved in {self.result_dir}")
@@ -153,10 +159,32 @@ def evaluate_faithfulness_hil(
     data: List[Dict[str, Any]],
     sample_count: int,
     result_dir: str,
+    results_filename: str,
+    stats_filename: str,
     seed: int = 42,
-) -> None:
+    pre_sampled_ids: Optional[List[str]] = None,
+) -> list[str]:
     """Sample `sample_count` random items (or all if fewer) and start the GUI."""
 
-    random.seed(seed)
-    chosen = random.sample(data, k=min(sample_count, len(data)))
-    FaithfulnessEvaluator(chosen, result_dir)
+    if not pre_sampled_ids:  # sample randomly
+        random.seed(seed)
+        chosen = random.sample(data, k=min(sample_count, len(data)))
+        ids: list[str] = [item.get("id") for item in chosen]
+        print(
+            f"Sampled the following {len(ids)} samples: {ids=}, from {len(data)=} items."
+        )
+    else:  # use pre-sampled IDs. only works per dataset.
+        chosen = [item for item in data if item.get("id") in pre_sampled_ids]
+        ids = pre_sampled_ids
+        print(
+            f"Using pre-sampled IDs: {ids=}, from {len(data)=} items. "
+            f"Total chosen samples: {len(chosen)}."
+        )
+
+    FaithfulnessEvaluator(
+        samples=chosen,
+        result_dir=result_dir,
+        stats_filename=stats_filename,
+        results_filename=results_filename,
+    )
+    return ids
