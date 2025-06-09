@@ -1,0 +1,329 @@
+[
+  {
+    "id": "politihop_combined_and_grouped-000328",
+    "statement": "Says the Vatican confirmed that Pope Francis and two aides tested positive for coronavirus.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "There has been no official confirmation that the 83-year-old Catholic leader, or any of his aides, tested positive for the virus. The Vatican has repeatedly denied the claims and described his condition as a \"slight illness\" without giving more details. Vatican spokesman Matteo Bruni dismissed the coronavirus speculation, telling journalists that there’s \"no evidence that would lead to diagnosing anything but a mild indisposition.\""
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided indicates that there has been no official confirmation from the Vatican that Pope Francis or any of his aides have tested positive for COVID-19. The Vatican spokesman has repeatedly denied the claims and described the Pope's condition as a 'mild indisposition.' Thus, it cannot be concluded that the claim is supported.",
+    "confidence": 0.95,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000058",
+    "statement": "President Trump has lifted the prospect of voters across Vermont, overseeing a 11,742 decline of Vermont residents on food stamps.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "",
+      "",
+      "And she added that undocumented immigrants may be avoiding signing up for food stamps , fearing Trump’s hard-line immigration policies. \"It’s not necessarily that people are being lifted out of poverty,\" she said. \"It’s that they’re increasingly afraid to use a government program, or they think it might be cut.\""
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided suggests a correlation between President Trump's policies and a decrease in the number of Vermont residents on food stamps. However, it does not directly show that President Trump has 'lifted' the prospect of voters across Vermont or that he is responsible for the 11,742 decline. The claim needs to be further supported with data showing causation rather than correlation.",
+    "confidence": 0.5,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000013",
+    "statement": "Wages are on the rise — in fact we were the top small-business wage growth state in the nation.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "By the numbers A spokesperson for Parson’s campaign cited an April 2019 article from St. Louis Business Journal that used numbers from an April 2019 report from Paychex/IHS Market Small Business Employment Watch to show Missouri ranked first in the country in hourly wage growth for small businesses. According to the Small Business Employment Watch’s September report, Missouri now ranks third in the country in hourly wage growth increase at 3.38% (New York is second at 3.53% and Illinois is first at 4.11%). If assessing for weekly wage growth rise, Missouri is second at 3.83%. Illinois comes in at 3.84%, just .01% better than Missouri.",
+      "Paychex is a human resources and payroll company with over 600,000 clients nationwide. According to a media spokesperson for the company, it \"uses up-to-date, aggregated payroll data from approximately 350,000 of Paychex's small business clients with fewer than 50 workers\" to keep its data current. According to the SBA’s 2019 profile for the state of Missouri, there are 1.2 million small business employees in the state of Missouri alone, and 58.9 million in the country. In other words, while Paychex represents a significant portion of small businesses, it’s not the whole pie."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim is based on data from a reputable source (Paychex/IHS Market Small Business Employment Watch) and it shows that Missouri ranked first in the country in hourly wage growth for small businesses in April 2019. The evidence also indicates that this report used data from around 350,000 small business clients, which, while not the whole number of small businesses, still provides a significant sample size. However, it's worth noting that Missouri's rank has since dropped to third place.",
+    "confidence": 0.8,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000380",
+    "statement": "CNN reports DemDebate had 2.3 million viewers. Trump rally had 6.7 million last night!",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "CNN said the debate had an average 7.3 million television viewers, plus 4 million live starts on CNN’s platforms such as CNN.com and mobile apps. (Live starts refers to the number of times a play button was clicked on during a live event, or if a user opened the CNNgo app via Apple TV and selected \"live TV\" to start playing the debate.) Neither the White House nor Trump’s 2020 re-election campaign provided viewership numbers for Trump’s Milwaukee rally."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim states that CNN reported the DemDebate had 2.3 million viewers, while Trump rally had 6.7 million last night! However, the evidence provided only shows that CNN said the debate had an average of 7.3 million television viewers and 4 million live starts on their platforms. It does not provide any viewership numbers for Trump's rally.",
+    "confidence": 0.5,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000141",
+    "statement": " Says some of the names that may be purged from voter roll are people who have died.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "In October, the commission used various data sources to flag 232,000 people they believed may have moved, which would require them to re-register at their new address before voting again. The names came from a database already culled through the normal process for people known to have died, registered elsewhere, etc. As of the week Spindell made his claim, 21,802 people who received the mailers in October had been deactivated by their municipal clerk, Magney said. That included 934 deactivated due to death.",
+      "In an interview with PolitiFact Wisconsin, he said he was referring to dead people who had since been removed through the process Magney described. And he raised the issue of dead voters during a discussion of what to do with the people who remain at risk of having their names removed from the voter roll — in other words those who are still on the list. Anyone known to have died wouldn’t be on the list anymore, since the normal process is set up to address that situation and it has continued during the legal battle. The only dead people on the list are those who have died since the latest regular update, and their names would be removed through the processes already in place."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence provided indicates that some of the names flagged for potential removal from voter rolls are people who have died. The commission used various data sources to flag individuals believed to have moved, including those known to have died. As of the time the claim was made, 934 individuals had been deactivated due to death.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000126",
+    "statement": "Last year, \"\"for the first time in 51 years, the cost of prescription drugs actually went down.\"\"\"",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The old talking point Last spring, Trump’s team pulled this claim from two sources: A 2018 report from the president’s Council of Economic Advisers and data comparing the January 2019 Consumer Price Index for drugs to the January 2018 one. The CPI data suggested a decline in drug prices.",
+      "For one thing, CPI data is imperfect — it shows list prices, rather than what consumers pay at the pharmacy counter. For another, it only covers drugs sold through retail, which accounts for about three-quarters of all prescriptions.",
+      "In 2019, 4,311 prescription drugs experienced a price hike, with the average increase hovering around 21%, according to data compiled by Rx Savings Solutions, a consulting group. Meanwhile, 619 drugs had price dips."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim states that prescription drug costs went down 'for the first time in 51 years.' However, the provided evidence suggests a decline in CPI data for drugs, but it's noted that this is imperfect and only covers drugs sold through retail, which accounts for about three-quarters of all prescriptions. Moreover, separate data from Rx Savings Solutions shows an average increase of 21% for 4,311 prescription drugs, with a lesser number experiencing price dips in 2019. This contradicts the claim that drug costs went down across the board.",
+    "confidence": 0.8,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000115",
+    "statement": "“House Democrats have passed more than 275 bipartisan bills this Congress.\"\"\"",
+    "label": "SUPPORTED",
+    "evidences": [
+      "No universal definition of ‘bipartisan’ Elizabeth Lopez-Sandoval, spokeswoman for Escobar, said Escobar considered bills as being bipartisan if there was \"at least one Republican vote on the House floor,\" or if the bill was passed by a voice vote and \"has at least one Republican cosponsor.\"",
+      "Kirby Goidel, director of the Public Policy Research Institute at Texas A&M University, said the term \"bipartisan\" has taken on a looser definition in regular usage because it is \"advantageous in terms of public support.\" \"It is not unusual to call a bill bipartisan when it only received a single vote from across the aisle, though that runs against our more general understanding of what the term is intended to mean,\" he said in an email.",
+      "Jordan Tama, associate professor at American University who is writing a book about bipartisanship, said it is \"less common\" to see a truly bipartisan process in today’s Congress, since members tend to develop legislation within their own party and only look to attract support from the other party after the fact. \"It is more common to see bipartisanship reflected in voting outcomes, even though in many of these cases the legislation wasn’t developed in a very bipartisan method,\" Tama said. \"You can still call something bipartisan if the votes show support from both parties, even if it wasn’t developed through a highly collaborative process.\"",
+      "Overall, the experts we consulted agreed that, given the various definitions of bipartisan, Escobar’s claim was largely accurate but could use more clarifying details.",
+      "Sean Theriault, a government professor at the University of Texas, said her use of the term bipartisan is fair. \"It’s certainly not telling the whole truth, but a single vote from the other side does indicate that it enjoys support from both parties,\" he said in an email.",
+      "\"So, of course, we would prefer Escobar to say, ‘275 bills that have received at least support from one Republican are sitting on McConnell’s desk,’ but calling them ‘bipartisan’ is not wrong.\""
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim 'House Democrats have passed more than 275 bipartisan bills this Congress' can be considered supported because the evidence indicates that House Democrats passed bills with at least one Republican vote or with a single Republican cosponsor, which is within the definitions of bipartisan provided by the experts consulted. However, it should be noted that there seems to be a degree of flexibility in the interpretation and usage of the term 'bipartisan'.",
+    "confidence": 0.9,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000072",
+    "statement": " Says a video shows the helicopter crash that killed Kobe Bryant.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Credible news photos show the aircraft was black, not a light color like the one in the YouTube video.",
+      "Images from the crash scene show a foggy, green landscape, not the arid-looking background in the video. The YouTube video, meanwhile, doesn’t show fog."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The video does not match the described evidence regarding the crash scene. Specifically, the video shows a helicopter that is not black and an arid-looking background, whereas credible photos of the crash scene show a green landscape and a black aircraft.",
+    "confidence": 0.9,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000378",
+    "statement": "“When we discovered, I discovered, that we were doing many, many, too many stop and frisks, we cut 95% of it out.”",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The decline during Bloomberg’s later years as mayor came amid a public outcry about the policy and an impending lawsuit challenging the police department’s tactics in carrying it out. From January to March 2012, the New York Police Department recorded 203,500 stops, compared with approximately 12,500 stops from October to December 2013. That’s close to a 95% drop. Stops fell dramatically in 2013 to just under 192,000."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence shows a 95% drop in stop and frisks from January to March 2012 compared to approximately October to December 2013. This suggests that the claim 'When we discovered, I discovered, that we were doing many, many, too many stop and frisks, we cut 95% of it out' refers to a significant reduction in the number of stop and frisks during Michael Bloomberg's later years as mayor.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000053",
+    "statement": " Says a photo of a tortured man is U.S. diplomat Chris Stevens, who was killed in the 2012 Benghazi attack.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "But this photo depicting violence does not show ambassador Stevens. The image, in fact, appeared on the internet years before Stevens’ death. A website called \"The Meme Policeman\" reported that it found the photo on the internet as early as 2004 when it appeared in a story by Spanish newspaper Diario de León about Argentinian military torture. Nevertheless, we did find the image posted on various blogs as early as 2009 . As well, a reverse-image search shows versions of the photo on the internet as early as 2008 –– four years before Stevens’ death."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence presented does not show that the photo in question is a picture of U.S. diplomat Chris Stevens who was killed in the 2012 Benghazi attack. Instead, it was found on the internet as early as 2004 and has been posted online since then. Therefore, this claim cannot be supported based on the given evidence.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000347",
+    "statement": " Says a photo shows Barack Obama smiling and shaking hands with Hassan Rouhani.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "As the New York Times reported , Obama and Rouhani have never met in person. The original image , taken by Reuters photographer Jason Reed in 2011, shows Obama smiling and shaking hands with then-Indian Prime Minister Manmohan Singh. As people responded to Gosar’s tweet to point out that the image of Obama and Rouhani was manipulated, he responded that \"no one said this wasn’t photoshopped.\" When we fact-checked the Ron Johnson-supporting Restoration PAC for using it in 2015, we rated it Pants on Fire. More than four years later, the image is still smoking."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided shows that a photo exists of Obama smiling and shaking hands with Manmohan Singh, not Hassan Rouhani. The claim is based on an incorrect assumption about the image.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000457",
+    "statement": "Marijuana has a unique impact on the developing brain. It can prime your brain for addiction to other substances.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "We contacted the surgeon general’s office, which directed us to statements from the National Institute on Drug Abuse. NIDA noted that marijuana may have a gateway effect, but that most people who use the drug don’t progress to other, harder substances; and that alcohol and nicotine appear to have a similar impact. The idea that marijuana can \"prime your brain for addiction\" has some basis: namely, the results of some studies conducted with rodents. For instance, Adams’ office noted that preclinical studies indicate exposure to THC – marijuana’s main psychoactive compound –  during a period roughly equivalent to adolescence in rats resulted in greater self-administration of heroin when the animals reach adulthood. In addition, THC exposure yielded changes in their brains’ reward system – in other words, yes, priming the brain for the rewarding effects of opioids. But, Isen said, it’s scientifically problematic to draw a line from the effects seen in rodents to what might be happening to a human. \"We should remain agnostic about the surgeon general’s claim,\" Isen argued. Jonathan Caulkins, a drug policy researcher at Carnegie Mellon University in Pittsburgh, Pa., took a more optimistic view of that research, arguing that the animal evidence is \"very clear\" when it comes to marijuana’s neurological impact. \"What we know is strong enough to say that exposure during adolescence when the brain is developing is a risk,\" said Susan Weiss, a scientific adviser to the NIDA director. But how meaningful of a risk – and how it compares to other drugs – is exceptionally tough to say, given the limitations on research. Studies on actual humans are limited because people who use marijuana at a young age may be exposed to other risk factors, such as peer influences using harder drugs, or sociodemographic factors that might predispose them to abuse or addiction. As Dr. Sue Sisley, an Arizona-based psychiatrist who tracks the state of marijuana research, put it: \"I don’t see very much good, rigorous data to confirm either way.\" In the most narrow sense, marijuana indeed has a \"unique\" effect on the brain. It elicits a response from what are called \"endocannabinoid receptors.\" Other drugs don’t – they interact with different brain receptors. On a practical level, Isen said, while one could highlight the distinct scientific effect marijuana has, \"there is no evidence that marijuana has a uniquely deleterious effect on the developing brain - certainly not more than other substances such as alcohol.\""
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence suggests that marijuana exposure during adolescence can have a priming effect on the brain's reward system, making it more likely to respond positively to opioids. Although the evidence is based on animal studies and its application to humans is limited due to factors like peer influences and sociodemographic factors, the scientific basis for this claim appears strong enough.",
+    "confidence": 0.85,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000280",
+    "statement": "Obama’s lawyers officially admit birth certificate is fake.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "This inaccurate story seems to stem from coverage of a 2012 lawsuit filed by two New Jersey residents challenging Obama’s eligibility to appear on the state’s presidential primary ballot. Plaintiff’s attorney Mario Apuzzo got to the heart of the complaint during an April 2012 court hearing:. \"\"What evidence does New Jersey have that this person who is running for president is who he is?\""
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The provided evidence does not show that Obama's lawyers officially admitted the birth certificate is fake. Instead, it shows a question raised during a lawsuit about Obama's eligibility to appear on New Jersey's presidential ballot.",
+    "confidence": 0.95,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000045",
+    "statement": "Virginia Democrats Push Legislation to Make Criticism of Government Officials a Criminal Offense.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Here is the official summary of the bill: \"Threats and harassment of certain officials and property; venue. Provides that certain crimes relating to threats and harassment may be prosecuted in the City of Richmond if the victim is the Governor, Governor-elect, Lieutenant Governor, Lieutenant Governor-elect, Attorney General, or Attorney General-elect, a member or employee of the General Assembly, a justice of the Supreme Court of Virginia, or a judge of the Court of Appeals of Virginia. In addition, threats to damage property may be prosecuted in the City of Richmond if the property is owned by the Commonwealth and located in the Capitol District.\" So, the bill addresses threats and harassment — not mere criticism — of certain state officials. More specifically , that includes threats, oral or written, \"of death or bodily injury to a person or member of his family,\" which would be a Class 6 felony. A Class 6 felony carries a prison term of one to five years; or, up to one year in jail and/or fine of not more than $2,500.",
+      "Here is the language in the bill cited by the article: \"If any person, with the intent to coerce, intimidate, or harass any person, shall use a computer or computer network to communicate obscene, vulgar, profane, lewd, lascivious, or indecent language, or make any suggestion or proposal of an obscene nature, or threaten any illegal or immoral act, he shall be is guilty of a Class 1 misdemeanor.\" A Class 1 misdemeanor is punishable by up to one year in jail and/or a fine of up to $2,500."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim states that Virginia Democrats are pushing legislation to make criticism of government officials a criminal offense, while the evidence provided only indicates that threats and harassment (specifically threatening illegal or immoral acts) may be penalized as a Class 1 misdemeanor. The claim exaggerates the scope of the legislation by implying it covers all forms of criticism.",
+    "confidence": 0.8,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000303",
+    "statement": " Says U.S. Rep. Dan Lipinski had \"\"a part in\"\" undoing a law that used to limit how long trains could idle at crossings.\"",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "A judicial — not legislative — decision The federal government places no limit on how long trains can block crossings, but a 1999 Illinois law formerly allowed local municipalities to fine trains that had come to a stop and blocked a crossing for more than 10 minutes unless the train could not be moved for reasons beyond the rail carrier’s control. The law was overturned by the Illinois Supreme Court in 2008 after the justices found it incompatible with federal regulations on train speed and air-brake testing. That begs the question how Lipinski, a congressman, could have played a part in putting the brakes on a state legal matter settled in court. When we reached out to Newman’s campaign for an answer, spokesman Ben Hardin confirmed that was the law his candidate was referencing and acknowledged Lipinski had no involvement in the outcome of the case."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim suggests that U.S. Rep. Dan Lipinski played a part in undoing a state law regarding train idling at crossings. However, the evidence provided indicates that the decision was a judicial one by the Illinois Supreme Court. There is no mention or evidence of any legislative action taken by Lipinski related to this issue.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000217",
+    "statement": "\" The U.S. spends \"\"57 cents on the dollar on defense.\"\"\"",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "",
+      "\"This is a common mistake,\" Robert Bixby , executive director of the centrist Concord Coalition, which works for fiscal responsibility, said about Omar’s claim.",
+      "In fact, a spokesman for the congresswoman said Omar was referring to discretionary funding. He cited a Washington Post article that says defense would be 57% of discretionary spending in the 2020 federal budget request unveiled by President Donald Trump in March 2019. As for the dollars, the 2018 federal budget contained, according to a June 2019 report by the Congressional Budget Office: • $1.3 trillion went to discretionary spending, including $600 billion for defense. That would be about 46% ."
+    ],
+    "model_verdict": "ERROR",
+    "explanation": "Failed to parse model response",
+    "confidence": 0.0,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000017",
+    "statement": "If we make no changes over the next 10 years, Americans will reach into their pockets and pay out about $11 trillion on insurance premiums, copays, deductibles and uncovered medical expenses.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "But economist Linda Blumberg, who authored the paper , told us the statistic is \"perfectly consistent\" with the analysis. If anything, she said, the number is a lowball figure. When Blumberg and her team crunched the numbers, they found that, under the existing health care system, Americans can expect to pay $11.7 trillion between out-of-pocket costs – the copays, deductibles and uncovered medical expenses – and premiums over the next decade.",
+      "Experts told us that Urban’s estimate — and the Warren campaign’s use of it — checks out, based on what we know about American health care spending.",
+      "Cynthia Cox, a vice president at the Kaiser Family Foundation and expert on the Affordable Care Act, pointed to what a typical American family currently spends on health care: about $5,000 per year, when you look at out-of-pocket costs and premiums combined.",
+      "Analysts also said the $11 trillion number gets at a larger point."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence shows that an economist Linda Blumberg has calculated that, under the existing health care system, Americans can expect to pay $11.7 trillion between out-of-pocket costs and premiums over the next decade. This claim is consistent with her analysis, which is backed up by other experts like Cynthia Cox from Kaiser Family Foundation.",
+    "confidence": 1.0,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000016",
+    "statement": "\" Says drinking cream of tartar mixed with orange juice daily will help people quit smoking because it \"\"flushes the nicotine\"\" out of the body.\"",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "There is no scientific evidence to support the claim that drinking cream of tartar and orange juice rids the body of nicotine and thus helps people quit smoking.",
+      "We found a detailed example of the claim in a May 2018 article by Shareably, a lifestyle and entertainment website. But the article lacks credible sources, instead citing dubious health websites \"Natural Health and Healing 4U\" and \"Organic Health.\" It also lists Providr.com as its primary source –– a clickbait mill that the fact-checking website Snopes exposed for fraudulent Facebook practices in 2018.",
+      "The National Center for Complementary and Integrative Health , an office of the U.S. Department of Health and Human Services, says that a variety of detoxification diets, regimens and therapies \"have been suggested as ways to remove toxins from your body, lose weight, or promote health.\" However, the center warns that some of these programs can be unsafe and falsely advertised, and said a 2015 review concluded \"there was no compelling research to support the use of \"detox\" diets for weight management or eliminating toxins from the body.\"",
+      "\"I know of no biological mechanism by which cream of tartar would get the adrenal glands working,\" Neal Benowitz, professor emeritus at the Center for Tobacco Control Research and Education at the University of California, San Francisco, told PolitiFact in an email. \"The vast majority of nicotine is eliminated by liver metabolism, and only a small fraction excreted unchanged in the urine.\" Benowitz said he knows no \"biologically plausible argument\" for why this drink mixture should work."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided clearly states that there is no scientific evidence to support the claim that drinking cream of tartar mixed with orange juice rids the body of nicotine and helps people quit smoking. This claim contradicts a professor emeritus at the University of California's statement, who stated there is no biologically plausible argument for this drink mixture to work.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000048",
+    "statement": "“Under my administration, 7 million Americans have come off of food stamps, and 10 million people have been lifted off of welfare.”",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "SNAP figures are trending downward, but data is incomplete There are around 7 million fewer Americans participating in SNAP, sometimes called food stamps, than when Trump entered the White House, according to figures from the Department of Agriculture. The real number is likely a bit lower due to two things: A data reporting problem in North Carolina and a reporting discrepancy from the 2018-19 government shutdown. SNAP participation numbers by state show there are no North Carolina recipients being accounted for from October 2017 through all of 2019, dragging down the national average of recipients. With all this being accounted for, the number of reductions may be closer to 6 million.",
+      "Meanwhile, the administration finalized a rule in late 2019 that tightens guidelines on who can receive benefits and for how long. The rule was projected to end benefits for about 700,000 people.",
+      "\"It’s possible the administration could get to 10 million by combining reductions in TANF with reductions in the use of Medicaid, the Children’s Health Insurance Program (CHIP), and the Supplemental Nutrition Assistance Program (SNAP, or food stamps), but we haven’t seen any published data that show this figure,\" Lower-Basch wrote in an email. Most people think of \"welfare\" as a program for people who are not working, Lower-Basch said. In that respect, Medicaid, CHIP and SNAP don’t necessarily fit into that category as the vast majority of people who are getting these types of benefits are children , seniors, or working adults ."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided shows a reduction in the number of Americans participating in SNAP (food stamps), approximately 6 million, which supports part of the claim. However, there is no clear evidence presented to support the assertion that 10 million people have been lifted off welfare as it is not defined in the context of this discussion.",
+    "confidence": 0.75,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000112",
+    "statement": " Says Nancy Pelosi said, \"\"If impeachment fails, I will resign immediately.\"\"\"",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The story, which appeared on a website called maga20.softfay.com and says Maga2020 News at the top of the page, says Pelosi gave the \"startling and wholly unexpected statement today during an interview with Belgian magazine ‘Le Mensonge.’ \" Our French-speaking readers will know that means \"lie.\" Indeed, this story is fake. In December, another website — \"Breaking News\" — poached the same satirical story and reposted it without any hint to readers that the information was made-up."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim is based on a source which is known to publish false or satirical stories (maga20.softfay.com). Therefore, it's not reliable as evidence.",
+    "confidence": 0.95,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000120",
+    "statement": "Says Maxine Waters said: “I say, we knock off Trump and then, go after Pence. We have the power.”",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The American Mirror, a conservative blog by Kyle Olson, reported that after Waters said, \"All I want for him and about him is to be impeached and get him out of the White House! Then, according to the website: \"Knock off the first one, and then go after the second one,\" she said.",
+      "Waters has made similar statements, before and since. Each of them were also in the context of impeachment: Aug. 4, 2017: Interviewed on \"The View\" TV show, Waters had this exchange with co-host Joy Behar.",
+      "In an interview four days later, Waters rejected the idea that she was vowing harm to Trump: \"That's absolutely ridiculous ... that a 79-year-old grandmother who is a congresswoman and who has been in Congress and politics all these years doing any harm. The only harm I might be doing to the president is I want him impeached.\""
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim asserts that Maxine Waters said 'I say, we knock off Trump and then go after Pence.' However, the provided evidence only states that Waters said she wanted Trump impeached and later made a comment about going after someone (which is unclear whether it's Trump or Pence) in the context of impeachment. The claim requires explicit mention of 'knock off' and threat against both individuals.",
+    "confidence": 0.9,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000259",
+    "statement": "Starting January 1, 2020, California will tax legal citizens if they don’t have health insurance. Why? The state needs to come up with $98,000,000 to pay for free health insurance for illegal aliens.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Coverage for immigrants in the country illegally Another portion of California’s 2019-20 budget expands health coverage for young adults in the country illegally. Medi-Cal, funded by state and federal taxes, offers free or low-cost health care coverage for low-income children and adults in California. In 2019-20, this expansion is expected to cost California about $98 million, with an estimated $74 million coming from the state’s general fund. The additional funding, beyond the approximately $74 million from the state’s general fund, will come from the federal government and be used to pay for emergency and pregnancy-related services, he said. \"As with the prior expansion, the general fund cost of this new expansion will be paid for with tax revenues that are generated by California’s current tax system, with no tax increase,\" Graves said.",
+      "California’s health care mandate A new mandate in California, effective Jan. 1, 2020, will require Californians to have health insurance throughout the year. Californians who don’t have health coverage in 2020 — and who don’t qualify for exemptions — would have to pay a penalty in 2021 when they file their 2020 state income tax return. The subsidies will go \"to legally residing Californians up and down the income stream, including those above 400% of the poverty level that otherwise would not qualify for assistance,\" Wright said. Covered California’s website said that immigrants not lawfully present in the United States do not qualify for a health plan through Covered California (though they may qualify for the state’s Medicaid program, Medi-Cal)."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim suggests that California will tax legal citizens to fund free health insurance for illegal aliens in order to generate $98,000,000. The evidence provided indicates that California is expanding health coverage for young adults who are in the country illegally (not all immigrants are aliens), which is expected to cost around $98 million, with an estimated $74 million coming from the state’s general fund. However, there's no clear connection or evidence to support the claim that legal citizens will be taxed for this expansion.",
+    "confidence": 0.1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000309",
+    "statement": "“Mike Bloomberg owns more wealth than the bottom 125 million Americans.”",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Bloomberg’s net worth, as listed by Forbes magazine’s richest list, was $64.2 billion at the time of the Feb. 19 debate. That was enough to rank him as the 12th-richest person in the world, according to Forbes . The Sanders campaign’s source is a column by Matt Bruenig of the People’s Policy Project , a think tank that has \"a special focus on socialist and social democratic economic ideas.\" Bruenig was more specific than Sanders, writing that by his calculation of Federal Reserve \"summary extract public data ,\" Bloomberg owns nearly six times as much wealth as the bottom 38% of households. When we contacted Bruenig, he said he used the Federal Reserve’s Summary Extract Public Data , which is offered for researchers to make calculations using statistical software. Bruenig said he sorted all households from those with the least wealth to those with the most wealth. He then added the wealth of the bottom 38% of American households to get $11.4 billion. Then, he determined how many household units this accounted for and found the answer to be 47.8 million. You can then multiply the 47.8 million households by 2.63 (the average number of people per household ) to come up with 125.7 million people. Matthew Gross, a doctoral candidate at the University of Michigan with data-analyzing experience, helped PolitiFact replicate Bruenig’s math. Gross found that the bottom 38% had about $6 billion in wealth, rather than Bruenig’s $11.4 billion, but either way, this was enough to verify the calculation that Bloomberg had more wealth than the bottom 38% of American households combined. Meanwhile, he found that the 38th percentile alone owns about $50 billion. Together, then, percentiles 0 through 38 collectively own about $6 billion in wealth, which is less than Bloomberg had. In a technical sense, however, tens of millions of Americans join Bloomberg in owning more wealth than the bottom 37% of households combined, since the bottom 37% are collectively in the red."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence provided by the Sanders campaign and Matt Bruenig's article indicates that Mike Bloomberg owns more wealth than the bottom 38% of American households. The Sanders campaign's source calculated Bloomberg's wealth to be over six times greater than the wealth held by the bottom 38%. Additionally, this calculation was verified by Matthew Gross, a doctoral candidate at the University of Michigan.",
+    "confidence": 1,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000014",
+    "statement": "Says a teenage Pete Buttigieg was arrested in the late 1990s for killing dogs.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The user, @ComradeCrow, has repeatedly said the story is fake and was intended as a joke. \"Even though that Twitter user admitted Sunday night he intended the fabrication as a joke, The Tribune was still receiving calls and messages Monday afternoon hoping to verify the story. \"So let’s just make this perfectly clear: The Tribune did not publish the story making the rounds.\"",
+      "But the \"story\" was created using the Newspaper Clipping Generator , an online tool that allows people to produce images of news snippets."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim states that teenage Pete Buttigieg was arrested for killing dogs in the late 1990s. The evidence provided does not support this statement as it reveals only that a fake story about such an event was created using the Newspaper Clipping Generator, an online tool, and that the original source, @ComradeCrow, admitted to creating the story as a joke.",
+    "confidence": 0.99,
+    "human_score": null
+  },
+  {
+    "id": "politihop_combined_and_grouped-000288",
+    "statement": "Photo shows Bernie Sanders at the 1969 Stonewall riots.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The Instagram photo does not depict the Vermont senator, nor does it depict the Stonewall riots — it’s a meme that’s been around since at least 2015."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The provided evidence indicates that the Instagram photo does not depict Bernie Sanders or the Stonewall riots; instead, it is a meme that has been circulating since at least 2015.",
+    "confidence": 1,
+    "human_score": null
+  }
+]
