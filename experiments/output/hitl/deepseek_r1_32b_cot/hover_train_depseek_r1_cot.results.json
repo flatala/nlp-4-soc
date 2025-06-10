@@ -1,0 +1,312 @@
+[
+  {
+    "id": "hover_train_full_docs-001310",
+    "statement": "The movie shares the name of an urban experience founded in 1996 by Matthew Laibowitz. It was released before the sequel-in-part David Shire composed the score for in 1985.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "David Lee Shire (born July 3, 1937) is an American songwriter and composer of stage musicals, film and television scores. The soundtracks to \"The Taking of Pelham One Two Three\", \"The Conversation\" and \"All the President's Men\", and parts of the \"Saturday Night Fever\" soundtrack such as \"Manhattan Skyline\", are some of his best-known works. His other work includes the score of the 1985 film \"Return to Oz\" (the \"sequel-in-part\" of \"The Wizard of Oz\"), and the stage musical scores of \"Baby\", \"\", \"Closer Than Ever\", and \"Starting Here, Starting Now\". Shire is married to actress Didi Conn.",
+      "Mat Laibowitz is an inventor, artist, and product designer. He holds a PhD degree from MIT Media Lab's Program in Media Arts and Sciences from the Responsive Environments Group under Prof. Joseph A. Paradiso. He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film). Midnight Madness was regarded as igniting the large scale urban game scene in NYC, including elements of the Come Out and Play festival. Midnight Madness ran for its final time in 2007, at which time over 1000 people have participated throughout its 11 year history. Midnight Madness and Mat Laibowitz were the subjects of a chapter in David Rakoff's book, Don't Get Too Comfortable."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim is supported as the movie 'Midnight Madness' (1980) shares its name with an urban experience founded by Matthew Laibowitz in 1996 and was released before David Shire composed the score for 'Return to Oz' in 1985.",
+    "confidence": 0.9,
+    "human_score": 4
+  },
+  {
+    "id": "hover_train_full_docs-000229",
+    "statement": "A large distribution center is for a company with over 13,000 stores and PetSmart, a dog toy manufacturer.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Bethel is a census-designated place in Bethel Township, Berks County, Pennsylvania, United States. It is located at the junction of Interstate 78/U.S. Route 22 and Pennsylvania Route 501. It is in the Susquehanna watershed and drained southward into the Little Swatara Creek. Its area code is 717. As of the 2010 census, the population was 499. Bethel was the original location that Cabela's was going to build their new location before they decided to build it in Hamburg. It is the home to the international headquarters of the Assemblies of Yahweh, to several small town business shops, and to a large distribution center for Dollar General and PetSmart which can be seen while driving down Interstate 78."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence supports the existence of a large distribution center for Dollar General (with over 13,000 stores) and PetSmart. However, PetSmart is inaccurately described as a manufacturer rather than a retailer.",
+    "confidence": 0.85,
+    "human_score": 3
+  },
+  {
+    "id": "hover_train_full_docs-000052",
+    "statement": "The British monarch (Elizabeth II) is the head of state of the territory where Keightley Way  connects Rosia Road at Little Bay to the place worship for British and Nun's Well at Europa Point.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Keightley Way is a southwestern road and tunnel in the British Overseas Territory of Gibraltar. It connects Rosia Road at Little Bay to the Ibrahim-al-Ibrahim Mosque and Nun's Well at Europa Point. Dug in 1960, it was the last surface tunnel to be built in Gibraltar. The tunnel was designed to take a two lane road and space for pedestrians, although it now only carries one lane of traffic southbound. It was named after General Sir Charles Keightley who was the Governor of Gibraltar at the time."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that Keightley Way is in Gibraltar, a British Overseas Territory where Elizabeth II is the head of state. The road connects Rosia Road at Little Bay to the mosque and Nun's Well as stated.",
+    "confidence": 1,
+    "human_score": 3
+  },
+  {
+    "id": "hover_train_full_docs-001519",
+    "statement": "Paddington is a television program based on the books that first appeared on 13 October 1958.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Paddington Bear is a fictional character in children's literature. He first appeared on 13 October 1958 in the children's book \"A Bear Called Paddington\" and has been featured in more than twenty books written by English author Michael Bond and illustrated by Peggy Fortnum and other artists. The friendly bear from deepest, darkest Peru—with his old hat, battered suitcase (complete with a secret compartment, enabling it to hold more items than it would appear to), duffel coat and love of marmalade—has become a classic character from English children's literature. Paddington books have been translated into 30 languages across 70 titles and sold more than 30 million copies worldwide. A much loved fictional character in British culture, a Paddington Bear soft toy was chosen by British tunnellers as the first item to pass through to their French counterparts when the two sides of the Channel Tunnel were linked in 1994."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim mentions a television program, but the evidence only discusses the books without confirming a TV adaptation.",
+    "confidence": 0.6,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000564",
+    "statement": "\"Gotta Get to You\", released in 2010, is a song written by Blaine Larsen, Jim Lauderdale and Jimmy Ritchey, and recorded by American country recording artist George Strait, an American country music singer, author, actor, and music producer.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "\"Gotta Get to You\" is a song written Blaine Larsen, Jim Lauderdale and Jimmy Ritchey, and recorded by American country music artist George Strait. It was released in February 2010 as the 90th single of his career, as well as the third single from his album \"Twang\". The single debuted at #57 on the \"Billboard\" Hot Country Songs charts for the week of January 16, 2010, at the time his previous single, \"Twang,\" was still on the charts."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that 'Gotta Get to You' was written by Blaine Larsen, Jim Lauderdale, and Jimmy Ritchey, and recorded by George Strait in February 2010. All details in the claim are supported.",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000502",
+    "statement": "\"Lost in Space\" aired on Nickelodeon's programming block on a Sunday.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "While 'Lost in Space' aired on Nickelodeon from September 25, 1994, to March 30, 1997, the evidence does not specify that it aired on Sundays.",
+    "confidence": 0.5,
+    "human_score": null
+  },
+  {
+    "id": "hover_train_full_docs-000458",
+    "statement": "Edoardo Soleri is playing on loan from A.S. Roma, an Italian football club.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Edoardo Soleri (born 19 October 1997) is an Italian footballer who plays for Spezia on loan from A.S. Roma as a striker.",
+      "Associazione Sportiva Roma (, ; \"Rome Sport Association\"), commonly referred to as simply Roma ] , is a professional Italian football club based in Rome. Founded by a merger in 1927, Roma have participated in the top-tier of Italian football for all of their existence except for 1951–52."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence clearly states that Edoardo Soleri is playing on loan from A.S. Roma, an Italian football club, confirming the claim.",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000286",
+    "statement": "Hong Kong Macau cultural exchange was a trip that tested Macau national security law who's purpose was to fulfil Article 23 of the Macau Basic Law.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Hong Kong Macau cultural exchange was a trip that took place on the Sunday morning of March 15, 2009. The goal was to have Pan-democracy camp members test the newly enacted Macau national security law by going from Hong Kong to Macau to see who gets banned.",
+      "The Macau's national security law (, Portuguese: Lei relative à defesa da segurança do Estado) is a law in Macau which prohibits and punishes acts of \"treason, secession, and subversion\" against the Central government, as well as \"preparatory acts\" leading to any of the three acts. Taken into effect on 3 March 2009, the purpose of the law is to fulfil Article 23 of the Macau Basic Law, the constitutional document of the Macau Special Administration Region."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim is supported because the cultural exchange event aimed to test Macau's national security law, which was enacted to fulfill Article 23 of the Macau Basic Law.",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001509",
+    "statement": "The mentor in a Sa Re Ga Ma Pa Challenge, died in Kokilaben hospital. This mentor was also a judge on STAR Voice of India.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Hero Honda - Sa Re Ga Ma Pa Challenge 2009 is the 3rd installment of the Sa Re Ga Ma Pa Challenge series which premiered on July 4, 2008 on Zee TV. The show is hosted by Aditya Narayan, who also hosted the previous competition Sa Re Ga Ma Pa Challenge 2007. This show features three new mentors, Aadesh Shrivastava, Shankar Mahadevan and Pritam, who join Himesh Reshammiya, who was a judge in the previous edition.",
+      "Aadesh Shrivastava (आदेश श्रीवास्तव) (4 September 1964 – 5 September 2015) was a music composer and singer of Indian music. Over the course of his career, he had composed music for over 100 Hindi films. Just a day after he turned 51, he died of cancer in Kokilaben Hospital.",
+      "Star Voice of India was an Indian television singing competition that premiered on 18 May 2007 and ended on 24 November 2007. It was the first Indian singing competition produced by STAR Plus. The show was directed by Gajendra Singh, creator of the famous Sa Re Ga Ma Pa series, and produced by Urban Brew Studios. It also featured judges that were on the Sa Re Ga Ma Pa series, Aadesh Shrivastava, Abhijeet Bhattacharya, Alka Yagnik, Lalit Pandit and Jatin Pandit. Shaan, who had previously been hosting Sa Re Ga Ma Pa. The winner of the show was Ishmeet Singh Sodhi."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that Aadesh Shrivastava was a mentor on 'Sa Re Ga Ma Pa Challenge' and died in Kokilaben hospital. He also served as a judge on STAR Voice of India.",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000210",
+    "statement": "The director of this 2011 comedy-drama that was adapted from him and Rosemary Sutcliff is also a writer. He wrote the film True Crimes.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The Eagle is a 2011 epic historical drama film set in Roman Britain directed by Kevin Macdonald, and starring Channing Tatum, Jamie Bell and Donald Sutherland. Adapted by Jeremy Brock from Rosemary Sutcliff's historical adventure novel \"The Eagle of the Ninth\" (1954), the film tells the story of a young Roman officer searching to recover the lost Roman eagle standard of his father's legion in the northern part of Great Britain. The story is based on the Ninth Spanish Legion's supposed disappearance in Britain."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim states it's a comedy-drama, but the evidence says it's an epic historical drama. The director is Kevin Macdonald, who adapted the film from Rosemary Sutcliff's novel, not in collaboration with another male writer. There's no mention of Kevin Macdonald writing 'True Crimes.'",
+    "confidence": 0.85,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001386",
+    "statement": "The co-director of action comedy Winning America, and Harley Knoles are both known for being a director.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Brent Hodge (born July 9, 1985) is a Canadian-New Zealander documentary filmmaker and entrepreneur. He is best known for his documentaries \"I Am Chris Farley\", \"A Brony Tale\" and \"The Pistol Shrimps\". He has been nominated for six Leo Awards for his documentary movies \"Winning America\", \"What Happens Next?\" and \"A Brony Tale\", winning one for \"A Brony Tale\" in 2015. He was nominated for two Shorty Awards under the \"director\" category in 2014 and 2015 for his work on \"The Beetle Roadtrip Sessions\" and \"A Brony Tale\". Hodge also won a Canadian Screen Award in 2014 for directing \"The Beetle Roadtrip Sessions with Grant Lawrence\"."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence supports that Brent Hodge is a known director, including his work on 'Winning America,' but there's no information about Harley Knoles being involved as a co-director or being known as a director.",
+    "confidence": 0.8,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001517",
+    "statement": "The kind of dog Banana Joe V Tani Kazari is and Villanuco de Las Encartaciones are both breeds of dog.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "The Villanuco de Las Encartaciones (Basque: \"Enkarterriko billanuko\" , Cantabrian: \"Villanucu\", English: Little Villein of Las Encartaciones ) is a Spanish breed of dog typical of the region of Las Encartaciones (Biscay), Cantabria and northern Burgos (Spain)."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence confirms Villanuco de Las Encartaciones as a dog breed, but there's no information supporting Banana Joe V Tani Kazari as a recognized breed.",
+    "confidence": 0.7,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001828",
+    "statement": "Daniel Hudson Burnham was born before a famous architect. That architect designed the Society for Saving Buildings.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Daniel Hudson Burnham, FAIA (September 4, 1846 – June 1, 1912) was an American architect and urban designer. He was the Director of Works for the World's Columbian Exposition in Chicago."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence provided only details Daniel Burnham's background and does not mention any architect who designed the Society for Saving Buildings. Without this information, we cannot confirm the claim.",
+    "confidence": 0.8,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001117",
+    "statement": "The film that the father of the star of Sultanat starred in in 1970 was Bombay Talkie.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Jennifer Kapoor (née Kendal, 28 February 1933 – 7 September 1984) was an English actress and the founder of the Prithvi Theatre. She was nominated for the BAFTA Award for Best Actress in a Leading Role for the 1981 film \"36 Chowringhee Lane\". Her other film appearances included \"Bombay Talkie\" (1970), \"Junoon\" (1978), \"Heat and Dust\" (1983), and \"Ghare Baire\" (1984).",
+      "Sultanat is a 1986 Bollywood film written and directed by Mukul S. Anand. The film stars Dharmendra, Sunny Deol, Sridevi, Amrish Puri, Shakti Kapoor, Tom Alter and marked the debut of Karan Kapoor (son of Shashi Kapoor) and Juhi Chawla. It was not a success at the box-office. It was the first film in which Dharmendra appeared alongside his son Sunny Deol."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence does not connect any father of a star from 'Sultanat' to starring in 'Bombay Talkie.' Jennifer Kapoor starred in 'Bombay Talkie,' but there's no information linking her to 'Sultanat' or its stars.",
+    "confidence": 0.9,
+    "human_score": 4
+  },
+  {
+    "id": "hover_train_full_docs-000179",
+    "statement": "Camp Half-Blood Chronicles is the name of the first book in a series. That series precedes The Demigod Diaries.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of adventure and mythological fiction books written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles. Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.",
+      "The Demigod Diaries is collection of short stories relating to \"The Heroes of Olympus\" book series."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence indicates that 'Camp Half-Blood Chronicles' includes the Percy Jackson & the Olympians series as its first part, which precedes The Demigod Diaries related to The Heroes of Olympus.",
+    "confidence": 0.85,
+    "human_score": 1
+  },
+  {
+    "id": "hover_train_full_docs-001210",
+    "statement": "First East Branch Magalloway River and Kennebec River have  the State of Maine in common.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "The First East Branch Magalloway River is a 7.0 mi river in northwestern Maine. It is a tributary of the Magalloway River, which flows to the Androscoggin River and ultimately to the tidal Kennebec River and the Atlantic Ocean."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence clearly states that both rivers are located in the State of Maine.",
+    "confidence": 1,
+    "human_score": 4
+  },
+  {
+    "id": "hover_train_full_docs-000865",
+    "statement": "Adpotive brothers Marcus Aurelius, and the person to the right of Titus on the monument The Great Antonine Altar,  were co-emperors of Rome during the Nerva-Antonine dynasty.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "The Nerva–Antonine dynasty was a dynasty of seven Roman Emperors who ruled over the Roman Empire from 96 AD to 192 AD. These Emperors are Nerva, Trajan, Hadrian, Antoninus Pius, Lucius Verus, Marcus Aurelius, and Commodus.",
+      "The Great Antonine Altar is a high relief monument discovered in Ephesus dating to around 169 CE. The sculpture depicts The Antonines. Beginning on the far left, Marcus Aurelius is pictured at 17-years-old. Overlapping him, Antoninus Pius stands as a prideful, mature man, bearded, as his father, Hadrian, was known to be. To the right of Antoninus Pius stands Lucius Verus. To his right, we see Hadrian, who cloaks the image of a young woman, Faustina the Younger. She is the daughter of Antoninus Pius and the future wife of Marcus Aurelius. The sculpture is presently housed in the Kunsthistorisches Museum in Vienna."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence does not mention Titus on The Great Antonine Altar and incorrectly associates him with Marcus Aurelius as co-emperors during the Nerva-Antonine dynasty.",
+    "confidence": 0.9,
+    "human_score": 3
+  },
+  {
+    "id": "hover_train_full_docs-000066",
+    "statement": "Mashorey is located in Afghanistan.",
+    "label": "SUPPORTED",
+    "evidences": [],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The claim states that Mashorey is located in Afghanistan, but no evidence or supporting information is provided to verify this location. Without any evidence, it is impossible to confirm the claim.",
+    "confidence": 0.95,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000062",
+    "statement": "Jem Finer was a banjo player in the band The Pogues.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "\"Misty Morning, Albert Bridge\" is a 1989 single by the British-Irish folk rock band The Pogues. It was composed by banjo player Jem Finer and featured on the band's fourth album, \"Peace and Love\". It was the Pogues' last single to chart in the UK Top 50 before frontman Shane MacGowan left the group in 1991, stalling just outside the top 40 at number 41. It was the only single from the album to chart. The song is about the famous Albert Bridge, London.",
+      "Jeremy Max \"Jem\" Finer (born 25 July 1955) is an English musician, artist and composer. He was one of the founding members of The Pogues."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence clearly states that Jem Finer was a banjo player in The Pogues and one of its founding members.",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000192",
+    "statement": "This species and the relative of the Fir are classified as genus in the naming system. Parnassius nordmanni is a high altitude, blue and red butterfly which is found the Caucasus. The larva feeds on this species including \"C. alpestris\", \"C. conorhiza\" and \"C. emanueli\".",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Parnassius nordmanni is a high altitude butterfly which is found the Caucasus. It is a member of the snow Apollo genus (Parnassius) of the swallowtail (Papilionidae) family. The larva feeds on \"Corydalis\" species including \"C. alpestris\", \"C. conorhiza\" and \"C. emanueli\"."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence supports that Parnassius nordmanni is a high altitude butterfly found in the Caucasus and that its larva feeds on Corydalis species including the ones mentioned. However, the evidence does not mention anything about a species related to Fir being classified as a genus, making part of the claim unsupported.",
+    "confidence": 0.8,
+    "human_score": 4
+  },
+  {
+    "id": "hover_train_full_docs-000448",
+    "statement": "Tenth Avenue Freeze-Out is the second song on Bruce Springsteen breakthrough studio album Born to Run , the third by the American singer-songwriter.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "\"Tenth Avenue Freeze-Out\" is the second song on Bruce Springsteen's breakthrough album \"Born to Run\", released in 1975.",
+      "Born to Run is the third studio album by American singer-songwriter Bruce Springsteen. As his effort to break into the mainstream, the album was a commercial success, peaking at number three on the \"Billboard\" 200 and eventually selling six million copies in the United States. Two singles were released from the album: \"Born to Run\" and \"Tenth Avenue Freeze-Out\"; the first helped Springsteen to reach mainstream popularity. The tracks \"Thunder Road\" and \"Jungleland\" became staples of album-oriented rock radio and Springsteen concert high points."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that 'Tenth Avenue Freeze-Out' is the second song on Bruce Springsteen's third studio album, 'Born to Run'.",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000477",
+    "statement": "The star of 1995's Lowlands also directed the film. He worked with Karl Attenberger on a 1935 propaganda documentary. That documentary and The End of America were made in different years.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "Karl Attenberger (28 October 1885 – 19 November 1951) was a German cinematographer. He worked with Leni Riefenstahl on the 1935 propaganda documenatary \"Triumph of the Will\"."
+    ],
+    "model_verdict": "NOT_SUPPORTED",
+    "explanation": "The evidence does not mention the star or director of 'Lowlands,' nor does it connect Karl Attenberger to any film from 1995. It only confirms his work on a 1935 documentary.",
+    "confidence": 0.2,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001035",
+    "statement": "The brand where Lauren Gold, who is most recognised as the DJ in Robbie Williams's Hot Bot as well as her recurring appearance in the company's ad campaigns, is currently owned by a fashion retailer based in Columbus, Ohio.",
+    "label": "NOT_SUPPORTED",
+    "evidences": [
+      "La Senza Corporation is a Canadian fashion retailer that sells lingerie and intimate apparel. The La Senza brand is currently owned by L Brands which operates and owns La Senza stores in Canada and uses a franchise model for the operation of stores outside Canada.",
+      "L Brands Inc. (formerly known as \"Limited Brands Inc\" and \"The Limited Inc.\") is an American fashion retailer based in Columbus, Ohio.",
+      "Lauren Gold (born 9 January 1981) is an English model and actress. Gold is most recognised as the DJ in Robbie Williams's \"Rock DJ\" music video as well as her recurring appearance in La Senza ad campaigns. Gold's best known acting role is Scarlett Rose in Sky One drama \"Dream Team\"."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The claim accurately identifies Lauren Gold's role as the DJ in Robbie Williams's 'Rock DJ' music video and her recurring appearances in La Senza ad campaigns. The evidence confirms that La Senza is owned by L Brands, an American fashion retailer based in Columbus, Ohio.",
+    "confidence": 0.95,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-001233",
+    "statement": "C. Bernard Jackson founded the center that started the career of Edward James Olmos, the actor who played the part of Marty Castillo in \"Miami Vice\".",
+    "label": "SUPPORTED",
+    "evidences": [
+      "C. Bernard Jackson (November 4, 1927 – July 16, 1996) was an award-winning American playwright who founded the Inner City Cultural Center in Los Angeles. Inner City was one of the first arts institutions in the United States to promote multiculturalism. The facility nurtured the careers of numerous performers including Beah Richards, George Takei, Edward James Olmos, Nobu McCarthy and Forest Whitaker.",
+      "Edward James Olmos (born February 24, 1947) is an American actor and director. Among his most memorable roles are William Adama in the re-imagined \"Battlestar Galactica\", Lieutenant Martin \"Marty\" Castillo in \"Miami Vice\", teacher Jaime Escalante in \"Stand and Deliver\", patriarch Abraham Quintanilla, Jr. in the film \"Selena\", Detective Gaff in \"Blade Runner\", and narrator El Pachuco in both the stage and film versions of \"Zoot Suit\". In 1988, Olmos was nominated for an Academy Award for Best Actor in a Leading Role for the film \"Stand and Deliver\"."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that C. Bernard Jackson founded the Inner City Cultural Center, which nurtured Edward James Olmos' career. It also mentions Olmos playing the role of Marty Castillo in 'Miami Vice.'",
+    "confidence": 1,
+    "human_score": 5
+  },
+  {
+    "id": "hover_train_full_docs-000055",
+    "statement": "In the 1990's Petrie Dierman Kughn built one of the three mills landmarks in California in 1994.",
+    "label": "SUPPORTED",
+    "evidences": [
+      "Ontario Mills is the largest shopping mall and outlet mall in San Bernardino County, California. It is located in Ontario, California, and with 28 million annual visitors, it is one of the top shopping and tourist destinations in Southern California. It is one of three Mills landmarks in California that are now owned by Simon Property Group since April 2007. The Outlets at Orange, and The Great Mall are the others. Ontario Mills was designed by the architectural firm, F+A Architects.",
+      "The Great Mall of the Bay Area (often simply called The Great Mall) is a large indoor outlet shopping mall in Milpitas, California built by Ford Motor Land Development and Petrie Dierman Kughn in 1994. It was acquired by Mills Corporation in 2003, and by the Simon Property Group in April 2007. The mall contains approximately 1.4 million square feet of gross leaseable area."
+    ],
+    "model_verdict": "SUPPORTED",
+    "explanation": "The evidence confirms that Petrie Dierman Kughn built The Great Mall, one of the three Mills landmarks in California, in 1994.",
+    "confidence": 0.85,
+    "human_score": 5
+  }
+]
