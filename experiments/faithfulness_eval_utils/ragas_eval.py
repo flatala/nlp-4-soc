@@ -46,8 +46,8 @@ async def evaluate_ragas(
     )
 
     os.makedirs(result_dir, exist_ok=True)
-    scorer = Faithfulness(llm=evaluator_llm)
 
+    scorer = Faithfulness(llm=evaluator_llm)
     async def score_sample(item):
         sample = SingleTurnSample(
             user_input=item["statement"],
@@ -62,24 +62,32 @@ async def evaluate_ragas(
             score = -1.0
 
         return {
+            "id": item["id"],
+            "label": item["label"],
             "statement": item["statement"],
-            "explanation": item["explanation"],
             "evidences": item["evidences"],
+            "model_verdict": item["model_verdict"],
+            "explanation": item["explanation"],
             "faithfulness_score": float(score),
         }
 
-    results = await asyncio.gather(*(score_sample(item) for item in data))
 
-    # Save results
-    with open(os.path.join(result_dir, results_filename), "w") as f:
-        json.dump(results, f, indent=4)
+    results = []
+    filepath = os.path.join(result_dir, results_filename)
+    with open(filepath, "a", buffering=1) as f:
+        for item in data:
+            current_score_data = await score_sample(item)
+            results.append(current_score_data)
 
-    # Compute average faithfulness score
+            f.write(json.dumps(current_score_data) + "\n")
+
+
     faithfulness_scores = [
         item["faithfulness_score"]
         for item in results
         if item["faithfulness_score"] != -1.0
     ]
+
     avg_faithfulness = (
         sum(faithfulness_scores) / len(faithfulness_scores)
         if faithfulness_scores
