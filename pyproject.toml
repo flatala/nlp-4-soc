@@ -1,8 +1,16 @@
 [project]
 name = "nlp-4-soc"
 version = "0.1.0"
-description = "Add your description here"
+description = "NLP for Society (NLP4Soc) Project. DSAIT4100, TU Delft, 2025."
 readme = "README.md"
+authors = [
+    {name = "Samuel Goldie"},
+    {name = "Jorden van Schijndel"},
+    {name = "Franciszek Latała"},
+    {name = "Razo van Berkel"},
+    {name = "Deniz Çetin"}
+]
+maintainers = []
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=6.29.5",
