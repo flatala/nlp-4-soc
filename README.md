@@ -8,10 +8,15 @@ This project evaluates the faithfulness of fact-checking explanations generated 
 
 - Data processing pipelines for multiple fact-checking datasets
 - Inference scripts for generating fact-checking responses from LLMs
-- Multiple evaluation frameworks for assessing faithfulness
+- Multiple evaluation frameworks for assessing faithfulness, including RAGAS, G-EVAL, Human-in-the-Loop, and entailment-based methods.
 - Detailed analysis and visualization notebooks
 
 ![Model Metric Comparison](misc_notebooks/plots/model_metric_comparison.png)
+
+## Human in the Loop Evaluation
+
+The interactive Human-in-the-Loop (HITL) evaluation allows users to assess the faithfulness of model-generated explanations. See the GUI screenshot below for an example of the interface used to collect human feedback on model outputs.
+![Human in the Loop Evaluation](assets/hitl_gui.png)
 
 ## Repository Structure
 
